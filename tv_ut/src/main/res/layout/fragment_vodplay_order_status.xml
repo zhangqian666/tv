@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:background="@color/md_grey_900" 
+    android:alpha="50" android:padding="10dp"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal">
+    
+    <TextView 
+        android:id="@+id/txt_not_payed_info"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp"
+        android:textColor="@color/md_white"  
+        android:textSize="@dimen/p_45"
+        android:text="本视频为收费节目，您可以免费试看5分钟，请点OK键进行购买. "/>
+
+ 
+        
+	<TextView android:id="@+id/txt_vod_try_play_time_left" 
+	    android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp" 
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp"
+        android:textColor="@color/md_red_900"  
+        android:textSize="@dimen/p_45" 
+        android:text="05:00"/>
+    
+	
+</RelativeLayout>

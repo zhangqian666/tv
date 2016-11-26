@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:alpha="30"
+    android:background="@drawable/tv_background_pay" >
+
+    <TextView
+        android:id="@+id/dispInfoxx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/vod_play_choose_package_fragment_title"
+        android:textColor="@color/md_yellow_100"
+        android:textSize="@dimen/p_60"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/dispInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dispInfoxx"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/vod_play_choose_package_fragment_title"
+        android:textColor="@color/md_yellow_100"
+        android:textSize="@dimen/p_60" />
+
+    <LinearLayout
+        android:id="@+id/radio_group1_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dispInfo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/radio_per_day"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/radio_per_vod"
+                style="@style/vod_select_package"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="@dimen/p_10"
+                android:text="@string/vod_play_choose_package_fragment_package_vod"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/md_blue_900"
+                android:textSize="@dimen/p_60" />
+
+            <RadioButton
+                android:id="@+id/radio_per_day"
+                style="@style/vod_select_package"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="@dimen/p_10"
+                android:text="@string/vod_play_choose_package_fragment_package_day"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/md_blue_900"
+                android:textSize="@dimen/p_60" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group1_lin"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_vodplay_begin_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_password_pay"
+            android:textColor="@color/md_orange_900"
+            android:textSize="@dimen/p_66" />
+
+        <Button
+            android:id="@+id/btn_vodplay_begin_payyyy"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_password_pay"
+            android:focusable="false"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_vodplay_begin_pay_qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_wechat_pay"
+            android:textColor="@color/md_orange_900"
+            android:textSize="@dimen/p_66" />
+    </LinearLayout>
+
+</RelativeLayout>

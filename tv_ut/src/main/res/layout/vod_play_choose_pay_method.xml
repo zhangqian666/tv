@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ui.player.fragment.ChoosePayMethod
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="30"
+    android:background="@drawable/back">
+
+	<TextView android:id="@+id/txt_choosed_info"  
+	    	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:layout_marginStart="20dip"
+            android:gravity="start" 
+            android:textSize="@dimen/p_60" 
+            />
+	
+ 	<TextView
+            android:id="@+id/txt_by_password_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+           	android:layout_below="@+id/txt_choosed_info"
+            android:layout_marginTop="15dip"
+            android:gravity="start" 
+            android:layout_marginStart="20dip"
+            android:text="@string/vod_play_choose_pay_method_fragment_title"
+            android:textSize="@dimen/p_60" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        
+        <TextView android:id="@+id/txt_prompt_input_password" 
+            android:textColor="@color/md_red_900" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="@dimen/p_60"
+            android:text="请输入密码" 
+            android:visibility="gone" 
+            android:layout_marginBottom="20dip"
+            android:layout_gravity="center"
+           />
+        
+        <!-- 密码显示部分 -->
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/vodplay_choose_pay_method_password_keyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black" 
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip" />
+        
+        <!-- 输入密码的键盘部分 -->
+        <com.iptv.rocky.tcl.vodplay.VodPlayPasswordKeyBoardView
+            android:id="@+id/password_KeyBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center" />
+    </LinearLayout>
+    
+</com.ui.player.fragment.ChoosePayMethod>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.special.SpecialCategoryMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/special_catetory_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/tv_background" >
+    
+    <com.iptv.rocky.view.TitleView 
+        android:id="@+id/specail_category_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:text="@string/special" />
+    
+    <com.iptv.rocky.view.special.SpecialCategoryViewPager
+        android:id="@+id/specail_category_viewpage"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"
+        android:persistentDrawingCache="all"  
+        android:flipInterval="300" />
+    
+    <LinearLayout 
+        android:id="@+id/specail_category_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/specail_category_viewpage" >
+        
+        <com.iptv.rocky.view.TextViewDip
+             android:id="@+id/specail_category_current_page"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1.0"
+             android:gravity="right" />
+        
+        <com.iptv.rocky.view.TextViewDip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" / " />
+        
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/specail_category_total_page"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="left" />
+    </LinearLayout>
+
+<!--     <com.iptv.rocky.view.special.SpecialCategoryGallery
+        android:id="@+id/specail_category_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> -->
+
+    <include layout="@layout/tv_layout_status" />
+    
+    <include layout="@layout/tv_progressbar" />
+
+</com.iptv.rocky.view.special.SpecialCategoryMasterLayout>

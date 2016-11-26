@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.voddetail.DetailMasterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_master"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/tv_background" >
+    
+     <!-- 全屏遮罩层 -->
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tv_fullscreen_shap" />
+	
+    <com.iptv.rocky.view.voddetail.DetailViewPager
+        android:id="@+id/detail_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="300"
+        android:persistentDrawingCache="all" />
+    
+    <include layout="@layout/tv_layout_status" />
+    
+    <include layout="@layout/tv_layout_tab" /> 
+    
+    <include layout="@layout/tv_progressbar"/>
+
+</com.iptv.rocky.view.voddetail.DetailMasterView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.home.HomeAnimView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <include layout="@layout/tv_default_vod_img"/>
+        
+    <RelativeLayout
+       	android:id="@+id/home_anim_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >       
+                 
+        <com.iptv.common.view.AsyncImageView
+	        android:id="@+id/home_anim_backimg"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentBottom="true"
+	        android:scaleType="centerCrop" />
+                
+    </RelativeLayout>
+   
+    <com.iptv.common.view.AsyncImageView
+     	android:id="@+id/home_anim_img1"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_alignParentBottom="true"
+     	android:scaleType="fitStart" />
+    
+ 	<com.iptv.common.view.AsyncImageView
+     	android:id="@+id/home_anim_img2" 
+     	android:layout_width="wrap_content"
+     	android:layout_height="match_parent"
+     	android:layout_alignParentRight="true"
+     	android:scaleType="fitEnd" />
+ 	
+ 	<include layout="@layout/tv_layout_floatlayer" />
+
+</com.iptv.rocky.view.home.HomeAnimView>

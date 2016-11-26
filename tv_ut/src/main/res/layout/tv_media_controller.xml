@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relative_player"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:background="@drawable/tv_media_controller_background"
+            android:orientation="vertical"
+            android:paddingLeft="80dip"
+            android:paddingRight="60dip" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <!-- 暂停or开始，不可获取焦点 -->
+
+                <ImageView
+                    android:id="@+id/tv_media_controller_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tv_pause"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false" />
+
+                <com.ui.player.TVPlayerSeekBar
+                    android:id="@+id/tv_media_controller_progress"
+                    style="@style/tv_player_progressBarStyleHorizontal"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="18dip"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tv_player_time"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <!-- 当前时间 -->
+
+                    <TextView
+                        android:id="@+id/tv_media_controller_time_current"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center"
+                        android:text="@string/duration_short"
+                        android:textColor="#00CCFF"
+                        android:textSize="28dp" />
+
+                    <!-- 时长 -->
+
+                    <TextView
+                        android:id="@+id/tv_media_controller_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:text="@string/duration_short"
+                        android:gravity="center"
+                        android:textColor="#999999"
+                        android:textSize="28dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dip" >
+
+                <LinearLayout
+                    android:id="@+id/tv_media_controller_buttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal" >
+
+                    <!-- 上一集 -->
+
+                    <com.ui.player.TVButton
+                        android:id="@+id/tv_media_controller_prev"
+                        android:layout_width="150dip"
+                        android:layout_height="39dip"
+                        android:clickable="true"
+                        android:focusable="true" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/tv_player_button"
+                            android:gravity="center"
+                            android:text="@string/tv_player_previous"
+                            android:textColor="@color/tv_player_button_color"
+                            android:textSize="28dp" />
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/tv_player_button_selector" />
+                    </com.ui.player.TVButton>
+
+                    <!-- 下一集 -->
+
+                    <com.ui.player.TVButton
+                        android:id="@+id/tv_media_controller_next"
+                        android:layout_width="150dip"
+                        android:layout_height="39dip"
+                        android:layout_marginLeft="10dip"
+                        android:clickable="true"
+                        android:focusable="true" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/tv_player_button"
+                            android:gravity="center"
+                            android:text="@string/tv_player_next"
+                            android:textColor="@color/tv_player_button_color"
+                            android:textSize="28dp" />
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/tv_player_button_selector" />
+                    </com.ui.player.TVButton>
+                </LinearLayout>
+
+                <!-- 标题 -->
+
+                <TextView
+                    android:id="@+id/tv_media_controller_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/tv_media_controller_buttons"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="28dp" />
+
+                <!-- 视频模式：全屏，等比 -->
+
+                <com.ui.player.TVButton
+                    android:id="@+id/tv_media_controller_fullscreen"
+                    android:layout_width="65dip"
+                    android:layout_height="39dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:focusable="true" >
+
+                    <ImageView
+                        android:id="@+id/tv_media_controller_fullscreen_image"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/tv_player_button"
+                        android:scaleType="center"
+                        android:src="@drawable/tv_player_fullscreen_selector" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/tv_player_button_selector" />
+                </com.ui.player.TVButton>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--
+             <ProgressBar
+            android:id="@+id/tv_player_buffer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/tv_loading"
+            android:visibility="invisible" />
+        -->
+
+
+        <!--
+		<RelativeLayout android:id="@+id/volume_relativeLayout"
+			android:layout_width="105dip" android:layout_height="382dip"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentRight="true" android:layout_marginRight="20dp"
+			android:layout_marginBottom="30dp">
+			<ImageView 
+			    android:layout_height="fill_parent"
+				android:layout_width="fill_parent" 
+				android:background="@drawable/volume_background" />
+
+			<com.pplive.androidtv.layout.VerticalSeekBar
+				android:id="@+id/seekbar_volume" android:layout_height="256dip"
+				style="@style/player_progressBarStyleVertical"
+				android:layout_marginTop="65dip" android:layout_marginLeft="52dip" />
+
+			音量值
+			<TextView android:id="@+id/volume_text"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textStyle="bold" android:textSize="18dip" android:gravity="center"
+				android:singleLine="true" android:layout_marginTop="20dip"
+				android:layout_marginLeft="50dip" />
+
+			<ImageView android:id="@+id/volume_indicator"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:src="@drawable/volume_indicator"
+				android:layout_alignParentBottom="true" android:layout_marginBottom="20dp"
+				android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+        -->
+    </RelativeLayout>
+
+</RelativeLayout>

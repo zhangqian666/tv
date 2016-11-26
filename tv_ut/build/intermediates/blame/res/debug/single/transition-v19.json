@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/transition-v19/lb_browse_headers_out.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/transition-v19/lb_browse_headers_out.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/transition-v19/lb_browse_headers_in.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/transition-v19/lb_browse_headers_in.xml"
+    }
+]

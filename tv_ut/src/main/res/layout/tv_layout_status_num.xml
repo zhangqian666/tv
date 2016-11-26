@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.StatusNumBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_status_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true" >
+
+    <include layout="@layout/tv_layout_search"/>
+    <include layout="@layout/tv_layout_status_page"/>
+    
+</com.iptv.rocky.view.StatusNumBarView>

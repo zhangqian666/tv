@@ -1,0 +1,56 @@
+<com.iptv.rocky.view.usercenter.vodhistory.HistoryMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/history_background_color" />
+    
+    <LinearLayout 
+        android:id="@+id/history_emptynote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:visibility="gone" >
+        
+       <com.iptv.rocky.view.ScaleAsyncImageView
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:padding="@dimen/history_note_padding"
+	        android:src="@drawable/usercenter_empty_icon"
+	        tv:scaleWidth="@dimen/history_empty_icon_scaleimagesize"
+        	tv:scaleHeight="@dimen/history_empty_icon_scaleimagesize" />
+        
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/history_emptynote_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/history_empty_text" /> 
+    </LinearLayout>     
+    
+    <com.iptv.rocky.view.usercenter.vodhistory.HistoryHorizontalListView
+        android:id="@+id/history_listview"
+        android:layout_width="match_parent" 
+	  	android:layout_height="match_parent"
+	  	android:listSelector="@color/transparent"
+        android:divider="@null" />
+
+    <com.iptv.rocky.view.TitleView 
+        android:id="@+id/history_top_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/history_top_text"
+	    android:layout_alignParentRight="true" />
+    
+    <include layout="@layout/usercenter_status" />
+
+</com.iptv.rocky.view.usercenter.vodhistory.HistoryMasterLayout>

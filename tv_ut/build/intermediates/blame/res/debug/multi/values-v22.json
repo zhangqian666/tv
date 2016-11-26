@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/studio_tv/tv/tv_ut/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/values-v22/values-v22.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 51,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 53,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/values-v22/values-v22.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 53,
+                        "endOffset": 156
+                    }
+                }
+            }
+        ]
+    }
+]

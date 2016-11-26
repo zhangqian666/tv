@@ -1,0 +1,357 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:2:1-192:12
+	package
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+	android:sharedUserId
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:4:5-47
+	android:versionName
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:6:5-33
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:8:5-76
+MERGED from [com.android.support:multidex:1.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [tv:ikantechSupport:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/ikantechSupport/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [tv:common:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:leanback-v17:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:8:43-73
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:8:15-42
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+		INJECTED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:10:5-79
+MERGED from [tv:common:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:11:5-76
+MERGED from [tv:common:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:12:5-81
+MERGED from [tv:common:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:16:5-68
+MERGED from [tv:common:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:19:22-78
+application
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:28:5-190:19
+MERGED from [tv:ikantechSupport:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/ikantechSupport/unspecified/AndroidManifest.xml:11:5-47
+MERGED from [tv:common:unspecified] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/AndroidManifest.xml:16:5-47
+MERGED from [com.android.support:leanback-v17:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:32:9-41
+	android:launchMode
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:34:9-40
+	android:allowBackup
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:31:9-41
+	android:largeHeap
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:33:9-33
+	android:theme
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:36:9-45
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:29:9-58
+activity#com.iptv.rocky.HomeActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:37:9-45:20
+	android:label
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:39:13-45
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:38:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:41:18-70
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:41:26-67
+category#android.intent.category.LAUNCHER
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:42:27-74
+activity#com.iptv.rocky.ScreenProtectActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:47:9-48:52
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:48:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:47:19-56
+activity#com.iptv.rocky.LiveTypeActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:50:9-52:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:52:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:51:13-45
+activity#com.iptv.rocky.VodSecActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:53:9-55:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:55:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:54:13-43
+activity#com.iptv.rocky.VodMovieActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:56:9-58:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:58:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:57:13-45
+activity#com.iptv.rocky.VodMovieListActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:59:9-61:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:61:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:60:13-49
+activity#com.iptv.rocky.VodMovieColumnActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:62:9-64:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:64:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:63:13-51
+activity#com.iptv.rocky.VodTypeColumnActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:65:9-67:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:67:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:66:13-50
+activity#com.iptv.rocky.VodChannelDetailActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:68:9-70:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:70:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:69:13-53
+activity#com.iptv.rocky.VodSearchActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:71:9-73:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:73:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:72:13-46
+activity#com.iptv.rocky.VodHistoryActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:74:9-76:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:76:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:75:13-47
+activity#com.iptv.rocky.VodStoreActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:77:9-79:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:79:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:78:13-45
+activity#com.iptv.rocky.RecChanActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:80:9-82:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:82:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:81:13-44
+activity#com.iptv.rocky.tcl.LiveChannelPlayActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:83:9-85:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:85:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:84:13-56
+activity#com.iptv.rocky.tcl.VodChannelPlayActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:86:9-88:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:88:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:87:13-55
+activity#com.iptv.rocky.tcl.RecChannelPlayActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:89:9-91:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:91:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:90:13-55
+activity#com.iptv.rocky.PlaySettingActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:92:9-94:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:94:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:93:13-48
+activity#com.iptv.rocky.UserSettingActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:95:9-97:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:97:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:96:13-48
+activity#com.iptv.rocky.AccountSettingActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:98:9-100:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:100:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:99:13-51
+activity#com.iptv.rocky.AboutActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:101:9-103:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:103:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:102:13-42
+activity#com.iptv.rocky.SpecialCategoryActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:104:9-106:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:106:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:105:13-52
+activity#com.iptv.rocky.SpecialDetailActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:107:9-109:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:109:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:108:13-50
+service#com.iptv.rocky.auth.CUAuthService
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:111:9-117:19
+	android:exported
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:113:13-37
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:112:13-47
+intent-filter#com.iptv.rocky.auth.CU_AUTH_SERVICE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:114:13-116:29
+action#com.iptv.rocky.auth.CU_AUTH_SERVICE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:115:17-78
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:115:25-75
+service#com.iptv.rocky.rabbitmq.ReceiverService
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:119:9-121:19
+	android:enabled
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:120:55-77
+	android:singleUser
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:120:78-103
+	android:exported
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:119:18-42
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:120:14-54
+service#com.iptv.rocky.auth.CUZTEAuthService
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:132:9-138:19
+	android:exported
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:134:13-37
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:133:13-64
+intent-filter#com.iptv.rocky.auth.CU_ZTE_AUTH_SERVICE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:135:13-137:29
+action#com.iptv.rocky.auth.CU_ZTE_AUTH_SERVICE
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:136:17-82
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:136:25-79
+activity#com.iptv.rocky.MyHotelSecActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:142:9-144:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:144:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:143:13-47
+activity#com.iptv.rocky.MyHotelPictureListActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:145:9-147:53
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:147:13-50
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:146:13-55
+activity#com.iptv.rocky.MyHotelShowPicturesActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:148:9-151:20
+	android:label
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:150:13-74
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:149:13-56
+activity#com.iptv.rocky.tcl.view.vod.VodPlayActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:152:9-155:20
+	android:label
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:154:13-60
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:153:13-71
+activity#com.iptv.rocky.ScreenProtectVideoActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:156:9-158:62
+	android:label
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:158:13-60
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:157:13-69
+activity#com.ui.player.TVPlayerActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:161:9-176:20
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:165:13-50
+	android:configChanges
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:162:13-63
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:164:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:166:13-175:29
+action#android.intent.action.VIEW
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:167:17-69
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:167:25-66
+data
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:168:17-170:45
+	android:scheme
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:170:21-42
+	android:mimeType
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:169:21-47
+category#android.intent.category.DEFAULT
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:174:17-76
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:174:27-73
+activity#com.ui.player.TVPlayerUserManual
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:179:9-184:20
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:182:13-50
+	android:configChanges
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:180:13-63
+	android:theme
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:183:13-72
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:181:13-60
+activity#com.iptv.rocky.DashboardActivity
+ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:186:10-189:20
+	android:screenOrientation
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:188:13-49
+	android:name
+		ADDED from /studio_tv/tv/tv_ut/src/main/AndroidManifest.xml:187:13-46

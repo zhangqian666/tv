@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/studio_tv/tv/ikantechSupport/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/studio_tv/tv/ikantechSupport/src/debug/shaders"/></dataSet></merger>

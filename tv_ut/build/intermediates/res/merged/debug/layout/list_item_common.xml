@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.list.ListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <include layout="@layout/tv_default_vod_img" />
+    
+    <com.iptv.common.view.AsyncImageView 
+        android:id="@+id/list_item_backimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    
+    <include layout="@layout/tv_vip_image" />
+    
+    <include layout="@layout/tv_layout_floatlayer" />
+
+</com.iptv.rocky.view.list.ListItemView>

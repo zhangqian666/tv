@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ui.player.fragment.OrderStatusBar 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/vod_play_order_status" >
+
+    <TextView 
+        android:id="@+id/txt_not_payed_info"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp"
+        android:textColor="@color/md_white"  
+        android:textSize="@dimen/p_45"
+        android:text="@string/vod_order_status"/>
+
+	<TextView android:id="@+id/txt_vod_try_play_time_left" 
+	    android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp" 
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="10dp"
+        android:textColor="@color/md_red_900"  
+        android:textSize="@dimen/p_45" 
+        android:text="05:00"/>
+    
+</com.ui.player.fragment.OrderStatusBar>

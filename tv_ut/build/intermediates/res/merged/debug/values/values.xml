@@ -1,0 +1,2112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr format="reference" name="entries"/>
+    <attr format="reference" name="focusDrawable"/>
+    <attr format="reference" name="galleryStyle"/>
+    <attr name="gravity">
+        <!-- Push object to the top of its container, not changing its size. -->
+        <flag name="top" value="0x30"/>
+        <!-- Push object to the bottom of its container, not changing its size. -->
+        <flag name="bottom" value="0x50"/>
+        <!-- Push object to the left of its container, not changing its size. -->
+        <flag name="left" value="0x03"/>
+        <!-- Push object to the right of its container, not changing its size. -->
+        <flag name="right" value="0x05"/>
+        <!-- Place object in the vertical center of its container, not changing its size. -->
+        <flag name="center_vertical" value="0x10"/>
+        <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+        <flag name="fill_vertical" value="0x70"/>
+        <!-- Place object in the horizontal center of its container, not changing its size. -->
+        <flag name="center_horizontal" value="0x01"/>
+        <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+        <flag name="fill_horizontal" value="0x07"/>
+        <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+        <flag name="center" value="0x11"/>
+        <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+        <flag name="fill" value="0x77"/>
+        <!-- Additional option that can be set to have the top and/or bottom edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the vertical gravity: a top gravity will clip the bottom
+             edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+        <flag name="clip_vertical" value="0x80"/>
+        <!-- Additional option that can be set to have the left and/or right edges of
+             the child clipped to its container's bounds.
+             The clip will be based on the horizontal gravity: a left gravity will clip the right
+             edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+        <flag name="clip_horizontal" value="0x08"/>
+    </attr>
+    <attr format="reference" name="gridViewStyle"/>
+    <attr format="reference" name="sephiroth_absHListViewStyle"/>
+    <attr format="dimension" name="sephiroth_listPreferredItemWidth"/>
+    <attr format="reference" name="sephiroth_listViewStyle"/>
+    <color name="black">#ff000000</color>
+    <color name="blue">#36a0ec</color>
+    <color name="channel_playbill_next">#ffa3a3a3</color>
+    <color name="channel_playbill_now">#ff6493c1</color>
+    <color name="channel_playbill_tips">#ff929292</color>
+    <color name="default_vod_img">#80848484</color>
+    <color name="dialog_background">#C8000000</color>
+    <color name="dialog_btn_bg_focused">#FF9E19</color>
+    <color name="dialog_btn_bg_normal">#303843</color>
+    <color name="dialog_btn_txt_focused">#FFFFFF</color>
+    <color name="dialog_btn_txt_normal">#8F8F8F</color>
+    <color name="float_layer">#64000000</color>
+    <color name="gary_60">#99cbcbcb</color>
+    <color name="green">#00FF00</color>
+    <color name="history_background_color">#4d000000</color>
+    <color name="history_shadow">#aa000000</color>
+    <color name="history_subtitle_color">#CFCFCF</color>
+    <color name="lb_action_text_color">#EEEEEE</color>
+    <color name="lb_background_protection">#99000000</color>
+    <color name="lb_basic_card_bg_color">#FF263238</color>
+    <color name="lb_basic_card_content_text_color">#B3EEEEEE</color>
+    <color name="lb_basic_card_info_bg_color">#FF37474F</color>
+    <color name="lb_basic_card_title_text_color">#FFEEEEEE</color>
+    <color name="lb_browse_header_color">#FFFFFF</color>
+    <color name="lb_browse_title_color">#EEEEEE</color>
+    <color name="lb_control_button_color">#66EEEEEE</color>
+    <color name="lb_control_button_text">#EEEEEE</color>
+    <color name="lb_default_brand_color">#FF37474F</color>
+    <color name="lb_default_brand_color_dark">#FF263238</color>
+    <color name="lb_default_search_color">#FF86C739</color>
+    <color name="lb_default_search_icon_color">#FFFFFFFF</color>
+    <color name="lb_details_description_body_color">#B2EEEEEE</color>
+    <color name="lb_details_description_color">#EEEEEE</color>
+    <color name="lb_details_overview_bg_color">#1B1B1B</color>
+    <color name="lb_error_background_color_opaque">#262626</color>
+    <color name="lb_error_background_color_translucent">#E6000000</color>
+    <color name="lb_error_message">#80EEEEEE</color>
+    <color name="lb_grey">#888888</color>
+    <color name="lb_guidedactions_background">#FF111111</color>
+    <color name="lb_guidedactions_background_dark">#FF080808</color>
+    <color name="lb_guidedactions_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="lb_list_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="lb_media_background_color">#FF384248</color>
+    <color name="lb_page_indicator_arrow_background">#EEEEEE</color>
+    <color name="lb_page_indicator_arrow_shadow">#4C000000</color>
+    <color name="lb_page_indicator_dot">#014269</color>
+    <color name="lb_playback_background_progress_color">#19FFFFFF</color>
+    <color name="lb_playback_controls_background_dark">#c0000000</color>
+    <color name="lb_playback_controls_background_light">#80000000</color>
+    <color name="lb_playback_controls_time_text_color">#B2EEEEEE</color>
+    <color name="lb_playback_icon_highlight_no_theme">#ff40c4ff</color>
+    <color name="lb_playback_media_row_highlight_color">#1AFFFFFF</color>
+    <color name="lb_playback_media_row_separator_highlight_color">#1AFFFFFF</color>
+    <color name="lb_playback_now_playing_bar_color">#FFEEEEEE</color>
+    <color name="lb_playback_progress_color_no_theme">#ff40c4ff</color>
+    <color name="lb_playback_secondary_progress_color">#33FFFFFF</color>
+    <color name="lb_search_bar_hint">#FF888888</color>
+    <color name="lb_search_bar_hint_speech_mode">#66222222</color>
+    <color name="lb_search_bar_text">#80EEEEEE</color>
+    <color name="lb_search_bar_text_speech_mode">#FF444444</color>
+    <color name="lb_search_plate_hint_text_color">#FFCCCCCC</color>
+    <color name="lb_speech_orb_not_recording">#CCCCCC</color>
+    <color name="lb_speech_orb_not_recording_icon">#555555</color>
+    <color name="lb_speech_orb_not_recording_pulsed">#EEEEEE</color>
+    <color name="lb_speech_orb_recording">#ff4343</color>
+    <color name="lb_tv_white">#FFCCCCCC</color>
+    <color name="lb_view_dim_mask_color">#000000</color>
+    <color name="listview_selector">#ff3f71c4</color>
+    <color name="login_tips">#FFBF2A</color>
+    <color name="md_amber_100">#ffecb3</color>
+    <color name="md_amber_200">#ffe082</color>
+    <color name="md_amber_300">#ffd54f</color>
+    <color name="md_amber_400">#ffca28</color>
+    <color name="md_amber_50">#fff8e1</color>
+    <color name="md_amber_500">#ffc107</color>
+    <color name="md_amber_600">#ffb300</color>
+    <color name="md_amber_700">#ffa000</color>
+    <color name="md_amber_800">#ff8f00</color>
+    <color name="md_amber_900">#ff6f00</color>
+    <color name="md_amber_a100">#ffe57f</color>
+    <color name="md_amber_a200">#ffd740</color>
+    <color name="md_amber_a400">#ffc400</color>
+    <color name="md_amber_a700">#ffab00</color>
+    <color name="md_black">#000000</color>
+    <color name="md_blue_100">#d0d9ff</color>
+    <color name="md_blue_200">#afbfff</color>
+    <color name="md_blue_300">#91a7ff</color>
+    <color name="md_blue_400">#738ffe</color>
+    <color name="md_blue_50">#e7e9fd</color>
+    <color name="md_blue_500">#5677fc</color>
+    <color name="md_blue_600">#4e6cef</color>
+    <color name="md_blue_700">#455ede</color>
+    <color name="md_blue_800">#3b50ce</color>
+    <color name="md_blue_900">#2a36b1</color>
+    <color name="md_blue_a100">#a6baff</color>
+    <color name="md_blue_a200">#6889ff</color>
+    <color name="md_blue_a400">#4d73ff</color>
+    <color name="md_blue_a700">#4d69ff</color>
+    <color name="md_blue_grey_100">#cfd8dc</color>
+    <color name="md_blue_grey_200">#b0bec5</color>
+    <color name="md_blue_grey_300">#90a4ae</color>
+    <color name="md_blue_grey_400">#78909c</color>
+    <color name="md_blue_grey_50">#eceff1</color>
+    <color name="md_blue_grey_500">#607d8b</color>
+    <color name="md_blue_grey_600">#546e7a</color>
+    <color name="md_blue_grey_700">#455a64</color>
+    <color name="md_blue_grey_800">#37474f</color>
+    <color name="md_blue_grey_900">#263238</color>
+    <color name="md_brown_100">#d7ccc8</color>
+    <color name="md_brown_200">#bcaaa4</color>
+    <color name="md_brown_300">#a1887f</color>
+    <color name="md_brown_400">#8d6e63</color>
+    <color name="md_brown_50">#efebe9</color>
+    <color name="md_brown_500">#795548</color>
+    <color name="md_brown_600">#6d4c41</color>
+    <color name="md_brown_700">#5d4037</color>
+    <color name="md_brown_800">#4e342e</color>
+    <color name="md_brown_900">#3e2723</color>
+    <color name="md_cyan_100">#b2ebf2</color>
+    <color name="md_cyan_200">#80deea</color>
+    <color name="md_cyan_300">#4dd0e1</color>
+    <color name="md_cyan_400">#26c6da</color>
+    <color name="md_cyan_50">#e0f7fa</color>
+    <color name="md_cyan_500">#00bcd4</color>
+    <color name="md_cyan_600">#00acc1</color>
+    <color name="md_cyan_700">#0097a7</color>
+    <color name="md_cyan_800">#00838f</color>
+    <color name="md_cyan_900">#006064</color>
+    <color name="md_cyan_a100">#84ffff</color>
+    <color name="md_cyan_a200">#18ffff</color>
+    <color name="md_cyan_a400">#00e5ff</color>
+    <color name="md_cyan_a700">#00b8d4</color>
+    <color name="md_deep_orange_100">#ffccbc</color>
+    <color name="md_deep_orange_200">#ffab91</color>
+    <color name="md_deep_orange_300">#ff8a65</color>
+    <color name="md_deep_orange_400">#ff7043</color>
+    <color name="md_deep_orange_50">#fbe9e7</color>
+    <color name="md_deep_orange_500">#ff5722</color>
+    <color name="md_deep_orange_600">#f4511e</color>
+    <color name="md_deep_orange_700">#e64a19</color>
+    <color name="md_deep_orange_800">#d84315</color>
+    <color name="md_deep_orange_900">#bf360c</color>
+    <color name="md_deep_orange_a100">#ff9e80</color>
+    <color name="md_deep_orange_a200">#ff6e40</color>
+    <color name="md_deep_orange_a400">#ff3d00</color>
+    <color name="md_deep_orange_a700">#dd2c00</color>
+    <color name="md_deep_purple_100">#d1c4e9</color>
+    <color name="md_deep_purple_200">#b39ddb</color>
+    <color name="md_deep_purple_300">#9575cd</color>
+    <color name="md_deep_purple_400">#7e57c2</color>
+    <color name="md_deep_purple_50">#ede7f6</color>
+    <color name="md_deep_purple_500">#673ab7</color>
+    <color name="md_deep_purple_600">#5e35b1</color>
+    <color name="md_deep_purple_700">#512da8</color>
+    <color name="md_deep_purple_800">#4527a0</color>
+    <color name="md_deep_purple_900">#311b92</color>
+    <color name="md_deep_purple_a100">#b388ff</color>
+    <color name="md_deep_purple_a200">#7c4dff</color>
+    <color name="md_deep_purple_a400">#651fff</color>
+    <color name="md_deep_purple_a700">#6200ea</color>
+    <color name="md_green_100">#a3e9a4</color>
+    <color name="md_green_200">#72d572</color>
+    <color name="md_green_300">#42bd41</color>
+    <color name="md_green_400">#2baf2b</color>
+    <color name="md_green_50">#d0f8ce</color>
+    <color name="md_green_500">#259b24</color>
+    <color name="md_green_600">#0a8f08</color>
+    <color name="md_green_700">#0a7e07</color>
+    <color name="md_green_800">#056f00</color>
+    <color name="md_green_900">#0d5302</color>
+    <color name="md_green_a100">#a2f78d</color>
+    <color name="md_green_a200">#5af158</color>
+    <color name="md_green_a400">#14e715</color>
+    <color name="md_green_a700">#12c700</color>
+    <color name="md_grey_100">#f5f5f5</color>
+    <color name="md_grey_200">#eeeeee</color>
+    <color name="md_grey_30">#EEE9E9</color>
+    <color name="md_grey_300">#e0e0e0</color>
+    <color name="md_grey_400">#bdbdbd</color>
+    <color name="md_grey_50">#fafafa</color>
+    <color name="md_grey_500">#9e9e9e</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_indigo_100">#c5cae9</color>
+    <color name="md_indigo_200">#9fa8da</color>
+    <color name="md_indigo_300">#7986cb</color>
+    <color name="md_indigo_400">#5c6bc0</color>
+    <color name="md_indigo_50">#e8eaf6</color>
+    <color name="md_indigo_500">#3f51b5</color>
+    <color name="md_indigo_600">#3949ab</color>
+    <color name="md_indigo_700">#303f9f</color>
+    <color name="md_indigo_800">#283593</color>
+    <color name="md_indigo_900">#1a237e</color>
+    <color name="md_indigo_a100">#8c9eff</color>
+    <color name="md_indigo_a200">#536dfe</color>
+    <color name="md_indigo_a400">#3d5afe</color>
+    <color name="md_indigo_a700">#304ffe</color>
+    <color name="md_light_blue_100">#b3e5fc</color>
+    <color name="md_light_blue_200">#81d4fa</color>
+    <color name="md_light_blue_300">#4fc3f7</color>
+    <color name="md_light_blue_400">#29b6f6</color>
+    <color name="md_light_blue_50">#e1f5fe</color>
+    <color name="md_light_blue_500">#03a9f4</color>
+    <color name="md_light_blue_600">#039be5</color>
+    <color name="md_light_blue_700">#0288d1</color>
+    <color name="md_light_blue_800">#0277bd</color>
+    <color name="md_light_blue_900">#01579b</color>
+    <color name="md_light_blue_a100">#80d8ff</color>
+    <color name="md_light_blue_a200">#40c4ff</color>
+    <color name="md_light_blue_a400">#00b0ff</color>
+    <color name="md_light_blue_a700">#0091ea</color>
+    <color name="md_light_green_100">#dcedc8</color>
+    <color name="md_light_green_200">#c5e1a5</color>
+    <color name="md_light_green_300">#aed581</color>
+    <color name="md_light_green_400">#9ccc65</color>
+    <color name="md_light_green_50">#f1f8e9</color>
+    <color name="md_light_green_500">#8bc34a</color>
+    <color name="md_light_green_600">#7cb342</color>
+    <color name="md_light_green_700">#689f38</color>
+    <color name="md_light_green_800">#558b2f</color>
+    <color name="md_light_green_900">#33691e</color>
+    <color name="md_light_green_a100">#ccff90</color>
+    <color name="md_light_green_a200">#b2ff59</color>
+    <color name="md_light_green_a400">#76ff03</color>
+    <color name="md_light_green_a700">#64dd17</color>
+    <color name="md_lime_100">#f0f4c3</color>
+    <color name="md_lime_200">#e6ee9c</color>
+    <color name="md_lime_300">#dce775</color>
+    <color name="md_lime_400">#d4e157</color>
+    <color name="md_lime_50">#f9fbe7</color>
+    <color name="md_lime_500">#cddc39</color>
+    <color name="md_lime_600">#c0ca33</color>
+    <color name="md_lime_700">#afb42b</color>
+    <color name="md_lime_800">#9e9d24</color>
+    <color name="md_lime_900">#827717</color>
+    <color name="md_lime_a100">#f4ff81</color>
+    <color name="md_lime_a200">#eeff41</color>
+    <color name="md_lime_a400">#c6ff00</color>
+    <color name="md_lime_a700">#aeea00</color>
+    <color name="md_orange_100">#ffe0b2</color>
+    <color name="md_orange_200">#ffcc80</color>
+    <color name="md_orange_300">#ffb74d</color>
+    <color name="md_orange_400">#ffa726</color>
+    <color name="md_orange_50">#fff3e0</color>
+    <color name="md_orange_500">#ff9800</color>
+    <color name="md_orange_600">#fb8c00</color>
+    <color name="md_orange_700">#f57c00</color>
+    <color name="md_orange_800">#ef6c00</color>
+    <color name="md_orange_900">#e65100</color>
+    <color name="md_orange_a100">#ffd180</color>
+    <color name="md_orange_a200">#ffab40</color>
+    <color name="md_orange_a400">#ff9100</color>
+    <color name="md_orange_a700">#ff6d00</color>
+    <color name="md_pink_100">#f8bbd0</color>
+    <color name="md_pink_200">#f48fb1</color>
+    <color name="md_pink_300">#f06292</color>
+    <color name="md_pink_400">#ec407a</color>
+    <color name="md_pink_50">#fce4ec</color>
+    <color name="md_pink_500">#e91e63</color>
+    <color name="md_pink_600">#d81b60</color>
+    <color name="md_pink_700">#c2185b</color>
+    <color name="md_pink_800">#ad1457</color>
+    <color name="md_pink_900">#880e4f</color>
+    <color name="md_pink_a100">#ff80ab</color>
+    <color name="md_pink_a200">#ff4081</color>
+    <color name="md_pink_a400">#f50057</color>
+    <color name="md_pink_a700">#c51162</color>
+    <color name="md_purple_100">#e1bee7</color>
+    <color name="md_purple_200">#ce93d8</color>
+    <color name="md_purple_300">#ba68c8</color>
+    <color name="md_purple_400">#ab47bc</color>
+    <color name="md_purple_50">#f3e5f5</color>
+    <color name="md_purple_500">#9c27b0</color>
+    <color name="md_purple_600">#8e24aa</color>
+    <color name="md_purple_700">#7b1fa2</color>
+    <color name="md_purple_800">#6a1b9a</color>
+    <color name="md_purple_900">#4a148c</color>
+    <color name="md_purple_a100">#ea80fc</color>
+    <color name="md_purple_a200">#e040fb</color>
+    <color name="md_purple_a400">#d500f9</color>
+    <color name="md_purple_a700">#aa00ff</color>
+    <color name="md_red_100">#f9bdbb</color>
+    <color name="md_red_200">#f69988</color>
+    <color name="md_red_300">#f36c60</color>
+    <color name="md_red_400">#e84e40</color>
+    <color name="md_red_50">#fde0dc</color>
+    <color name="md_red_500">#e51c23</color>
+    <color name="md_red_600">#dd191d</color>
+    <color name="md_red_700">#d01716</color>
+    <color name="md_red_800">#c41411</color>
+    <color name="md_red_900">#b0120a</color>
+    <color name="md_red_a100">#ff7997</color>
+    <color name="md_red_a200">#ff5177</color>
+    <color name="md_red_a400">#ff2d6f</color>
+    <color name="md_red_a700">#e00032</color>
+    <color name="md_teal_100">#b2dfdb</color>
+    <color name="md_teal_200">#80cbc4</color>
+    <color name="md_teal_300">#4db6ac</color>
+    <color name="md_teal_400">#26a69a</color>
+    <color name="md_teal_50">#e0f2f1</color>
+    <color name="md_teal_500">#009688</color>
+    <color name="md_teal_600">#00897b</color>
+    <color name="md_teal_700">#00796b</color>
+    <color name="md_teal_800">#00695c</color>
+    <color name="md_teal_900">#004d40</color>
+    <color name="md_teal_a100">#a7ffeb</color>
+    <color name="md_teal_a200">#64ffda</color>
+    <color name="md_teal_a400">#1de9b6</color>
+    <color name="md_teal_a700">#00bfa5</color>
+    <color name="md_white">#ffffff</color>
+    <color name="md_yellow_100">#fff9c4</color>
+    <color name="md_yellow_200">#fff59d</color>
+    <color name="md_yellow_300">#fff176</color>
+    <color name="md_yellow_400">#ffee58</color>
+    <color name="md_yellow_50">#fffde7</color>
+    <color name="md_yellow_500">#ffeb3b</color>
+    <color name="md_yellow_600">#fdd835</color>
+    <color name="md_yellow_700">#fbc02d</color>
+    <color name="md_yellow_800">#f9a825</color>
+    <color name="md_yellow_900">#f57f17</color>
+    <color name="md_yellow_a100">#ffff8d</color>
+    <color name="md_yellow_a200">#ffff00</color>
+    <color name="md_yellow_a400">#ffea00</color>
+    <color name="md_yellow_a700">#ffd600</color>
+    <color name="prompt_dialog_background">#DD8A9EB9</color>
+    <color name="recbg">#1c1d1d</color>
+    <color name="scrollbar_color">#4dffffff</color>
+    <color name="search_keyboard_btn">#88102746</color>
+    <color name="setting_content">#330F3668</color>
+    <color name="setting_item">#22F8F9FA</color>
+    <color name="shadow_1">#e5000000</color>
+    <color name="sport_blue">#73A9F3</color>
+    <color name="sport_grey">#828282</color>
+    <color name="sport_grey_bg">#D6DFE4</color>
+    <color name="sport_orange">#FEBA33</color>
+    <color name="sport_title">#70787b</color>
+    <color name="sports_livecenter_category">#FEBA33</color>
+    <color name="sports_livecenter_date">#74A8F3</color>
+    <color name="sports_livecenter_progress_background">#B1B1B3</color>
+    <color name="sports_livecenter_progress_now">#175CB9</color>
+    <color name="sports_livecenter_time_background">#A9C6E8</color>
+    <color name="sports_livecenter_turn">#73A9F3</color>
+    <color name="tab_selected">#3372ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="usercenter_cutline">#848484</color>
+    <color name="usercenter_number">#3CBC07</color>
+    <color name="username_normal">#8AAAFF</color>
+    <color name="username_vip">#FF9F17</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_3">#ffbbbbbb</color>
+    <color name="white_60">#9affffff</color>
+    <declare-styleable name="AbsHListView"><attr name="android:listSelector"/><attr name="android:smoothScrollbar"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:scrollingCache"/><attr name="android:choiceMode"/><attr format="boolean" name="stackFromRight"/><attr name="transcriptMode">
+            <enum name="disabled" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="alwaysScroll" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="Gallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <declare-styleable name="HListView"><attr name="android:entries"/><attr name="android:divider"/><attr format="dimension" name="dividerWidth"/><attr format="boolean" name="headerDividersEnabled"/><attr format="boolean" name="footerDividersEnabled"/><attr format="reference|color" name="overScrollHeader"/><attr format="reference|color" name="overScrollFooter"/><attr format="integer" name="measureWithChild"/></declare-styleable>
+    <declare-styleable name="LeanbackGuidedStepTheme"><attr format="reference" name="guidedStepTheme"/><attr format="float" name="guidedStepHeightWeight"/><attr format="float" name="guidedStepKeyline"/><attr format="boolean" name="guidedStepThemeFlag"/><attr format="reference|color" name="guidedStepBackground"/><attr format="reference" name="guidedStepImeAppearingAnimation"/><attr format="reference" name="guidedStepImeDisappearingAnimation"/><attr format="reference" name="guidanceContainerStyle"/><attr format="reference" name="guidanceTitleStyle"/><attr format="reference" name="guidanceDescriptionStyle"/><attr format="reference" name="guidanceBreadcrumbStyle"/><attr format="reference" name="guidanceIconStyle"/><attr format="reference" name="guidedActionsSelectorDrawable"/><attr format="dimension|reference" name="guidedActionsElevation"/><attr format="reference" name="guidedActionsBackground"/><attr format="reference" name="guidedActionsBackgroundDark"/><attr format="reference" name="guidedActionsListStyle"/><attr format="reference" name="guidedSubActionsListStyle"/><attr format="reference" name="guidedButtonActionsListStyle"/><attr format="reference" name="guidedActionItemContainerStyle"/><attr format="reference" name="guidedActionItemCheckmarkStyle"/><attr format="reference" name="guidedActionItemIconStyle"/><attr format="reference" name="guidedActionItemContentStyle"/><attr format="reference" name="guidedActionItemTitleStyle"/><attr format="reference" name="guidedActionItemDescriptionStyle"/><attr format="reference" name="guidedActionItemChevronStyle"/><attr format="reference" name="guidedActionPressedAnimation"/><attr format="reference" name="guidedActionUnpressedAnimation"/><attr format="reference" name="guidedActionEnabledChevronAlpha"/><attr format="reference" name="guidedActionDisabledChevronAlpha"/><attr format="reference" name="guidedActionContentWidthWeight"/><attr format="reference" name="guidedActionContentWidthWeightTwoPanels"/><attr format="reference" name="guidedButtonActionsWidthWeight"/><attr format="reference" name="guidedActionTitleMinLines"/><attr format="reference" name="guidedActionTitleMaxLines"/><attr format="reference" name="guidedActionDescriptionMinLines"/><attr format="reference" name="guidedActionVerticalPadding"/><attr format="reference" name="guidedActionsContainerStyle"/><attr format="reference" name="guidedActionsSelectorStyle"/><attr format="reference" name="guidedStepEntryAnimation"/><attr format="reference" name="guidedStepExitAnimation"/><attr format="reference" name="guidedStepReentryAnimation"/><attr format="reference" name="guidedStepReturnAnimation"/><attr format="reference" name="guidanceEntryAnimation"/><attr format="reference" name="guidedActionsEntryAnimation"/><attr format="reference" name="guidedActionsSelectorShowAnimation"/><attr format="reference" name="guidedActionsSelectorHideAnimation"/><attr format="reference" name="guidedActionCheckedAnimation"/><attr format="reference" name="guidedActionUncheckedAnimation"/><attr format="reference" name="guidedActionContentWidth"/><attr format="reference" name="guidedActionContentWidthNoIcon"/></declare-styleable>
+    <declare-styleable name="LeanbackOnboardingTheme"><attr format="reference" name="onboardingTheme"/><attr format="reference" name="onboardingHeaderStyle"/><attr format="reference" name="onboardingTitleStyle"/><attr format="reference" name="onboardingDescriptionStyle"/><attr format="reference" name="onboardingNavigatorContainerStyle"/><attr format="reference" name="onboardingPageIndicatorStyle"/><attr format="reference" name="onboardingStartButtonStyle"/><attr format="reference" name="onboardingLogoStyle"/></declare-styleable>
+    <declare-styleable name="LeanbackTheme"><attr format="dimension" name="browsePaddingStart"/><attr format="dimension" name="browsePaddingEnd"/><attr format="dimension" name="browsePaddingTop"/><attr format="dimension" name="browsePaddingBottom"/><attr format="dimension" name="browseRowsMarginStart"/><attr format="dimension" name="browseRowsMarginTop"/><attr format="dimension" name="browseRowsFadingEdgeLength"/><attr format="reference" name="browseTitleTextStyle"/><attr format="reference" name="browseTitleIconStyle"/><attr format="reference" name="browseTitleViewStyle"/><attr format="reference" name="browseTitleViewLayout"/><attr format="reference" name="headersVerticalGridStyle"/><attr format="reference" name="headerStyle"/><attr format="reference" name="sectionHeaderStyle"/><attr format="reference" name="rowsVerticalGridStyle"/><attr format="reference" name="rowHorizontalGridStyle"/><attr format="reference" name="rowHeaderStyle"/><attr format="reference" name="rowHeaderDockStyle"/><attr format="reference" name="rowHoverCardTitleStyle"/><attr format="reference" name="rowHoverCardDescriptionStyle"/><attr format="reference" name="baseCardViewStyle"/><attr format="reference" name="imageCardViewStyle"/><attr format="reference" name="imageCardViewImageStyle"/><attr format="reference" name="imageCardViewTitleStyle"/><attr format="reference" name="imageCardViewContentStyle"/><attr format="reference" name="imageCardViewBadgeStyle"/><attr format="reference" name="imageCardViewInfoAreaStyle"/><attr format="reference" name="detailsDescriptionTitleStyle"/><attr format="reference" name="detailsDescriptionSubtitleStyle"/><attr format="reference" name="detailsDescriptionBodyStyle"/><attr format="reference" name="detailsActionButtonStyle"/><attr format="dimension" name="playbackPaddingStart"/><attr format="dimension" name="playbackPaddingEnd"/><attr format="dimension" name="playbackMediaItemPaddingStart"/><attr format="reference" name="playbackMediaListHeaderStyle"/><attr format="reference" name="playbackMediaItemRowStyle"/><attr format="reference" name="playbackMediaItemSeparatorStyle"/><attr format="reference" name="playbackMediaListHeaderTitleStyle"/><attr format="reference" name="playbackMediaItemDetailsStyle"/><attr format="reference" name="playbackMediaItemNumberViewFlipperStyle"/><attr format="reference" name="playbackMediaItemNumberViewFlipperLayout"/><attr format="reference" name="playbackMediaItemNumberStyle"/><attr format="reference" name="playbackMediaItemNameStyle"/><attr format="reference" name="playbackMediaItemDurationStyle"/><attr format="reference" name="playbackControlsButtonStyle"/><attr format="reference" name="playbackControlButtonLabelStyle"/><attr format="reference" name="playbackControlsTimeStyle"/><attr format="reference" name="itemsVerticalGridStyle"/><attr format="reference" name="errorMessageStyle"/><attr format="reference|color" name="defaultBrandColor"/><attr format="reference|color" name="defaultBrandColorDark"/><attr format="reference|color" name="defaultSearchColor"/><attr format="reference|color" name="defaultSearchIconColor"/><attr format="reference|color" name="defaultSearchBrightColor"/><attr format="reference|color" name="defaultSectionHeaderColor"/><attr format="reference" name="searchOrbViewStyle"/><attr format="reference" name="defaultSearchIcon"/><attr format="reference|color" name="playbackProgressPrimaryColor"/><attr format="reference|color" name="playbackControlsIconHighlightColor"/><attr format="reference" name="playbackControlsActionIcons"/><attr format="color" name="overlayDimMaskColor"/><attr format="fraction" name="overlayDimActiveLevel"/><attr format="fraction" name="overlayDimDimmedLevel"/></declare-styleable>
+    <declare-styleable name="MarqueeTextView"><attr format="string" name="content"/><attr format="integer" name="marquee_speed"/></declare-styleable>
+    <declare-styleable name="PagingIndicator"><attr format="reference" name="lbDotRadius"/><attr format="reference" name="arrowRadius"/><attr format="reference" name="dotToDotGap"/><attr format="reference" name="dotToArrowGap"/><attr format="reference" name="dotBgColor"/><attr format="reference" name="arrowBgColor"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr name="android:descendantFocusability"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="TvAbsSpinner"><attr name="entries"/></declare-styleable>
+    <declare-styleable name="TvGallery"><attr name="gravity"/><attr format="integer" min="0" name="animationDuration"/><attr format="dimension" name="spacing"/><attr format="float" name="unselectedAlpha"/></declare-styleable>
+    <declare-styleable name="TvImageView"><attr format="boolean" name="isScaleWidth"/><attr format="dimension" name="scaleWidth"/><attr format="dimension" name="scaleHeight"/><attr format="string" name="src"/></declare-styleable>
+    <declare-styleable name="TwoWayAbsListView"><attr format="color|reference" name="listSelector"/><attr format="boolean" name="drawSelectorOnTop"/><attr format="boolean" name="stackFromBottom"/><attr format="boolean" name="scrollingCache"/><attr name="transcriptMode2">
+            
+            <enum name="disabled" value="0"/>
+            
+            <enum name="normal" value="1"/>
+            
+            <enum name="alwaysScroll" value="2"/>
+        </attr><attr format="color" name="cacheColorHint"/><attr format="boolean" name="smoothScrollbar"/><attr name="scrollDirectionPortrait">
+            
+            <enum name="vertical" value="0"/>
+            
+            <enum name="horizontal" value="1"/>
+        </attr><attr name="scrollDirectionLandscape">
+            
+            <enum name="vertical" value="0"/>
+            
+            <enum name="horizontal" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="TwoWayGridView"><attr format="dimension" name="horizontalSpacing"/><attr format="dimension" name="verticalSpacing"/><attr name="stretchMode">
+            <enum name="none" value="0"/>
+            <enum name="spacingWidth" value="1"/>
+            <enum name="columnWidth" value="2"/>
+            <enum name="spacingWidthUniform" value="3"/>
+        </attr><attr format="dimension" name="columnWidth"/><attr format="dimension" name="rowHeight"/><attr format="integer" min="0" name="numColumns">
+            <enum name="auto_fit" value="-1"/>
+        </attr><attr format="integer" min="0" name="numRows">
+            <enum name="auto_fit" value="-1"/>
+        </attr><attr name="gravity"/></declare-styleable>
+    <declare-styleable name="lbBaseCardView"><attr format="reference|color" name="cardForeground"/><attr format="reference|color" name="cardBackground"/><attr format="enum" name="cardType">
+            
+            <enum name="mainOnly" value="0"/>
+            
+            <enum name="infoOver" value="1"/>
+            
+            <enum name="infoUnder" value="2"/>
+            
+            <enum name="infoUnderWithExtra" value="3"/>
+        </attr><attr format="enum" name="infoVisibility">
+            
+            <enum name="always" value="0"/>
+            
+            <enum name="activated" value="1"/>
+            
+            <enum name="selected" value="2"/>
+        </attr><attr format="enum" name="extraVisibility">
+            
+            <enum name="always" value="0"/>
+            
+            <enum name="activated" value="1"/>
+            
+            <enum name="selected" value="2"/>
+        </attr><attr format="integer" name="selectedAnimationDelay"/><attr format="integer" name="selectedAnimationDuration"/><attr format="integer" name="activatedAnimationDuration"/></declare-styleable>
+    <declare-styleable name="lbBaseCardView_Layout"><attr format="enum" name="layout_viewType">
+            
+            <enum name="main" value="0"/>
+            
+            <enum name="info" value="1"/>
+            
+            <enum name="extra" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="lbBaseGridView"><attr format="boolean" name="focusOutFront"/><attr format="boolean" name="focusOutEnd"/><attr format="boolean" name="focusOutSideStart"/><attr format="boolean" name="focusOutSideEnd"/><attr format="dimension" name="horizontalMargin"/><attr format="dimension" name="verticalMargin"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="lbDatePicker"><attr name="android:minDate"/><attr name="android:maxDate"/><attr format="string" name="datePickerFormat"/></declare-styleable>
+    <declare-styleable name="lbHorizontalGridView"><attr format="dimension" name="rowHeight">
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="integer" name="numberOfRows"/></declare-styleable>
+    <declare-styleable name="lbImageCardView"><attr format="reference|color" name="infoAreaBackground"/><attr name="lbImageCardViewType">
+            <flag name="Title" value="1"/>
+            <flag name="Content" value="2"/>
+            <flag name="IconOnRight" value="4"/>
+            <flag name="IconOnLeft" value="8"/>
+            
+            <flag name="ImageOnly" value="0"/>
+        </attr></declare-styleable>
+    <declare-styleable name="lbPlaybackControlsActionIcons"><attr format="reference" name="play"/><attr format="reference" name="pause"/><attr format="reference" name="fast_forward"/><attr format="reference" name="rewind"/><attr format="reference" name="skip_next"/><attr format="reference" name="skip_previous"/><attr format="reference" name="thumb_up_outline"/><attr format="reference" name="thumb_up"/><attr format="reference" name="thumb_down_outline"/><attr format="reference" name="thumb_down"/><attr format="reference" name="repeat"/><attr format="reference" name="repeat_one"/><attr format="reference" name="shuffle"/><attr format="reference" name="high_quality"/><attr format="reference" name="closed_captioning"/><attr format="reference" name="picture_in_picture"/></declare-styleable>
+    <declare-styleable name="lbResizingTextView"><attr name="resizeTrigger">
+            
+            <flag name="maxLines" value="0x01"/>
+        </attr><attr format="dimension" name="resizedTextSize"/><attr format="boolean" name="maintainLineSpacing"/><attr format="dimension" name="resizedPaddingAdjustmentTop"/><attr format="dimension" name="resizedPaddingAdjustmentBottom"/></declare-styleable>
+    <declare-styleable name="lbSearchOrbView"><attr format="reference" name="searchOrbIcon"/><attr format="reference|color" name="searchOrbIconColor"/><attr format="reference|color" name="searchOrbColor"/><attr format="reference|color" name="searchOrbBrightColor"/></declare-styleable>
+    <declare-styleable name="lbSlide"><attr name="lb_slideEdge">
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr><attr name="android:duration"/><attr name="android:startDelay"/><attr name="android:interpolator"/></declare-styleable>
+    <declare-styleable name="lbVerticalGridView"><attr format="dimension" name="columnWidth">
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="integer" name="numberOfColumns"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">40.0dip</dimen>
+    <dimen name="chase_empty_icon_scaleimagesize">6.0px</dimen>
+    <dimen name="chase_note_padding">6dip</dimen>
+    <dimen name="history_btn_padding">50dp</dimen>
+    <dimen name="history_empty_drawable_padding">30dp</dimen>
+    <dimen name="history_empty_icon_scaleimagesize">6.0px</dimen>
+    <dimen name="history_note_padding">6dip</dimen>
+    <dimen name="home_category_imagesize">12.0px</dimen>
+    <dimen name="home_icon_scaleimagesize">6.0px</dimen>
+    <dimen name="home_item_padding">2.0dp</dimen>
+    <dimen name="home_zhuiju_numbersize">16.0px</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="lb_action_1_line_height">36dp</dimen>
+    <dimen name="lb_action_2_lines_height">56dp</dimen>
+    <dimen name="lb_action_button_corner_radius">2dp</dimen>
+    <dimen name="lb_action_icon_margin">12dp</dimen>
+    <dimen name="lb_action_padding_horizontal">24dp</dimen>
+    <dimen name="lb_action_text_size">16sp</dimen>
+    <dimen name="lb_action_with_icon_padding_end">20dp</dimen>
+    <dimen name="lb_action_with_icon_padding_start">14dp</dimen>
+    <dimen name="lb_basic_card_content_text_size">12sp</dimen>
+    <dimen name="lb_basic_card_info_badge_margin">4dp</dimen>
+    <dimen name="lb_basic_card_info_badge_size">16dp</dimen>
+    <dimen name="lb_basic_card_info_height">52dp</dimen>
+    <dimen name="lb_basic_card_info_height_no_content">34dp</dimen>
+    <dimen name="lb_basic_card_info_padding_bottom">8dp</dimen>
+    <dimen name="lb_basic_card_info_padding_horizontal">11dp</dimen>
+    <dimen name="lb_basic_card_info_padding_top">7dp</dimen>
+    <dimen name="lb_basic_card_info_text_margin">1dp</dimen>
+    <dimen name="lb_basic_card_main_height">188dp</dimen>
+    <dimen name="lb_basic_card_main_width">140dp</dimen>
+    <dimen name="lb_basic_card_title_text_size">14sp</dimen>
+    <dimen name="lb_browse_expanded_row_no_hovercard_bottom_padding">28dp</dimen>
+    <dimen name="lb_browse_expanded_selected_row_top_padding">16dp</dimen>
+    <dimen name="lb_browse_header_fading_length">12dp</dimen>
+    <dimen name="lb_browse_header_height">24dp</dimen>
+    <dimen name="lb_browse_header_padding_end">8dp</dimen>
+    <item format="integer" name="lb_browse_header_select_duration" type="dimen">150</item>
+    <item format="float" name="lb_browse_header_select_scale" type="dimen">1.2</item>
+    <dimen name="lb_browse_header_text_size">20sp</dimen>
+    <dimen name="lb_browse_headers_vertical_margin">21dp</dimen>
+    <dimen name="lb_browse_headers_width">270dp</dimen>
+    <dimen name="lb_browse_headers_z">@dimen/lb_material_shadow_focused_z</dimen>
+    <dimen name="lb_browse_item_horizontal_margin">8dp</dimen>
+    <dimen name="lb_browse_item_vertical_margin">8dp</dimen>
+    <dimen name="lb_browse_padding_bottom">48dp</dimen>
+    <dimen name="lb_browse_padding_end">56dp</dimen>
+    <dimen name="lb_browse_padding_start">56dp</dimen>
+    <dimen name="lb_browse_padding_top">27dp</dimen>
+    <dimen name="lb_browse_row_hovercard_description_font_size">14sp</dimen>
+    <dimen name="lb_browse_row_hovercard_max_width">400dp</dimen>
+    <dimen name="lb_browse_row_hovercard_title_font_size">18sp</dimen>
+    <dimen name="lb_browse_rows_fading_edge">16dp</dimen>
+    <dimen name="lb_browse_rows_margin_start">238dp</dimen>
+    <dimen name="lb_browse_rows_margin_top">167dp</dimen>
+    <dimen name="lb_browse_section_header_text_size">16sp</dimen>
+    <dimen name="lb_browse_selected_row_top_padding">20dp</dimen>
+    <dimen name="lb_browse_title_height">60dp</dimen>
+    <dimen name="lb_browse_title_icon_height">60dp</dimen>
+    <dimen name="lb_browse_title_icon_max_width">584dp</dimen>
+    <dimen name="lb_browse_title_text_size">44sp</dimen>
+    <dimen name="lb_control_button_diameter">90dp</dimen>
+    <dimen name="lb_control_button_height">64dp</dimen>
+    <dimen name="lb_control_button_secondary_diameter">48dp</dimen>
+    <dimen name="lb_control_button_secondary_height">48dp</dimen>
+    <dimen name="lb_control_button_text_size">22sp</dimen>
+    <dimen name="lb_control_icon_height">32dp</dimen>
+    <dimen name="lb_control_icon_width">32dp</dimen>
+    <dimen name="lb_details_description_body_line_spacing">20dp</dimen>
+    <dimen name="lb_details_description_body_text_size">14sp</dimen>
+    <dimen name="lb_details_description_subtitle_text_size">16sp</dimen>
+    <dimen name="lb_details_description_title_baseline">26dp</dimen>
+    <dimen name="lb_details_description_title_line_spacing">40dp</dimen>
+    <dimen name="lb_details_description_title_padding_adjust_bottom">2dp</dimen>
+    <dimen name="lb_details_description_title_padding_adjust_top">-1dp</dimen>
+    <dimen name="lb_details_description_title_resized_text_size">28sp</dimen>
+    <dimen name="lb_details_description_title_text_size">34sp</dimen>
+    <dimen name="lb_details_description_under_subtitle_baseline_margin">32dp</dimen>
+    <dimen name="lb_details_description_under_title_baseline_margin">32dp</dimen>
+    <dimen name="lb_details_overview_action_items_margin">16dp</dimen>
+    <item format="integer" name="lb_details_overview_action_select_duration" type="dimen">150</item>
+    <dimen name="lb_details_overview_actions_fade_size">16dp</dimen>
+    <dimen name="lb_details_overview_actions_height">56dp</dimen>
+    <dimen name="lb_details_overview_actions_padding_end">132dp</dimen>
+    <dimen name="lb_details_overview_actions_padding_start">294dp</dimen>
+    <dimen name="lb_details_overview_description_margin_bottom">12dp</dimen>
+    <dimen name="lb_details_overview_description_margin_end">24dp</dimen>
+    <dimen name="lb_details_overview_description_margin_start">24dp</dimen>
+    <dimen name="lb_details_overview_description_margin_top">24dp</dimen>
+    <dimen name="lb_details_overview_height_large">274dp</dimen>
+    <dimen name="lb_details_overview_height_small">159dp</dimen>
+    <dimen name="lb_details_overview_image_margin_horizontal">24dp</dimen>
+    <dimen name="lb_details_overview_image_margin_vertical">24dp</dimen>
+    <dimen name="lb_details_overview_margin_bottom">40dp</dimen>
+    <dimen name="lb_details_overview_margin_end">132dp</dimen>
+    <dimen name="lb_details_overview_margin_start">132dp</dimen>
+    <dimen name="lb_details_overview_z">@dimen/lb_material_shadow_details_z</dimen>
+    <dimen name="lb_details_rows_align_top">167dp</dimen>
+    <dimen name="lb_details_v2_actions_height">56dip</dimen>
+    <dimen name="lb_details_v2_align_pos_for_actions">270dp</dimen>
+    <dimen name="lb_details_v2_align_pos_for_description">0dp</dimen>
+    <dimen name="lb_details_v2_blank_height">160dp</dimen>
+    <dimen name="lb_details_v2_card_height">540dp</dimen>
+    <dimen name="lb_details_v2_description_margin_end">54dp</dimen>
+    <dimen name="lb_details_v2_description_margin_start">24dp</dimen>
+    <dimen name="lb_details_v2_description_margin_top">24dp</dimen>
+    <dimen name="lb_details_v2_left">270dip</dimen>
+    <dimen name="lb_details_v2_logo_margin_start">128dp</dimen>
+    <dimen name="lb_details_v2_logo_max_height">210dp</dimen>
+    <dimen name="lb_details_v2_logo_max_width">150dp</dimen>
+    <dimen name="lb_error_image_max_height">120dp</dimen>
+    <dimen name="lb_error_message_max_width">600dp</dimen>
+    <dimen name="lb_error_message_text_size">16sp</dimen>
+    <dimen name="lb_error_under_image_baseline_margin">36dp</dimen>
+    <dimen name="lb_error_under_message_baseline_margin">24dp</dimen>
+    <dimen name="lb_guidedactions_elevation">12dp</dimen>
+    <dimen name="lb_guidedactions_item_bottom_padding">13dp</dimen>
+    <dimen name="lb_guidedactions_item_checkmark_diameter">16dp</dimen>
+    <dimen name="lb_guidedactions_item_delimiter_padding">4dp</dimen>
+    <dimen name="lb_guidedactions_item_description_font_size">12sp</dimen>
+    <dimen name="lb_guidedactions_item_end_padding">16dp</dimen>
+    <dimen name="lb_guidedactions_item_icon_height">32dp</dimen>
+    <dimen name="lb_guidedactions_item_icon_width">32dp</dimen>
+    <dimen name="lb_guidedactions_item_space_between_title_and_description">2dp</dimen>
+    <dimen name="lb_guidedactions_item_start_padding">16dp</dimen>
+    <dimen name="lb_guidedactions_item_text_width">248dp</dimen>
+    <dimen name="lb_guidedactions_item_text_width_no_icon">284dp</dimen>
+    <dimen name="lb_guidedactions_item_title_font_size">14sp</dimen>
+    <dimen name="lb_guidedactions_item_top_padding">14dp</dimen>
+    <dimen name="lb_guidedactions_list_padding_end">24dp</dimen>
+    <dimen name="lb_guidedactions_list_padding_start">24dp</dimen>
+    <dimen name="lb_guidedactions_list_vertical_spacing">8dp</dimen>
+    <dimen name="lb_guidedactions_section_shadow_width">32dp</dimen>
+    <dimen name="lb_guidedactions_sublist_bottom_margin">28dp</dimen>
+    <dimen name="lb_guidedactions_vertical_padding">14dp</dimen>
+    <dimen name="lb_guidedstep_slide_ime_distance">-100dp</dimen>
+    <dimen name="lb_list_row_height">224dp</dimen>
+    <dimen name="lb_material_shadow_details_z">8dp</dimen>
+    <dimen name="lb_material_shadow_focused_z">16dp</dimen>
+    <dimen name="lb_material_shadow_normal_z">6dp</dimen>
+    <dimen name="lb_onboarding_content_margin_bottom">98dp</dimen>
+    <dimen name="lb_onboarding_content_margin_top">164dp</dimen>
+    <dimen name="lb_onboarding_content_width">536dp</dimen>
+    <dimen name="lb_onboarding_header_height">100dp</dimen>
+    <dimen name="lb_onboarding_header_margin_top">64dp</dimen>
+    <dimen name="lb_onboarding_navigation_height">40dp</dimen>
+    <dimen name="lb_onboarding_start_button_height">36dp</dimen>
+    <dimen name="lb_onboarding_start_button_margin_bottom">62dp</dimen>
+    <dimen name="lb_onboarding_start_button_translation_offset">16dp</dimen>
+    <dimen name="lb_page_indicator_arrow_gap">32dp</dimen>
+    <dimen name="lb_page_indicator_arrow_radius">18dp</dimen>
+    <dimen name="lb_page_indicator_arrow_shadow_offset">1dp</dimen>
+    <dimen name="lb_page_indicator_arrow_shadow_radius">2dp</dimen>
+    <dimen name="lb_page_indicator_dot_gap">16dp</dimen>
+    <dimen name="lb_page_indicator_dot_radius">5dp</dimen>
+    <dimen name="lb_playback_controls_align_bottom">58dp</dimen>
+    <dimen name="lb_playback_controls_card_height">176dp</dimen>
+    <dimen name="lb_playback_controls_child_margin_bigger">64dp</dimen>
+    <dimen name="lb_playback_controls_child_margin_biggest">88dp</dimen>
+    <dimen name="lb_playback_controls_child_margin_default">48dp</dimen>
+    <dimen name="lb_playback_controls_margin_bottom">20dp</dimen>
+    <dimen name="lb_playback_controls_margin_end">132dp</dimen>
+    <dimen name="lb_playback_controls_margin_start">132dp</dimen>
+    <dimen name="lb_playback_controls_padding_bottom">28dp</dimen>
+    <dimen name="lb_playback_controls_padding_top">216dp</dimen>
+    <dimen name="lb_playback_controls_time_text_size">12sp</dimen>
+    <dimen name="lb_playback_controls_z">@dimen/lb_material_shadow_details_z</dimen>
+    <dimen name="lb_playback_current_time_margin_start">16dp</dimen>
+    <dimen name="lb_playback_description_margin_end">24dp</dimen>
+    <dimen name="lb_playback_description_margin_start">24dp</dimen>
+    <dimen name="lb_playback_description_margin_top">24dp</dimen>
+    <dimen name="lb_playback_major_fade_translate_y">200dp</dimen>
+    <dimen name="lb_playback_media_item_radio_icon_size">24dp</dimen>
+    <dimen name="lb_playback_media_radio_width_with_padding">88dp</dimen>
+    <dimen name="lb_playback_media_row_details_selector_width">668dp</dimen>
+    <dimen name="lb_playback_media_row_horizontal_padding">32dp</dimen>
+    <dimen name="lb_playback_media_row_radio_selector_width">72dp</dimen>
+    <dimen name="lb_playback_media_row_selector_round_rect_radius">36dp</dimen>
+    <dimen name="lb_playback_media_row_separator_height">1dp</dimen>
+    <dimen name="lb_playback_minor_fade_translate_y">16dp</dimen>
+    <dimen name="lb_playback_now_playing_bar_height">18dp</dimen>
+    <dimen name="lb_playback_now_playing_bar_left_margin">3dp</dimen>
+    <dimen name="lb_playback_now_playing_bar_margin">1dp</dimen>
+    <dimen name="lb_playback_now_playing_bar_top_margin">3dp</dimen>
+    <dimen name="lb_playback_now_playing_bar_width">5dp</dimen>
+    <dimen name="lb_playback_now_playing_view_size">28dp</dimen>
+    <dimen name="lb_playback_play_icon_size">14dp</dimen>
+    <dimen name="lb_playback_time_padding_top">8dp</dimen>
+    <dimen name="lb_playback_total_time_margin_end">16dp</dimen>
+    <dimen name="lb_rounded_rect_corner_radius">2dp</dimen>
+    <dimen name="lb_search_bar_edit_text_margin_start">24dp</dimen>
+    <dimen name="lb_search_bar_height">60dp</dimen>
+    <dimen name="lb_search_bar_hint_margin_start">52dp</dimen>
+    <dimen name="lb_search_bar_icon_height">32dp</dimen>
+    <dimen name="lb_search_bar_icon_margin_start">16dp</dimen>
+    <dimen name="lb_search_bar_icon_width">32dp</dimen>
+    <dimen name="lb_search_bar_inner_margin_bottom">2dp</dimen>
+    <dimen name="lb_search_bar_inner_margin_top">2dp</dimen>
+    <dimen name="lb_search_bar_items_height">56dp</dimen>
+    <dimen name="lb_search_bar_items_layout_margin_top">27dp</dimen>
+    <dimen name="lb_search_bar_items_margin_start">70dp</dimen>
+    <dimen name="lb_search_bar_items_width">600dp</dimen>
+    <dimen name="lb_search_bar_padding_start">56dp</dimen>
+    <dimen name="lb_search_bar_padding_top">27dp</dimen>
+    <dimen name="lb_search_bar_speech_orb_margin_start">56dp</dimen>
+    <dimen name="lb_search_bar_speech_orb_size">52dp</dimen>
+    <dimen name="lb_search_bar_text_size">18sp</dimen>
+    <dimen name="lb_search_bar_unfocused_text_size">18sp</dimen>
+    <dimen name="lb_search_browse_row_padding_start">56dp</dimen>
+    <dimen name="lb_search_browse_rows_align_top">147dp</dimen>
+    <dimen name="lb_search_orb_focused_z">8dp</dimen>
+    <dimen name="lb_search_orb_margin_bottom">4dp</dimen>
+    <dimen name="lb_search_orb_margin_end">4dp</dimen>
+    <dimen name="lb_search_orb_margin_start">4dp</dimen>
+    <dimen name="lb_search_orb_margin_top">4dp</dimen>
+    <dimen name="lb_search_orb_size">52dp</dimen>
+    <dimen name="lb_search_orb_unfocused_z">2dp</dimen>
+    <dimen name="lb_vertical_grid_padding_bottom">87dp</dimen>
+    <dimen name="livecenter_refresh_view_imagesize">14.0px</dimen>
+    <dimen name="p_10">6.669983dip</dimen>
+    <dimen name="p_105">70.0dip</dimen>
+    <dimen name="p_120">80.0dip</dimen>
+    <dimen name="p_130">86.66998dip</dimen>
+    <dimen name="p_1350">900.0dip</dimen>
+    <dimen name="p_140">93.34dip</dimen>
+    <dimen name="p_145.5">97.0dip</dimen>
+    <dimen name="p_150">100.0dip</dimen>
+    <dimen name="p_151.5">101.0dip</dimen>
+    <dimen name="p_160">106.66998dip</dimen>
+    <dimen name="p_195">130.0dip</dimen>
+    <dimen name="p_20">13.329987dip</dimen>
+    <dimen name="p_210">140.0dip</dimen>
+    <dimen name="p_240">160.0dip</dimen>
+    <dimen name="p_25">16.669983dip</dimen>
+    <dimen name="p_268">178.66998dip</dimen>
+    <dimen name="p_27">18.0dip</dimen>
+    <dimen name="p_270">180.0dip</dimen>
+    <dimen name="p_280">186.66998dip</dimen>
+    <dimen name="p_30">20.0dip</dimen>
+    <dimen name="p_32">21.339996dip</dimen>
+    <dimen name="p_330">220.0dip</dimen>
+    <dimen name="p_345">230.0dip</dimen>
+    <dimen name="p_350">233.34dip</dimen>
+    <dimen name="p_36">24.0dip</dimen>
+    <dimen name="p_40">26.669983dip</dimen>
+    <dimen name="p_42">28.0dip</dimen>
+    <dimen name="p_420">280.0dip</dimen>
+    <dimen name="p_44">29.329987dip</dimen>
+    <dimen name="p_45">30.0dip</dimen>
+    <dimen name="p_478">318.66406dip</dimen>
+    <dimen name="p_48">32.0dip</dimen>
+    <dimen name="p_482">321.32812dip</dimen>
+    <dimen name="p_495">330.0dip</dimen>
+    <dimen name="p_5">3.3399963dip</dimen>
+    <dimen name="p_520">346.66406dip</dimen>
+    <dimen name="p_525">350.0dip</dimen>
+    <dimen name="p_54">36.0dip</dimen>
+    <dimen name="p_540">360.0dip</dimen>
+    <dimen name="p_56">37.329987dip</dimen>
+    <dimen name="p_560">373.32812dip</dimen>
+    <dimen name="p_60">40.0dip</dimen>
+    <dimen name="p_600">400.0dip</dimen>
+    <dimen name="p_62">41.339996dip</dimen>
+    <dimen name="p_630">420.0dip</dimen>
+    <dimen name="p_66">44.0dip</dimen>
+    <dimen name="p_720">480.0dip</dimen>
+    <dimen name="p_75">50.0dip</dimen>
+    <dimen name="p_88">58.669983dip</dimen>
+    <dimen name="p_90">60.0dip</dimen>
+    <dimen name="p_92">61.339996dip</dimen>
+    <dimen name="p_m_10">-6.669983dip</dimen>
+    <dimen name="p_m_105">-70.0dip</dimen>
+    <dimen name="p_m_27">-18.0dip</dimen>
+    <dimen name="p_m_54">-36.0dip</dimen>
+    <dimen name="p_m_63">-42.0dip</dimen>
+    <dimen name="picker_column_horizontal_padding">8dp</dimen>
+    <dimen name="picker_item_height">64dp</dimen>
+    <dimen name="picker_separator_horizontal_padding">4dp</dimen>
+    <dimen name="search_note_imagesize">10.0px</dimen>
+    <dimen name="search_note_padding">6dip</dimen>
+    <dimen name="search_note_textsize">26.0px</dimen>
+    <dimen name="search_view_imagesize">14.0px</dimen>
+    <dimen name="setting_item_margin">20dp</dimen>
+    <dimen name="store_empty_icon_scaleimagesize">6.0px</dimen>
+    <dimen name="store_note_padding">6dip</dimen>
+    <dimen name="tv_floatlayer_subtxtsize">46.0px</dimen>
+    <dimen name="tv_floatlayer_textsize">38.0px</dimen>
+    <dimen name="tv_master_imagesize">20.0px</dimen>
+    <dimen name="tv_master_textsize">32.0px</dimen>
+    <dimen name="tv_search_imagesize">14.0px</dimen>
+    <dimen name="tv_title_textsize">26.0px</dimen>
+    <dimen name="usercenter_clear_icon_scaleimagesize">16.0px</dimen>
+    <dimen name="usercenter_eidt_icon_scaleimagesize">16.0px</dimen>
+    <dimen name="video_play_controlbar_layout_height">59.0px</dimen>
+    <dimen name="video_play_controlbar_layout_paddingleft">40.0px</dimen>
+    <dimen name="video_play_controlbar_layout_paddingright">53.0px</dimen>
+    <dimen name="video_play_controlbar_margin_left">190.0px</dimen>
+    <dimen name="video_play_controlbar_margin_right">190.0px</dimen>
+    <dimen name="video_play_controlbar_marginbottom">60.0px</dimen>
+    <dimen name="video_play_controlbar_time_magin">17.0px</dimen>
+    <dimen name="video_play_controlbar_time_text">30.0px</dimen>
+    <item name="listview_focused" type="drawable">#468ab6ff</item>
+    <item name="listview_selector_focused" type="drawable">#ff3f71c4</item>
+    <item name="listview_selector_pressed" type="drawable">#ff135298</item>
+    <item name="third_level_normal" type="drawable">#1acbcbcb</item>
+    <item name="third_level_playbill" type="drawable">#99000000</item>
+    <item name="lb_browse_header_unselect_alpha" type="fraction">50%</item>
+    <item name="lb_browse_rows_scale" type="fraction">80%</item>
+    <item name="lb_focus_zoom_factor_large" type="fraction">118%</item>
+    <item name="lb_focus_zoom_factor_medium" type="fraction">114%</item>
+    <item name="lb_focus_zoom_factor_small" type="fraction">110%</item>
+    <item name="lb_focus_zoom_factor_xsmall" type="fraction">106%</item>
+    <item name="lb_search_bar_speech_orb_max_level_zoom" type="fraction">144%</item>
+    <item name="lb_search_orb_focused_zoom" type="fraction">120%</item>
+    <item name="lb_view_active_level" type="fraction">0%</item>
+    <item name="lb_view_dimmed_level" type="fraction">60%</item>
+    <item name="btn_chinese" type="id">false</item>
+    <item name="btn_english" type="id">false</item>
+    <item name="btn_vod_continue_play" type="id"/>
+    <item name="btn_vod_exit_play" type="id"/>
+    <item name="ceo_image" type="id">false</item>
+    <item name="channel_play_error_exit_apk" type="id"/>
+    <item name="channel_play_error_txt" type="id"/>
+    <item name="channel_result" type="id">false</item>
+    <item name="channel_user_channelid" type="id">false</item>
+    <item name="choose_language_button" type="id">false</item>
+    <item name="clock_playbill" type="id"/>
+    <item name="frame_channel_number_bg" type="id">false</item>
+    <item name="frame_main_channel_second_level" type="id">false</item>
+    <item name="frame_menu_third_level" type="id">false</item>
+    <item name="home_main" type="id">false</item>
+    <item name="interactive_text" type="id">false</item>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="iv_channel_num_bg" type="id">false</item>
+    <item name="lb_control_closed_captioning" type="id"/>
+    <item name="lb_control_fast_forward" type="id"/>
+    <item name="lb_control_fast_rewind" type="id"/>
+    <item name="lb_control_high_quality" type="id"/>
+    <item name="lb_control_more_actions" type="id"/>
+    <item name="lb_control_picture_in_picture" type="id"/>
+    <item name="lb_control_play_pause" type="id"/>
+    <item name="lb_control_repeat" type="id"/>
+    <item name="lb_control_shuffle" type="id"/>
+    <item name="lb_control_skip_next" type="id"/>
+    <item name="lb_control_skip_previous" type="id"/>
+    <item name="lb_control_thumbs_down" type="id"/>
+    <item name="lb_control_thumbs_up" type="id"/>
+    <item name="lb_focus_animator" type="id"/>
+    <item name="lb_guidedstep_background" type="id"/>
+    <item name="lb_shadow_impl" type="id"/>
+    <item name="lb_slide_transition_value" type="id"/>
+    <item name="line" type="id">false</item>
+    <item name="linear_main_channel_second_level" type="id">false</item>
+    <item name="linear_menu_third_level" type="id">false</item>
+    <item name="linear_menu_third_level_channel_info" type="id">false</item>
+    <item name="linear_playbill_tips" type="id"/>
+    <item name="live_channel_name" type="id"/>
+    <item name="live_channel_progress_controlbar" type="id"/>
+    <item name="lv_main_channel_second_level" type="id">false</item>
+    <item name="lv_main_first_level" type="id">false</item>
+    <item name="lv_playbill" type="id">false</item>
+    <item name="my_hotel_picture_list_layout" type="id">false</item>
+    <item name="my_hotel_picture_list_title" type="id">false</item>
+    <item name="my_hotel_picture_list_viewpage" type="id">false</item>
+    <item name="my_hotel_picture_show_layout" type="id">false</item>
+    <item name="my_hotel_picture_show_viewpager" type="id">false</item>
+    <item name="pb_menu_playbill" type="id">false</item>
+    <item name="playbill_main" type="id"/>
+    <item name="relative_playbill" type="id"/>
+    <item name="schedule_play_current_time" type="id"/>
+    <item name="schedule_play_error_exit_apk" type="id"/>
+    <item name="schedule_play_exit_thanks" type="id"/>
+    <item name="schedule_play_progressBar" type="id"/>
+    <item name="schedule_play_speed" type="id"/>
+    <item name="schedule_play_status_icon" type="id"/>
+    <item name="schedule_play_total_time" type="id"/>
+    <item name="schedule_play_vod_name" type="id"/>
+    <item name="schedule_playbill_main" type="id"/>
+    <item name="shedule_progress_controlbar" type="id"/>
+    <item name="splash" type="id">false</item>
+    <item name="timeshift_channel_play_progressBar" type="id"/>
+    <item name="timeshift_icon" type="id"/>
+    <item name="timeshift_play_begin_time" type="id"/>
+    <item name="timeshift_play_current_time" type="id"/>
+    <item name="timeshift_play_speed" type="id"/>
+    <item name="timeshift_play_status_icon" type="id"/>
+    <item name="timeshift_play_total_time" type="id"/>
+    <item name="traditional_text" type="id">false</item>
+    <item name="transitionPosition" type="id"/>
+    <item name="tv_channel_info" type="id">false</item>
+    <item name="tv_clock_time" type="id"/>
+    <item name="tv_menu_category_name" type="id">false</item>
+    <item name="tv_menu_playbill_null" type="id">false</item>
+    <item name="tv_playbill" type="id"/>
+    <item name="tv_playbill_channel_name" type="id"/>
+    <item name="tv_playbill_channel_num" type="id"/>
+    <item name="tv_playbill_next" type="id"/>
+    <item name="tv_preview_playbill" type="id">false</item>
+    <item name="txt_aaa_info_of_first" type="id"/>
+    <item name="user_channel_number" type="id">false</item>
+    <item name="vod_exit_confirm_dialog" type="id"/>
+    <item name="vod_play_current_time" type="id"/>
+    <item name="vod_play_error_exit_apk" type="id"/>
+    <item name="vod_play_exit_thanks" type="id"/>
+    <item name="vod_play_progressBar" type="id"/>
+    <item name="vod_play_speed" type="id"/>
+    <item name="vod_play_status_icon" type="id"/>
+    <item name="vod_play_total_time" type="id"/>
+    <item name="vod_play_vod_name" type="id"/>
+    <item name="vod_progress_controlbar" type="id"/>
+    <item name="welcome_fragment" type="id">false</item>
+    <item name="welcome_text" type="id">false</item>
+    <integer name="lb_browse_headers_transition_delay">150</integer>
+    <integer name="lb_browse_headers_transition_duration">250</integer>
+    <integer name="lb_browse_rows_anim_duration">250</integer>
+    <integer name="lb_card_activated_animation_duration">150</integer>
+    <integer name="lb_card_selected_animation_delay">400</integer>
+    <integer name="lb_card_selected_animation_duration">150</integer>
+    <integer name="lb_details_description_body_max_lines">5</integer>
+    <integer name="lb_details_description_body_min_lines">3</integer>
+    <integer name="lb_details_description_subtitle_max_lines">1</integer>
+    <integer name="lb_details_description_title_max_lines">2</integer>
+    <integer name="lb_error_message_max_lines">1</integer>
+    <integer name="lb_guidedactions_item_animation_duration">100</integer>
+    <integer name="lb_guidedactions_item_description_min_lines">2</integer>
+    <integer name="lb_guidedactions_item_title_max_lines">3</integer>
+    <integer name="lb_guidedactions_item_title_min_lines">1</integer>
+    <integer name="lb_guidedstep_activity_background_fade_duration_ms">350</integer>
+    <integer name="lb_playback_bg_fade_in_ms">325</integer>
+    <integer name="lb_playback_bg_fade_out_ms">500</integer>
+    <integer name="lb_playback_controls_fade_in_ms">250</integer>
+    <integer name="lb_playback_controls_fade_out_ms">325</integer>
+    <integer name="lb_playback_controls_show_time_ms">3000</integer>
+    <integer name="lb_playback_description_fade_in_ms">250</integer>
+    <integer name="lb_playback_description_fade_out_ms">200</integer>
+    <integer name="lb_playback_rows_fade_delay_ms">100</integer>
+    <integer name="lb_playback_rows_fade_in_ms">150</integer>
+    <integer name="lb_playback_rows_fade_out_ms">250</integer>
+    <integer name="lb_search_bar_speech_mode_background_alpha">179</integer>
+    <integer name="lb_search_bar_text_mode_background_alpha">51</integer>
+    <item name="lb_search_orb_pulse_duration_ms" type="integer">1000</item>
+    <item name="lb_search_orb_scale_duration_ms" type="integer">150</item>
+    <integer name="slideEdgeEnd">5</integer>
+    <integer name="slideEdgeStart">3</integer>
+    <string name="about_content">技术支持 : 沃IPTV</string>
+    <string name="about_content_title">沃IPTV</string>
+    <string name="about_title">关于我们</string>
+    <string name="account_login">Login</string>
+    <string name="account_login_failure">登录失败!</string>
+    <string name="account_login_failure_tips">用户名或密码错误!</string>
+    <string name="account_login_success">Login Success</string>
+    <string name="account_logined_welcocme">欢迎回来!</string>
+    <string name="account_logout">退出登录</string>
+    <string name="account_logout_dialog_content">确定退出登录吗?</string>
+    <string name="account_password_empty">密码不能为空,请重新输入!</string>
+    <string name="account_password_title">Password</string>
+    <string name="account_qrcode_title">扫描二维码登录</string>
+    <string name="account_remote_data_err">登录失败,远程登录数据错误!</string>
+    <string name="account_setting_title">Setting Account</string>
+    <string name="account_username_empty">用户名不能为空,请重新输入!</string>
+    <string name="account_username_title">IPTV Account</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">沃IPTV</string>
+    <string name="authing">authing...</string>
+    <string name="authing_fail">auth fail</string>
+    <string name="authing_success">auth success</string>
+    <string name="back_quit">再次点击退出沃TV</string>
+    <string name="btn_text_choose_interactive">互动模式</string>
+    <string name="btn_text_choose_live">传统模式</string>
+    <string name="cancel">取消</string>
+    <string name="channel_media_not_available_now">暂无频道信号</string>
+    <string name="channel_media_prepare_failed">时移信号暂时无法播放</string>
+    <string name="channel_not_found">无此频道</string>
+    <string name="confirm">确定</string>
+    <string name="current_version">当前版本 : %1$s %2$s%3$s</string>
+    <string name="customer_service_telephone_numbers">客服电话：0311-82623521</string>
+    <string name="detail_actor">主演：%s</string>
+    <string name="detail_all">%s集全</string>
+    <string name="detail_area">地区：%s</string>
+    <string name="detail_catalog">类型：%s</string>
+    <string name="detail_content">简介：%s</string>
+    <string name="detail_director">导演：%s</string>
+    <string name="detail_duration">时长：%s分钟</string>
+    <string name="detail_main_buy">Buy</string>
+    <string name="detail_main_chase">chase</string>
+    <string name="detail_main_chased">chased</string>
+    <string name="detail_main_paly">Play</string>
+    <string name="detail_main_select">select</string>
+    <string name="detail_main_store">store</string>
+    <string name="detail_main_stored">stored</string>
+    <string name="detail_main_try">Try</string>
+    <string name="detail_mark">%s分</string>
+    <string name="detail_number_choose">第%s集</string>
+    <string name="detail_price">价格：￥%s</string>
+    <string name="detail_rating_pingfen">Score:</string>
+    <string name="detail_recommend_empty">呜，暂时没有啥推荐的哦。。</string>
+    <string name="detail_tab_1">Detail</string>
+    <string name="detail_tab_2">relevant</string>
+    <string name="detail_update">更新到第%s集</string>
+    <string name="detail_year">年份：%s年</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_login_not_vip_content">亲，你还不是会员哦！\n开通会员请用电脑登录： \n IPTV</string>
+    <string name="dialog_login_now">好，现在登录</string>
+    <string name="dialog_logout_content">亲,你尚未登录 \n是否现在登录?</string>
+    <string name="dialog_register_vip">好的,我知道了</string>
+    <string name="dialog_tips">Do you confirm to exit？</string>
+    <string name="dialog_title">Notice</string>
+    <string name="download_setting">下载设置</string>
+    <string name="duration_short">小于1分钟</string>
+    <string name="friday">周五</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history_clear_dialog">确定清空最近观看吗?</string>
+    <string name="history_empty_text">呜,你最近没有看啥片子哦…</string>
+    <string name="history_sub_title_1">上次观看到%1$s分%2$s秒</string>
+    <string name="history_sub_title_2">上次观看到%1$s的%2$s分%3$s秒</string>
+    <string name="history_top_text">最近观看</string>
+    <string name="home_about">About</string>
+    <string name="home_collection">Collection</string>
+    <string name="home_history">play record</string>
+    <string name="home_live">Live</string>
+    <string name="home_lookback">look back</string>
+    <string name="home_notcontent">null</string>
+    <string name="home_personal">Personal</string>
+    <string name="home_play_setting">Play Setting</string>
+    <string name="home_recently_watched">Recently watched</string>
+    <string name="home_recommend">Recommend</string>
+    <string name="home_reconnect">重新连接</string>
+    <string name="home_setting">Setting</string>
+    <string name="home_user_setting">User Setting</string>
+    <string name="home_vod">Vod</string>
+    <string name="http_fail">内容获取失败</string>
+    <string name="http_notfound">内容不存在</string>
+    <string name="lb_control_display_fast_forward_multiplier">%1$dX</string>
+    <string name="lb_control_display_rewind_multiplier">%1$dX</string>
+    <string name="lb_date_separator">/</string>
+    <string name="lb_guidedaction_continue_title">Continue</string>
+    <string name="lb_guidedaction_finish_title">Finish</string>
+    <item format="float" name="lb_guidedactions_item_disabled_chevron_alpha" type="string">0.50</item>
+    <item format="float" name="lb_guidedactions_item_disabled_description_text_alpha" type="string">0.25</item>
+    <item format="float" name="lb_guidedactions_item_disabled_text_alpha" type="string">0.25</item>
+    <item format="float" name="lb_guidedactions_item_enabled_chevron_alpha" type="string">1.00</item>
+    <item format="float" name="lb_guidedactions_item_unselected_description_text_alpha" type="string">0.50</item>
+    <item format="float" name="lb_guidedactions_item_unselected_text_alpha" type="string">1.00</item>
+    <item format="float" name="lb_guidedactions_width_weight" type="string">0.71428571428</item>
+    <item format="float" name="lb_guidedactions_width_weight_two_panels" type="string">1.191780822</item>
+    <item format="float" name="lb_guidedbuttonactions_width_weight" type="string">0.45</item>
+    <item format="float" name="lb_guidedstep_height_weight" type="string">2.0</item>
+    <item format="float" name="lb_guidedstep_height_weight_translucent" type="string">1.0</item>
+    <item format="float" name="lb_guidedstep_keyline" type="string">40.0</item>
+    <string name="lb_navigation_menu_contentDescription">Navigation menu</string>
+    <string name="lb_onboarding_accessibility_next">Next</string>
+    <string name="lb_onboarding_get_started">GET STARTED</string>
+    <string name="lb_playback_controls_closed_captioning_disable">Disable Closed Captioning</string>
+    <string name="lb_playback_controls_closed_captioning_enable">Enable Closed Captioning</string>
+    <string name="lb_playback_controls_fast_forward">Fast Forward</string>
+    <string name="lb_playback_controls_fast_forward_multiplier">Fast Forward %1$dX</string>
+    <string name="lb_playback_controls_high_quality_disable">Disable High Quality</string>
+    <string name="lb_playback_controls_high_quality_enable">Enable High Quality</string>
+    <string name="lb_playback_controls_more_actions">More Actions</string>
+    <string name="lb_playback_controls_pause">Pause</string>
+    <string name="lb_playback_controls_picture_in_picture">Enter Picture In Picture Mode</string>
+    <string name="lb_playback_controls_play">Play</string>
+    <string name="lb_playback_controls_repeat_all">Repeat All</string>
+    <string name="lb_playback_controls_repeat_none">Repeat None</string>
+    <string name="lb_playback_controls_repeat_one">Repeat One</string>
+    <string name="lb_playback_controls_rewind">Rewind</string>
+    <string name="lb_playback_controls_rewind_multiplier">Rewind %1$dX</string>
+    <string name="lb_playback_controls_shuffle_disable">Disable Shuffle</string>
+    <string name="lb_playback_controls_shuffle_enable">Enable Shuffle</string>
+    <string name="lb_playback_controls_skip_next">Skip Next</string>
+    <string name="lb_playback_controls_skip_previous">Skip Previous</string>
+    <string name="lb_playback_controls_thumb_down">Deselect Thumb Down</string>
+    <string name="lb_playback_controls_thumb_down_outline">Select Thumb Down</string>
+    <string name="lb_playback_controls_thumb_up">Deselect Thumb Up</string>
+    <string name="lb_playback_controls_thumb_up_outline">Select Thumb Up</string>
+    <string name="lb_search_bar_hint">Search</string>
+    <string name="lb_search_bar_hint_speech">Speak to search</string>
+    <string name="lb_search_bar_hint_with_title">Search <ns1:g id="search context">%1$s</ns1:g></string>
+    <string name="lb_search_bar_hint_with_title_speech">Speak to search <ns1:g id="search context">%1$s</ns1:g></string>
+    <string name="lb_time_separator">:</string>
+    <string name="mediaplayer_error_6">电视播放器出现错误，请重新启动电视机</string>
+    <string name="monday">周一</string>
+    <string name="network_error">检测到无网络,请设置网络!</string>
+    <string name="orb_search_action">Search Action</string>
+    <string name="order_negtive">倒序</string>
+    <string name="order_positive">正序</string>
+    <string name="password_not_over_4">密码不能超过4位！</string>
+    <string name="password_password_error">密码错误，请重新输入</string>
+    <string name="password_please_enter_4">请输入4位密码！</string>
+    <string name="play_setting_autojump_title">自动跳过片头片尾</string>
+    <string name="play_setting_bitrate_title">码流率</string>
+    <string name="play_setting_framerate_title">画面比</string>
+    <string name="play_setting_title">播放设置</string>
+    <string name="playbill_null">暂无节目单</string>
+    <string name="player_error">播放错误</string>
+    <string name="player_exit_confirm">确认要退出播放吗?</string>
+    <string name="saturday">周六</string>
+    <string name="screen_protect_exit">屏幕保护中，请按任意键退出</string>
+    <string name="search">搜索</string>
+    <string name="search_begin_note_txt">输入片名首字母搜索哦!\n如搜《变形金刚》可输入BXJG</string>
+    <string name="search_empty_note_txt">没有找到您要搜的视频，换个关键字试试?</string>
+    <string name="search_keyboard_blank">空格</string>
+    <string name="search_keyboard_delete">删除</string>
+    <string name="service_tips">敬请期待</string>
+    <string name="special">专题</string>
+    <string name="sport">体育</string>
+    <string name="store_clear_dialog">确定清空我的收藏吗?</string>
+    <string name="store_empty_text">呜,你最近没有收藏啥片子哦…</string>
+    <string name="store_top_text">我的收藏</string>
+    <string name="sunday">周日</string>
+    <string name="thanks_for_play">谢 谢 收 看</string>
+    <string name="thursday">周四</string>
+    <string name="tips_key_menu">键打开设置</string>
+    <string name="tips_key_navigation_center">键返回</string>
+    <string name="tips_key_ok">键打开频道列表</string>
+    <string name="title_activity_interactive_or_traditional">InteractiveOrTraditionalActivity</string>
+    <string name="title_activity_my_hotel_picture_list">MyHotelPictureListActivity</string>
+    <string name="title_activity_my_hotel_sec">MyHotelSecActivity</string>
+    <string name="title_activity_my_hotel_show_pictures">MyHotelShowPicturesActivity</string>
+    <string name="title_activity_splash">HILTON</string>
+    <string name="title_activity_traditional_live_channel_play">TraditionalLiveChannelPlayActivity</string>
+    <string name="title_activity_traditional_splash">TraditionalSplashActivity</string>
+    <string name="title_activity_vod_play">VodPlayActivity</string>
+    <string name="title_play_autojump_off">关</string>
+    <string name="title_play_autojump_on">开</string>
+    <string name="title_play_bitrate_blueray">蓝光</string>
+    <string name="title_play_bitrate_high">高清</string>
+    <string name="title_play_bitrate_normal">标清</string>
+    <string name="title_play_bitrate_original">原画</string>
+    <string name="title_play_bitrate_super">超清</string>
+    <string name="title_play_framerate_original">原始</string>
+    <string name="title_play_framerate_stretch">拉伸</string>
+    <string name="today">Today</string>
+    <string name="tuesday">周二</string>
+    <string name="tv_media_loading">正在加载...</string>
+    <string name="tv_media_virtual_loading1">正在从</string>
+    <string name="tv_media_virtual_loading2">视频加载...</string>
+    <string name="tv_player_error_boxplay">获取播放地址失败！</string>
+    <string name="tv_player_error_detail">获取详情失败！</string>
+    <string name="tv_player_error_play">"不支持播放该视频"</string>
+    <string name="tv_player_error_sdk">"加载播放组件失败！</string>
+    <string name="tv_player_next">下一集</string>
+    <string name="tv_player_play_finish">"视频播放结束"</string>
+    <string name="tv_player_previous">上一集</string>
+    <string name="update_check">检查更新</string>
+    <string name="update_check_no_update">已是最新版本</string>
+    <string name="update_dialog_version_txt">最新版本：V</string>
+    <string name="user_setting_title">用户设置</string>
+    <string name="usercenter_clear">清空</string>
+    <string name="usercenter_edit">编辑</string>
+    <string name="usercenter_finished">完成</string>
+    <string name="vod_order_status">本视频为收费节目，您可以免费试看5分钟，请点OK键进行购买. </string>
+    <string name="vod_play_choose_package_fragment_btn_pay">开始支付</string>
+    <string name="vod_play_choose_package_fragment_btn_pay_ailpay">支付宝支付</string>
+    <string name="vod_play_choose_package_fragment_btn_pay_psw">密码支付</string>
+    <string name="vod_play_choose_package_fragment_btn_pay_wechat">微信支付</string>
+    <string name="vod_play_choose_package_fragment_package_day">包天，%.2f元/天。24小时内可收看所有点播节目</string>
+    <string name="vod_play_choose_package_fragment_package_vod">单片，%.2f元/部。24小时内不限次数重复收看本片</string>
+    <string name="vod_play_choose_package_fragment_package_vod_series">单剧，%.2f元/部。24小时内不限次数重复收看本电视剧</string>
+    <string name="vod_play_choose_package_fragment_title">试看已结束.继续欣赏请您通过以下方式订购</string>
+    <string name="vod_play_choose_pay_method_fragment_title">请您致电总机，获取4位密码，输入后，点击确定键确认购买.</string>
+    <string name="vod_play_choose_pay_method_package_choosed_day">您选择了包天 ，价格为%.2f元，24小时内可收看点播节目。</string>
+    <string name="vod_play_choose_pay_method_package_choosed_series">您选择了单剧，价格为%.2f元，24小时内可重复收看本剧。</string>
+    <string name="vod_play_choose_pay_method_package_choosed_vod">您选择了单片，价格为%.2f元，24小时内可重复收看本片。</string>
+    <string name="vod_play_continue_play">继续播放</string>
+    <string name="vod_play_play_from_start">从头播放</string>
+    <string name="vod_wechat_pay_prompt">请打开微信扫一扫，扫描二维码进行支付</string>
+    <string name="wednesday">周三</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_up_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_down_out</item>
+    </style>
+    <style name="TextAppearance.Leanback" parent="TextAppearance.LeanbackBase">
+        <!-- Any text appearance overrides go here. -->
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsActionButton">
+        <item name="android:textSize">@dimen/lb_action_text_size</item>
+        <item name="android:textColor">@color/lb_action_text_color</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsDescriptionBody">
+        <item name="android:textSize">@dimen/lb_details_description_body_text_size</item>
+        <item name="android:textColor">@color/lb_details_description_body_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsDescriptionSubtitle">
+        <item name="android:textSize">@dimen/lb_details_description_subtitle_text_size</item>
+        <item name="android:textColor">@color/lb_details_description_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsDescriptionTitle">
+        <item name="android:textSize">@dimen/lb_details_description_title_text_size</item>
+        <item name="android:textColor">@color/lb_details_description_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.Leanback.ErrorMessage">
+        <item name="android:textSize">@dimen/lb_error_message_text_size</item>
+        <item name="android:textColor">@color/lb_error_message</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.Header" parent="TextAppearance.Leanback">
+        <item name="android:textSize">@dimen/lb_browse_header_text_size</item>
+        <item name="android:textColor">@color/lb_browse_header_color</item>
+    </style>
+    <style name="TextAppearance.Leanback.Header.Section">
+        <item name="android:textColor">?defaultSectionHeaderColor</item>
+        <item name="android:textSize">@dimen/lb_browse_section_header_text_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.ImageCardView">
+    </style>
+    <style name="TextAppearance.Leanback.ImageCardView.Content">
+        <item name="android:textColor">@color/lb_basic_card_content_text_color</item>
+        <item name="android:textSize">@dimen/lb_basic_card_content_text_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.ImageCardView.Title">
+        <item name="android:textColor">@color/lb_basic_card_title_text_color</item>
+        <item name="android:textSize">@dimen/lb_basic_card_title_text_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackControlLabel">
+        <item name="android:textSize">@dimen/lb_control_button_text_size</item>
+        <item name="android:textColor">@color/lb_control_button_text</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackControlsTime">
+        <item name="android:textSize">@dimen/lb_playback_controls_time_text_size</item>
+        <item name="android:textColor">@color/lb_playback_controls_time_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaItemDuration">
+        <item name="android:textColor">#80FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaItemName">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaItemNumber">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaListHeaderTitle">
+        <item name="android:textColor">#80EEEEEE</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="TextAppearance.Leanback.Row.Header" parent="TextAppearance.Leanback.Header">
+    </style>
+    <style name="TextAppearance.Leanback.Row.HoverCardDescription" parent="TextAppearance.Leanback">
+        <item name="android:textSize">@dimen/lb_browse_row_hovercard_description_font_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.Row.HoverCardTitle" parent="TextAppearance.Leanback">
+        <item name="android:textSize">@dimen/lb_browse_row_hovercard_title_font_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.SearchTextEdit" parent="TextAppearance.Leanback">
+        <item name="android:textSize">@dimen/lb_search_bar_text_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.Title" parent="TextAppearance.Leanback">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/lb_browse_title_text_size</item>
+        <item name="android:textColor">@color/lb_browse_title_color</item>
+    </style>
+    <style name="TextAppearance.LeanbackBase" parent="android:TextAppearance.Holo">
+    </style>
+    <style name="Theme.Leanback" parent="Theme.LeanbackBase">
+
+        <item name="baseCardViewStyle">@style/Widget.Leanback.BaseCardViewStyle</item>
+        <item name="imageCardViewStyle">@style/Widget.Leanback.ImageCardViewStyle</item>
+        <item name="imageCardViewImageStyle">@style/Widget.Leanback.ImageCardView.ImageStyle</item>
+        <item name="imageCardViewTitleStyle">@style/Widget.Leanback.ImageCardView.TitleStyle</item>
+        <item name="imageCardViewContentStyle">@style/Widget.Leanback.ImageCardView.ContentStyle</item>
+        <item name="imageCardViewBadgeStyle">@style/Widget.Leanback.ImageCardView.BadgeStyle</item>
+        <item name="imageCardViewInfoAreaStyle">@style/Widget.Leanback.ImageCardView.InfoAreaStyle</item>
+
+        <item name="browsePaddingStart">@dimen/lb_browse_padding_start</item>
+        <item name="browsePaddingEnd">@dimen/lb_browse_padding_end</item>
+        <item name="browsePaddingTop">@dimen/lb_browse_padding_top</item>
+        <item name="browsePaddingBottom">@dimen/lb_browse_padding_bottom</item>
+        <item name="browseRowsMarginStart">@dimen/lb_browse_rows_margin_start</item>
+        <item name="browseRowsMarginTop">@dimen/lb_browse_rows_margin_top</item>
+        <item name="browseRowsFadingEdgeLength">@dimen/lb_browse_rows_fading_edge</item>
+
+        <item name="headersVerticalGridStyle">@style/Widget.Leanback.Headers.VerticalGridView</item>
+        <item name="headerStyle">@style/Widget.Leanback.Header</item>
+        <item name="sectionHeaderStyle">@style/Widget.Leanback.Header.Section</item>
+
+        <item name="rowsVerticalGridStyle">@style/Widget.Leanback.Rows.VerticalGridView</item>
+        <item name="rowHorizontalGridStyle">@style/Widget.Leanback.Row.HorizontalGridView</item>
+        <item name="itemsVerticalGridStyle">@style/Widget.Leanback.GridItems.VerticalGridView</item>
+
+        <item name="browseTitleViewLayout">@layout/lb_browse_title</item>
+        <item name="browseTitleTextStyle">@style/Widget.Leanback.Title.Text</item>
+        <item name="browseTitleIconStyle">@style/Widget.Leanback.Title.Icon</item>
+        <item name="browseTitleViewStyle">@style/Widget.Leanback.TitleView</item>
+
+        <item name="rowHeaderStyle">@style/Widget.Leanback.Row.Header</item>
+        <item name="rowHoverCardTitleStyle">@style/Widget.Leanback.Row.HoverCardTitle</item>
+        <item name="rowHoverCardDescriptionStyle">@style/Widget.Leanback.Row.HoverCardDescription</item>
+        <item name="rowHeaderDockStyle">@style/Widget.Leanback.Row.HeaderDock</item>
+
+        <item name="searchOrbViewStyle">@style/Widget.Leanback.SearchOrbViewStyle</item>
+
+
+        <item name="detailsDescriptionTitleStyle">@style/Widget.Leanback.DetailsDescriptionTitleStyle</item>
+        <item name="detailsDescriptionSubtitleStyle">@style/Widget.Leanback.DetailsDescriptionSubtitleStyle</item>
+        <item name="detailsDescriptionBodyStyle">@style/Widget.Leanback.DetailsDescriptionBodyStyle</item>
+        <item name="detailsActionButtonStyle">@style/Widget.Leanback.DetailsActionButtonStyle</item>
+        <!-- Attributes used for styling of a playback -->
+        <item name="playbackPaddingStart">@dimen/lb_playback_controls_margin_start</item>
+        <item name="playbackPaddingEnd">@dimen/lb_playback_controls_margin_end</item>
+        <item name="playbackMediaItemPaddingStart">@dimen/lb_playback_media_row_horizontal_padding</item>
+
+        <item name="playbackMediaListHeaderStyle">@style/Widget.Leanback.PlaybackMediaListHeaderStyle</item>
+        <item name="playbackMediaItemRowStyle">@style/Widget.Leanback.PlaybackMediaItemRowStyle</item>
+        <item name="playbackMediaItemSeparatorStyle">@style/Widget.Leanback.PlaybackMediaItemSeparatorStyle</item>
+        <item name="playbackMediaListHeaderTitleStyle">@style/Widget.Leanback.PlaybackMediaListHeaderTitleStyle</item>
+        <item name="playbackMediaItemDetailsStyle">@style/Widget.Leanback.PlaybackMediaItemDetailsStyle</item>
+        <item name="playbackMediaItemNumberViewFlipperStyle">@style/Widget.Leanback.PlaybackMediaItemNumberViewFlipperStyle</item>
+        <item name="playbackMediaItemNumberViewFlipperLayout">@layout/lb_media_item_number_view_flipper</item>
+        <item name="playbackMediaItemNumberStyle">@style/Widget.Leanback.PlaybackMediaItemNumberStyle</item>
+        <item name="playbackMediaItemNameStyle">@style/Widget.Leanback.PlaybackMediaItemNameStyle</item>
+        <item name="playbackMediaItemDurationStyle">@style/Widget.Leanback.PlaybackMediaItemDurationStyle</item>
+
+        <item name="playbackControlsButtonStyle">@style/Widget.Leanback.PlaybackControlsButtonStyle</item>
+        <item name="playbackControlButtonLabelStyle">@style/Widget.Leanback.PlaybackControlLabelStyle</item>
+        <item name="playbackControlsTimeStyle">@style/Widget.Leanback.PlaybackControlsTimeStyle</item>
+        <item name="playbackControlsActionIcons">@style/Widget.Leanback.PlaybackControlsActionIconsStyle</item>
+
+
+        <item name="errorMessageStyle">@style/Widget.Leanback.ErrorMessageStyle</item>
+
+        <item name="defaultSearchColor">@color/lb_default_search_color</item>
+        <item name="defaultSearchIconColor">@color/lb_default_search_icon_color</item>
+        <item name="defaultSearchBrightColor">?attr/defaultSearchColor</item>
+        <item name="defaultSearchIcon">@drawable/lb_ic_in_app_search</item>
+
+        <item name="defaultSectionHeaderColor">?attr/defaultSearchColor</item>
+
+        <!-- android:windowSharedElementEnterTransition is kept for backward compatibility for apps still refer
+        to Theme.Leanback, app should use Theme.Leanback.Details instead -->
+        <item name="android:windowSharedElementEnterTransition">@transition/lb_shared_element_enter_transition</item>
+        <!-- android:windowSharedElementReturnTransition is kept for backward compatibility for apps still refer
+        to Theme.Leanback, app should use Theme.Leanback.Details instead -->
+        <item name="android:windowSharedElementReturnTransition">@transition/lb_shared_element_return_transition</item>
+        <item name="android:windowEnterTransition">@transition/lb_enter_transition</item>
+        <item name="android:windowReturnTransition">@transition/lb_return_transition</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">350</item>
+
+        <item name="overlayDimMaskColor">@color/lb_view_dim_mask_color</item>
+        <item name="overlayDimActiveLevel">@fraction/lb_view_active_level</item>
+        <item name="overlayDimDimmedLevel">@fraction/lb_view_dimmed_level</item>
+
+    </style>
+    <style name="Theme.Leanback.Browse" parent="Theme.Leanback">
+        <item name="android:windowEnterTransition">@transition/lb_browse_enter_transition</item>
+        <item name="android:windowReturnTransition">@transition/lb_browse_return_transition</item>
+    </style>
+    <style name="Theme.Leanback.Details" parent="Theme.Leanback">
+        <item name="android:windowEnterTransition">@transition/lb_details_enter_transition</item>
+        <item name="android:windowReturnTransition">@transition/lb_details_return_transition</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/lb_shared_element_enter_transition</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/lb_shared_element_return_transition</item>
+    </style>
+    <style name="Theme.Leanback.Details.NoSharedElementTransition">
+        <item name="android:windowSharedElementEnterTransition">@null</item>
+        <item name="android:windowSharedElementReturnTransition">@null</item>
+    </style>
+    <style name="Theme.Leanback.GuidedStep" parent="Theme.Leanback.GuidedStepBase">
+        <item name="guidedStepThemeFlag">true</item>
+        <item name="guidedStepHeightWeight">@string/lb_guidedstep_height_weight</item>
+
+        <item name="android:windowEnterTransition">@transition/lb_guidedstep_activity_enter</item>
+
+        <!-- background applied to each GuidedStepFragment by default-->
+        <item name="guidedStepBackground">?android:attr/colorBackground</item>
+        <!-- Each GuidedStepFragment has a background so activity does not need a background.
+             But We still need a dumb background to keep the temporary translucent state last
+             as long as the background view fade-in transition -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowTransitionBackgroundFadeDuration">@integer/lb_guidedstep_activity_background_fade_duration_ms</item>
+
+        <item name="guidedStepImeAppearingAnimation">@animator/lb_guidedstep_slide_up</item>
+        <item name="guidedStepImeDisappearingAnimation">@animator/lb_guidedstep_slide_down</item>
+
+        <item name="guidanceContainerStyle">@style/Widget.Leanback.GuidanceContainerStyle</item>
+        <item name="guidanceIconStyle">@style/Widget.Leanback.GuidanceIconStyle</item>
+        <item name="guidanceTitleStyle">@style/Widget.Leanback.GuidanceTitleStyle</item>
+        <item name="guidanceBreadcrumbStyle">@style/Widget.Leanback.GuidanceBreadcrumbStyle</item>
+        <item name="guidanceDescriptionStyle">@style/Widget.Leanback.GuidanceDescriptionStyle</item>
+
+        <item name="guidedActionsElevation">@dimen/lb_guidedactions_elevation</item>
+        <item name="guidedActionsBackground">@color/lb_guidedactions_background</item>
+        <item name="guidedActionsBackgroundDark">@color/lb_guidedactions_background_dark</item>
+        <item name="guidedActionsListStyle">@style/Widget.Leanback.GuidedActionsListStyle</item>
+        <item name="guidedSubActionsListStyle">@style/Widget.Leanback.GuidedSubActionsListStyle</item>
+        <item name="guidedButtonActionsListStyle">@style/Widget.Leanback.GuidedButtonActionsListStyle</item>
+
+        <item name="guidedActionItemContainerStyle">@style/Widget.Leanback.GuidedActionItemContainerStyle</item>
+        <item name="guidedActionItemCheckmarkStyle">@style/Widget.Leanback.GuidedActionItemCheckmarkStyle</item>
+        <item name="guidedActionItemIconStyle">@style/Widget.Leanback.GuidedActionItemIconStyle</item>
+        <item name="guidedActionItemContentStyle">@style/Widget.Leanback.GuidedActionItemContentStyle</item>
+        <item name="guidedActionItemTitleStyle">@style/Widget.Leanback.GuidedActionItemTitleStyle</item>
+        <item name="guidedActionItemDescriptionStyle">@style/Widget.Leanback.GuidedActionItemDescriptionStyle</item>
+        <item name="guidedActionItemChevronStyle">@style/Widget.Leanback.GuidedActionItemChevronStyle</item>
+
+        <item name="guidedActionPressedAnimation">@animator/lb_guidedactions_item_pressed</item>
+        <item name="guidedActionUnpressedAnimation">@animator/lb_guidedactions_item_unpressed</item>
+        <item name="guidedActionEnabledChevronAlpha">@string/lb_guidedactions_item_enabled_chevron_alpha</item>
+        <item name="guidedActionDisabledChevronAlpha">@string/lb_guidedactions_item_disabled_chevron_alpha</item>
+        <item name="guidedActionContentWidthWeight">@string/lb_guidedactions_width_weight</item>
+        <item name="guidedActionContentWidthWeightTwoPanels">@string/lb_guidedactions_width_weight_two_panels</item>
+        <item name="guidedButtonActionsWidthWeight">@string/lb_guidedbuttonactions_width_weight</item>
+        <item name="guidedActionTitleMinLines">@integer/lb_guidedactions_item_title_min_lines</item>
+        <item name="guidedActionTitleMaxLines">@integer/lb_guidedactions_item_title_max_lines</item>
+        <item name="guidedActionDescriptionMinLines">@integer/lb_guidedactions_item_description_min_lines</item>
+        <item name="guidedActionVerticalPadding">@dimen/lb_guidedactions_vertical_padding</item>
+        <item name="guidedStepKeyline">@string/lb_guidedstep_keyline</item>
+    </style>
+    <style name="Theme.Leanback.GuidedStep.Half" parent="Theme.Leanback.GuidedStep">
+      <item name="android:windowEnterTransition">@transition/lb_guidedstep_activity_enter_bottom</item>
+      <item name="guidedStepHeightWeight">@string/lb_guidedstep_height_weight_translucent</item>
+      <item name="android:windowIsTranslucent">true</item>
+      <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Leanback.GuidedStepBase" parent="Theme.LeanbackBase">
+        <item name="guidedActionsSelectorDrawable">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="Theme.Leanback.Onboarding" parent="Theme.LeanbackBase">
+        <item name="onboardingHeaderStyle">@style/Widget.Leanback.OnboardingHeaderStyle</item>
+        <item name="onboardingTitleStyle">@style/Widget.Leanback.OnboardingTitleStyle</item>
+        <item name="onboardingDescriptionStyle">@style/Widget.Leanback.OnboardingDescriptionStyle</item>
+        <item name="onboardingNavigatorContainerStyle">@style/Widget.Leanback.OnboardingNavigatorContainerStyle</item>
+        <item name="onboardingPageIndicatorStyle">@style/Widget.Leanback.OnboardingPageIndicatorStyle</item>
+        <item name="onboardingStartButtonStyle">@style/Widget.Leanback.OnboardingStartButtonStyle</item>
+        <item name="onboardingLogoStyle">@style/Widget.Leanback.OnboardingLogoStyle</item>
+    </style>
+    <style name="Theme.Leanback.VerticalGrid" parent="Theme.Leanback">
+        <item name="android:windowEnterTransition">@transition/lb_vertical_grid_enter_transition</item>
+        <item name="android:windowReturnTransition">@transition/lb_vertical_grid_return_transition</item>
+    </style>
+    <style name="Theme.LeanbackBase" parent="android:Theme.Holo.NoActionBar">
+        <item name="playbackProgressPrimaryColor">@color/lb_playback_progress_color_no_theme</item>
+        <item name="playbackControlsIconHighlightColor">@color/lb_playback_icon_highlight_no_theme</item>
+        <item name="defaultBrandColor">@color/lb_default_brand_color</item>
+        <item name="defaultBrandColorDark">@color/lb_default_brand_color_dark</item>
+
+        <item name="android:windowOverscan">true</item>
+        <item name="guidedStepTheme">@style/Theme.Leanback.GuidedStep</item>
+    </style>
+    <style name="Tv.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+    	<item name="android:windowBackground">@color/dialog_background</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="Tv.PromptDialog" parent="Tv.Dialog">
+        <item name="android:windowBackground">@drawable/prompt_dialog_content_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    <style name="TvGallery">
+        <item name="android:fadingEdge">none</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:spacing">-20dip</item>
+        <item name="android:unselectedAlpha">0.85</item>
+    </style>
+    <style name="Widget.Leanback" parent="Widget.LeanbackBase"/>
+    <style name="Widget.Leanback.BaseCardViewStyle">
+        <item name="cardForeground">@drawable/lb_card_foreground</item>
+        <item name="cardBackground">@color/lb_basic_card_bg_color</item>
+    </style>
+    <style name="Widget.Leanback.DetailsActionButtonStyle" parent="Widget.Leanback.DetailsActionButtonStyleBase">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.DetailsActionButton</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">@dimen/lb_action_icon_margin</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingStart">@dimen/lb_action_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/lb_action_padding_horizontal</item>
+    </style>
+    <style name="Widget.Leanback.DetailsActionButtonStyleBase" parent="android:Widget.Holo.Button.Borderless">
+    </style>
+    <style name="Widget.Leanback.DetailsDescriptionBodyStyle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.DetailsDescriptionBody</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Widget.Leanback.DetailsDescriptionSubtitleStyle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.DetailsDescriptionSubtitle</item>
+        <item name="android:maxLines">@integer/lb_details_description_subtitle_max_lines</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Widget.Leanback.DetailsDescriptionTitleStyle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.DetailsDescriptionTitle</item>
+        <item name="android:maxLines">@integer/lb_details_description_title_max_lines</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:ellipsize">end</item>
+        <item name="resizeTrigger">maxLines</item>
+        <item name="resizedTextSize">@dimen/lb_details_description_title_resized_text_size</item>
+        <item name="resizedPaddingAdjustmentTop">@dimen/lb_details_description_title_padding_adjust_top</item>
+        <item name="resizedPaddingAdjustmentBottom">@dimen/lb_details_description_title_padding_adjust_bottom</item>
+    </style>
+    <style name="Widget.Leanback.ErrorMessageStyle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.ErrorMessage</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">@integer/lb_error_message_max_lines</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Widget.Leanback.GridItems"/>
+    <style name="Widget.Leanback.GridItems.VerticalGridView">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingStart">?attr/browsePaddingStart</item>
+        <item name="android:paddingEnd">?attr/browsePaddingEnd</item>
+        <item name="android:paddingBottom">@dimen/lb_vertical_grid_padding_bottom</item>
+        <item name="android:paddingTop">?attr/browseRowsMarginTop</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="horizontalMargin">@dimen/lb_browse_item_horizontal_margin</item>
+        <item name="verticalMargin">@dimen/lb_browse_item_vertical_margin</item>
+        <item name="focusOutFront">true</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceBreadcrumbStyle">
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toEndOf">@id/guidance_icon</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#88F1F1F1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">56dp</item>
+        <item name="android:paddingEnd">32dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceDescriptionStyle">
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_below">@id/guidance_title</item>
+        <item name="android:layout_toEndOf">@id/guidance_icon</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignWithParentIfMissing">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">start</item>
+        <item name="android:maxLines">6</item>
+        <item name="android:textColor">#88F1F1F1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceIconStyle">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:maxHeight">280dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceTitleStyle">
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_below">@id/guidance_breadcrumb</item>
+        <item name="android:layout_toEndOf">@id/guidance_icon</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">start</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#FFF1F1F1</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">2dp</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemCheckmarkStyle">
+        <item name="android:layout_width">@dimen/lb_guidedactions_item_checkmark_diameter</item>
+        <item name="android:layout_height">@dimen/lb_guidedactions_item_checkmark_diameter</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginEnd">@dimen/lb_guidedactions_item_delimiter_padding</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemChevronStyle">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/lb_guidedactions_item_delimiter_padding</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/lb_ic_guidedactions_item_chevron</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemContainerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foreground">?attr/guidedActionsSelectorDrawable</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingBottom">@dimen/lb_guidedactions_item_bottom_padding</item>
+        <item name="android:paddingStart">@dimen/lb_guidedactions_item_start_padding</item>
+        <item name="android:paddingEnd">@dimen/lb_guidedactions_item_end_padding</item>
+        <item name="android:paddingTop">@dimen/lb_guidedactions_item_top_padding</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemContentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start|center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemDescriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">@string/lb_guidedactions_item_unselected_description_text_alpha</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/lb_guidedactions_item_space_between_title_and_description</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:maxLines">@integer/lb_guidedactions_item_description_min_lines</item>
+        <item name="android:textColor">@color/lb_guidedactions_item_unselected_text_color</item>
+        <item name="android:textSize">@dimen/lb_guidedactions_item_description_font_size</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemIconStyle">
+        <item name="android:layout_width">@dimen/lb_guidedactions_item_icon_width</item>
+        <item name="android:layout_height">@dimen/lb_guidedactions_item_icon_height</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginEnd">@dimen/lb_guidedactions_item_delimiter_padding</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">@string/lb_guidedactions_item_unselected_text_alpha</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:maxLines">@integer/lb_guidedactions_item_title_min_lines</item>
+        <item name="android:textColor">@color/lb_guidedactions_item_unselected_text_color</item>
+        <item name="android:textSize">@dimen/lb_guidedactions_item_title_font_size</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionsContainerStyle"/>
+    <style name="Widget.Leanback.GuidedActionsListStyle">
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="verticalMargin">@dimen/lb_guidedactions_list_vertical_spacing</item>
+        <item name="android:paddingStart">@dimen/lb_guidedactions_list_padding_start</item>
+        <item name="android:paddingEnd">@dimen/lb_guidedactions_list_padding_end</item>
+        <item name="focusOutEnd">false</item>
+        <item name="focusOutFront">false</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionsSelectorStyle"/>
+    <style name="Widget.Leanback.GuidedButtonActionsListStyle" parent="Widget.Leanback.GuidedActionsListStyle">
+    </style>
+    <style name="Widget.Leanback.GuidedSubActionsListStyle" parent="Widget.Leanback.GuidedActionsListStyle">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="focusOutSideStart">false</item>
+        <item name="focusOutSideEnd">false</item>
+        <item name="android:layout_marginBottom">@dimen/lb_guidedactions_sublist_bottom_margin</item>
+    </style>
+    <style name="Widget.Leanback.Header">
+        <item name="android:minHeight">@dimen/lb_browse_header_height</item>
+        <item name="android:minWidth">1dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.Header</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">none</item>
+    </style>
+    <style name="Widget.Leanback.Header.Section">
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.Header.Section</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.Leanback.Headers"/>
+    <style name="Widget.Leanback.Headers.VerticalGridView">
+        <item name="android:background">?attr/defaultBrandColor</item>
+        <item name="android:paddingStart">?attr/browsePaddingStart</item>
+        <item name="focusOutFront">true</item>
+        <item name="focusOutEnd">true</item>
+        <item name="verticalMargin">@dimen/lb_browse_headers_vertical_margin</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:contentDescription">@string/lb_navigation_menu_contentDescription</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView"/>
+    <style name="Widget.Leanback.ImageCardView.BadgeStyle">
+        <item name="android:id">@id/extra_badge</item>
+        <item name="android:layout_width">@dimen/lb_basic_card_info_badge_size</item>
+        <item name="android:layout_height">@dimen/lb_basic_card_info_badge_size</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.ContentStyle">
+        <item name="android:id">@id/content_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_below">@+id/title_text</item>
+        <item name="android:layout_toStartOf">@+id/extra_badge</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.ImageCardView.Content</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.ImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:contentDescription">@null</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="layout_viewType">main</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="layout_viewType">info</item>
+        <item name="android:paddingBottom">@dimen/lb_basic_card_info_padding_bottom</item>
+        <item name="android:paddingEnd">@dimen/lb_basic_card_info_padding_horizontal</item>
+        <item name="android:paddingStart">@dimen/lb_basic_card_info_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/lb_basic_card_info_padding_top</item>
+        <item name="android:background">@color/lb_basic_card_info_bg_color</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.TitleStyle">
+        <item name="android:id">@id/title_text</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginBottom">@dimen/lb_basic_card_info_text_margin</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.ImageCardView.Title</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardViewStyle" parent="Widget.Leanback.BaseCardViewStyle">
+        <item name="cardType">infoUnder</item>
+        <item name="infoVisibility">activated</item>
+        <!-- In order to keep backward compatibility we have to create an icon on right. -->
+        <item name="lbImageCardViewType">Title|Content|IconOnRight</item>
+        <!-- Deprecated. Use 'Widget.Leanback.ImageCardView.InfoAreaStyle' instead. -->
+        <item name="infoAreaBackground">@null</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingDescriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#B3EEEEEE</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingHeaderStyle">
+        <item name="android:layout_width">@dimen/lb_onboarding_content_width</item>
+        <item name="android:layout_height">@dimen/lb_onboarding_header_height</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/lb_onboarding_header_margin_top</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingLogoStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingNavigatorContainerStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">58dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingPageIndicatorStyle">
+        <item name="android:layout_width">@dimen/lb_onboarding_content_width</item>
+        <item name="android:layout_height">@dimen/lb_onboarding_navigation_height</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:focusable">true</item>
+        <item name="android:contentDescription">@string/lb_onboarding_accessibility_next</item>
+        <item name="lbDotRadius">@dimen/lb_page_indicator_dot_radius</item>
+        <item name="arrowRadius">@dimen/lb_page_indicator_arrow_radius</item>
+        <item name="dotToDotGap">@dimen/lb_page_indicator_dot_gap</item>
+        <item name="dotToArrowGap">@dimen/lb_page_indicator_arrow_gap</item>
+        <item name="dotBgColor">@color/lb_page_indicator_dot</item>
+        <item name="arrowBgColor">@color/lb_page_indicator_arrow_background</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingStartButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/lb_onboarding_start_button_background</item>
+        <item name="android:elevation">1.5dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:text">@string/lb_onboarding_get_started</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#014269</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlLabelStyle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.PlaybackControlLabel</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlsActionIconsStyle">
+        <item name="play">@drawable/lb_ic_play</item>
+        <item name="pause">@drawable/lb_ic_pause</item>
+        <item name="fast_forward">@drawable/lb_ic_fast_forward</item>
+        <item name="rewind">@drawable/lb_ic_fast_rewind</item>
+        <item name="skip_next">@drawable/lb_ic_skip_next</item>
+        <item name="skip_previous">@drawable/lb_ic_skip_previous</item>
+        <item name="thumb_up_outline">@drawable/lb_ic_thumb_up_outline</item>
+        <item name="thumb_up">@drawable/lb_ic_thumb_up</item>
+        <item name="thumb_down_outline">@drawable/lb_ic_thumb_down_outline</item>
+        <item name="thumb_down">@drawable/lb_ic_thumb_down</item>
+        <item name="repeat">@drawable/lb_ic_loop</item>
+        <item name="repeat_one">@drawable/lb_ic_loop_one</item>
+        <item name="shuffle">@drawable/lb_ic_shuffle</item>
+        <item name="high_quality">@drawable/lb_ic_hq</item>
+        <item name="closed_captioning">@drawable/lb_ic_cc</item>
+        <item name="picture_in_picture">@drawable/lb_ic_pip</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlsButtonStyle">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlsTimeStyle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.PlaybackControlsTime</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemDetailsStyle">
+        <item name="android:paddingStart">?attr/playbackMediaItemPaddingStart</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemDurationStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.PlaybackMediaItemDuration</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemNameStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>"
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.PlaybackMediaItemName</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemNumberStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.PlaybackMediaItemNumber</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemNumberViewFlipperStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemRowStyle" parent="Widget.Leanback.PlaybackRow">
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemSeparatorStyle" parent="Widget.Leanback.PlaybackRow">
+        <item name="android:background">@color/lb_media_background_color</item>
+        <item name="android:src">@color/lb_playback_media_row_separator_highlight_color</item>
+        <item name="android:layout_height">@dimen/lb_playback_media_row_separator_height</item>"
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaListHeaderStyle" parent="Widget.Leanback.PlaybackRow">
+        <item name="android:background">#263238</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaListHeaderTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:gravity">center_vertical</item>"
+        <item name="android:paddingLeft">?attr/playbackMediaItemPaddingStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.PlaybackMediaListHeaderTitle</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackRow">
+        <item name="android:layout_marginStart">?attr/playbackPaddingStart</item>
+        <item name="android:layout_marginEnd">?attr/playbackPaddingEnd</item>
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:foreground">@null</item>
+        <item name="android:background">#384248</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="Widget.Leanback.Row">
+    </style>
+    <style name="Widget.Leanback.Row.Header" parent="Widget.Leanback.Header">
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.Row.Header</item>
+    </style>
+    <style name="Widget.Leanback.Row.HeaderDock">
+        <item name="android:paddingStart">?attr/browsePaddingStart</item>
+    </style>
+    <style name="Widget.Leanback.Row.HorizontalGridView">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:paddingStart">?attr/browsePaddingStart</item>
+        <item name="android:paddingEnd">?attr/browsePaddingEnd</item>
+        <item name="android:paddingBottom">@dimen/lb_browse_item_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/lb_browse_item_vertical_margin</item>
+        <item name="horizontalMargin">@dimen/lb_browse_item_horizontal_margin</item>
+        <item name="verticalMargin">@dimen/lb_browse_item_vertical_margin</item>
+        <item name="focusOutFront">true</item>
+    </style>
+    <style name="Widget.Leanback.Row.HoverCardDescription">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.Row.HoverCardDescription</item>
+        <item name="android:maxWidth">@dimen/lb_browse_row_hovercard_max_width</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+    </style>
+    <style name="Widget.Leanback.Row.HoverCardTitle">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.Row.HoverCardTitle</item>
+        <item name="android:maxWidth">@dimen/lb_browse_row_hovercard_max_width</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Widget.Leanback.Rows">
+    </style>
+    <style name="Widget.Leanback.Rows.VerticalGridView">
+        <item name="android:paddingBottom">?attr/browsePaddingBottom</item>
+        <item name="focusOutFront">true</item>
+        <item name="focusOutEnd">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <style name="Widget.Leanback.SearchOrbViewStyle">
+        <item name="searchOrbIcon">?attr/defaultSearchIcon</item>
+        <item name="searchOrbColor">?attr/defaultSearchColor</item>
+        <item name="searchOrbIconColor">?attr/defaultSearchIconColor</item>
+        <item name="searchOrbBrightColor">?attr/defaultSearchBrightColor</item>
+    </style>
+    <style name="Widget.Leanback.Title"/>
+    <style name="Widget.Leanback.Title.Icon">
+    </style>
+    <style name="Widget.Leanback.Title.Text">
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.Leanback.Title</item>
+    </style>
+    <style name="Widget.Leanback.TitleView">
+        <item name="android:paddingTop">?attr/browsePaddingTop</item>
+        <item name="android:paddingBottom">?attr/browsePaddingTop</item>
+        <item name="android:paddingStart">?attr/browsePaddingStart</item>
+        <item name="android:paddingEnd">?attr/browsePaddingEnd</item>
+    </style>
+    <style name="Widget.LeanbackBase" parent="android:Widget.Holo"/>
+    <style name="selectItemTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="sportGridItemFont">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_margin">2.0dip</item>
+        <item name="android:padding">1.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- <item name="android:textSize">18.0sp</item> -->
+    </style>
+    <style name="sportGridItemFont2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- <item name="android:textSize">18.0sp</item> -->
+    </style>
+    <style name="summeryMultiLineTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="themeactivity">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="tvProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/tv_progress_indeterminate</item>
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style>
+    <style name="tvRatingBarStyle" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/tv_ratingbar</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:max">10</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="tvSmallProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/tv_progress_indeterminate</item>
+    	<item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+    <style name="tvTabStyle">
+	    <item name="android:textColor">@drawable/tv_tab_font_selector</item>
+        <item name="android:background">@drawable/tv_tab_bg_selector</item>
+    </style>
+    <style name="tv_player_progressBarStyleHorizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/tv_player_seek_selector</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:maxHeight">8dip</item>
+        <item name="android:thumbOffset">6dip</item>
+        <item name="android:thumb">@drawable/tv_player_seek_thumb_selector</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+    </style>
+    <style name="vod_select_package">
+        <item name="android:button">@drawable/custom_radio_btn</item>
+        
+    </style>
+</resources>

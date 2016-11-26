@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rating_bar_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_vertical" 
+    android:focusable="false" 
+    android:focusableInTouchMode="false" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+    
+	    <com.iptv.rocky.view.TextViewDip
+	        android:id="@+id/ratring_bar_pingfen" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/white"
+	        android:gravity="center_vertical"
+	        android:text="@string/detail_rating_pingfen"/>
+	    
+	    <RatingBar 
+	        android:id="@+id/rating_bar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="7.0dip"
+	        style="@style/tvRatingBarStyle"
+	        android:gravity="center_vertical" />
+	    
+	    <com.iptv.rocky.view.TextViewDip 
+	        android:id="@+id/ratring_bar_text" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/white"
+		    android:gravity="center_vertical"/>
+	</LinearLayout>
+</RelativeLayout>

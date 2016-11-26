@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.detail.SelectNotNumberMasterView 
+     xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+     
+    <com.iptv.rocky.view.TabItemView 
+        android:id="@+id/select_order" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tvTabStyle"
+		android:focusable="true"
+        android:clickable="true"
+        android:gravity="center" />
+     
+	<com.iptv.rocky.view.detail.SelectNotNumberGallery 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:id="@+id/select_gallery" />
+		
+</com.iptv.rocky.view.detail.SelectNotNumberMasterView>

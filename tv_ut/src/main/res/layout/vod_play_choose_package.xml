@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ui.player.fragment.ChoosePackage
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="30"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/dispInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/vod_play_choose_package_fragment_title"
+        android:textColor="@color/md_yellow_100"
+        android:textSize="@dimen/p_60" />
+
+    <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dispInfo"
+        android:layout_marginLeft="40dp" 
+        android:checkedButton="@+id/radio_per_day"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radio_per_vod" android:layout_height="wrap_content" android:layout_width="match_parent"
+            android:layout_marginTop="10dp" 
+            android:layout_marginBottom="10dp" 
+            android:paddingLeft="@dimen/p_10"
+            android:text="@string/vod_play_choose_package_fragment_package_vod"
+            android:textSize="@dimen/p_60" 
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/md_blue_900"
+            style="@style/vod_select_package"
+            />
+
+        <RadioButton 
+            android:id="@+id/radio_per_day"  
+            android:layout_marginTop="10dp" 
+            android:layout_marginBottom="10dp" 
+            android:layout_height="wrap_content" 
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/p_10"
+            android:textColorHighlight="@color/md_blue_900" 
+            style="@style/vod_select_package"
+            android:textColor="@color/white"
+            android:text="@string/vod_play_choose_package_fragment_package_day"
+            android:textSize="@dimen/p_60" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent" 
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/radio_group1" 
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btn_vodplay_begin_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radio_group1"
+            android:layout_marginRight="10dp"
+            android:text="@string/vod_play_choose_package_fragment_btn_pay"
+            android:textSize="@dimen/p_66" />
+    </LinearLayout>
+    
+</com.ui.player.fragment.ChoosePackage>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1.0px" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/listview_selector" 
+    android:visibility="gone" />

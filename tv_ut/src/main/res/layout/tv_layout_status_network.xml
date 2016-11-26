@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:gravity="center" >
+
+    <com.iptv.rocky.view.NetworkStateView
+		android:id="@+id/tv_status_netstate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		tv:scaleWidth="@dimen/tv_master_imagesize"
+		tv:scaleHeight="@dimen/tv_master_imagesize" />
+
+    <com.iptv.rocky.view.TimeTickView
+		android:id="@+id/tv_status_TimeTick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="@dimen/home_item_padding" />
+
+</LinearLayout>

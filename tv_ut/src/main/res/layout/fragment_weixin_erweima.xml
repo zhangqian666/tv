@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:background="@color/md_grey_900"  
+    android:layout_height="match_parent" 
+    android:layout_marginTop="10dp" 
+    android:layout_marginLeft="10dp" 
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center_horizontal">
+    
+    <TextView 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" 
+            android:layout_marginRight="10dp"
+            android:textColor="@color/md_yellow_100"  
+            android:textSize="40dp"
+            android:id="@+id/weixin_pay_info"
+            android:text="微信二维码支付，请打开手机或PAD中的微信，选择扫一扫，扫码电视屏幕上方的二维码，扫完后请耐心等待."></TextView>
+    
+</RelativeLayout>

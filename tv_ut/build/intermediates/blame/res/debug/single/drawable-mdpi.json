@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_restore_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_restore_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_play.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_play.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_button.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_button.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_hlv_overscroll_glow.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_media_controller_background.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_media_controller_background.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_fullscreen.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_fullscreen.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_pause.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_pause.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_seek_thumb_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_seek_thumb_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_hlv_overscroll_edge.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_hlv_overscroll_edge.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_fullscreen_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_fullscreen_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_time.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_time.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_restore.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_restore.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/progressbar_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/progressbar_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_focus_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_focus_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_seek_thumb.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_seek_thumb.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-mdpi/tv_player_manual.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-mdpi/tv_player_manual.png"
+    }
+]

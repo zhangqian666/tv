@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>     
+<selector xmlns:android="http://schemas.android.com/apk/res/android">   
+	<item android:state_focused="false" android:drawable="@drawable/start_play_normal" />
+	<!-- Focused states -->
+	<item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/start_play_select" />
+	<item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/start_play_down" />
+	<item android:drawable="@drawable/start_play_normal" />
+</selector>  

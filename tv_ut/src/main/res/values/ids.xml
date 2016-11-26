@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Welcome Activity -->
+    <item type="id" name="splash">false</item>
+    <item type="id" name="btn_chinese">false</item>
+    <item type="id" name="btn_english">false</item>
+    <item type="id" name="ceo_image">false</item>
+    <item type="id" name="welcome_text">false</item>
+    <item type="id" name="choose_language_button">false</item>
+    <item type="id" name="welcome_fragment">false</item>
+    
+    <item type="id" name="home_main">false</item>
+    
+    
+    
+    <!-- Choose interactive or traditional mode Activity -->
+    <item type="id" name="interactive_text">false</item>
+    <item type="id" name="traditional_text">false</item>
+    
+    <!-- First Activity -->
+    <item type="id" name="txt_aaa_info_of_first"/>
+    
+    <item type="id" name="linear_playbill_tips"/>
+    <item type="id" name="relative_playbill"/> 
+    <item type="id" name="tv_playbill"/>
+    <item type="id" name="tv_playbill_next"/>
+    <item type="id" name="clock_playbill"/>
+    
+    <!--TV Channel play page Begin-->
+    <item type="id" name="tv_playbill_channel_num" />
+    <item type="id" name="tv_playbill_channel_name" />
+    <item type="id" name="tv_clock_time"/>
+    <item type="id" name="timeshift_play_speed"/>
+    <item type="id" name="live_channel_progress_controlbar"/>
+    <item type="id" name="live_channel_name"/>
+    <item type="id" name="timeshift_channel_play_progressBar"/>
+    <item type="id" name="timeshift_play_current_time"/>
+    <item type="id" name="timeshift_play_status_icon"/>
+    <item type="id" name="timeshift_play_total_time"/>
+    <item type="id" name="timeshift_play_begin_time"/>
+    <item type="id" name="frame_channel_number_bg">false</item>
+    <item type="id" name="iv_channel_num_bg">false</item>
+    <item type="id" name="channel_user_channelid">false</item>
+    
+    <!-- TV Channel play page  End -->
+    <item type="id" name="lv_main_first_level">false</item>
+    <item type="id" name="line">false</item>
+    <item type="id" name="frame_main_channel_second_level">false</item>
+    <item type="id" name="tv_menu_category_name">false</item>
+    <item type="id" name="lv_main_channel_second_level">false</item>
+    <item type="id" name="linear_main_channel_second_level">false</item> 
+    <item type="id" name="frame_menu_third_level">false</item>
+    <item type="id" name="linear_menu_third_level">false</item>
+    <item type="id" name="linear_menu_third_level_channel_info">false</item>
+    <item type="id" name="tv_channel_info">false</item>
+    <item type="id" name="tv_preview_playbill">false</item>
+    <item type="id" name="lv_playbill">false</item>
+    <item type="id" name="pb_menu_playbill">false</item>
+    <item type="id" name="tv_menu_playbill_null">false</item>
+   	<item type="id" name="timeshift_icon"/>
+    <item type="id" name="channel_play_error_exit_apk"/>
+     <item type="id" name="channel_play_error_txt"/>
+    
+    <item type="id" name="user_channel_number">false</item>
+    <item type="id" name="channel_result">false</item>
+    
+    
+    <!-- Vod play page -->
+    <item type="id" name="vod_play_vod_name"/>
+    <item type="id" name="vod_play_progressBar"/>
+    <item type="id" name="vod_play_current_time"/>
+    <item type="id" name="vod_play_total_time"/>
+    <item type="id" name="vod_play_status_icon"/>
+    <item type="id" name="playbill_main"/>
+    <item type="id" name="vod_play_speed"/>
+    <item type="id" name="vod_play_exit_thanks"/>
+    <item type="id" name="vod_exit_confirm_dialog"/>
+    <item type="id" name="btn_vod_exit_play"/>
+    <item type="id" name="btn_vod_continue_play"/>
+    <item type="id" name="vod_progress_controlbar"/>
+    <item type="id" name="vod_play_error_exit_apk"/>
+    
+    <!-- Schedule play page -->
+   	<item type="id" name="schedule_play_vod_name"/>
+    <item type="id" name="schedule_play_progressBar"/>
+    <item type="id" name="schedule_play_current_time"/>
+    <item type="id" name="schedule_play_total_time"/>
+    <item type="id" name="schedule_playbill_main"/>
+    <item type="id" name="shedule_progress_controlbar"/>
+    <item type="id" name="schedule_play_status_icon"/>
+    <item type="id" name="schedule_play_speed"/>
+    <item type="id" name="schedule_play_exit_thanks"/>
+    <item type="id" name="schedule_play_error_exit_apk"/>
+    
+    
+    <item type="id" name="my_hotel_picture_list_layout">false</item>
+    <item type="id" name="my_hotel_picture_list_title">false</item>
+    <item type="id" name="my_hotel_picture_list_viewpage">false</item>
+    
+    
+    <item type="id" name="my_hotel_picture_show_layout">false</item>
+    <item type="id" name="my_hotel_picture_show_viewpager">false</item>
+    
+    
+</resources>

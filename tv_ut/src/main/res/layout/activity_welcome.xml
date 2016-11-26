@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_bg" >
+    
+    <ImageView android:id="@+id/welcome_text" 
+        android:layout_marginLeft="120dp" 
+        android:layout_marginTop="100dip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/hdsm"/>
+    
+    <ImageView android:id="@+id/ceo_image"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+        android:layout_marginTop="120dip"
+        android:layout_toRightOf="@+id/welcome_text"
+       	android:layout_marginLeft="100dip"
+        android:background="@drawable/boss"/>
+    
+    <LinearLayout
+        android:id="@+id/choose_language_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_centerVertical="true" 
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+		    android:id="@+id/chinese"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="true" 
+		    android:layout_marginRight="40dp"
+		    android:focusable="true"
+		    android:focusableInTouchMode="true"
+		    android:background="@drawable/chinese_button_change" />
+	    
+	    <Button
+	        android:id="@+id/english"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginLeft="40dp"
+
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:background="@drawable/english_button_change" />
+
+    </LinearLayout>
+    <include layout="@layout/tv_progressbar" />
+</RelativeLayout>

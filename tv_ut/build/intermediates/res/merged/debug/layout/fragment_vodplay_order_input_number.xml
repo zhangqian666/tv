@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:background="@color/md_grey_900"  
+    android:layout_height="match_parent" 
+    android:layout_marginTop="10dp" 
+    android:layout_marginLeft="10dp" 
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center_horizontal">
+    
+<!--     <TextView 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"  
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" 
+            android:layout_marginRight="10dp"
+            android:textColor="@color/md_yellow_100"  
+            android:textSize="40dp"
+            android:id="@+id/dispInfo"
+            android:text="本片为付费视频，VIP会员免费观看。\n如需购买，请即刻致电MAGIC，索取密码，或选择支付宝或微信在线购买."></TextView>
+    
+    <EditText android:layout_width="200dp" 
+        	android:layout_height="wrap_content"
+        	android:textSize="40dp"
+        	android:typeface="sans"
+        	android:layout_marginTop="20dp"
+        	android:layout_marginLeft="10dp" 
+        	android:id="@+id/edt_password"
+        	android:layout_below="@+id/dispInfo"
+            android:layout_marginRight="10dp"/>
+    
+    <Button
+            android:id="@+id/btn_vodplay_order_by_password"
+            android:textColor="@color/md_orange_900"
+            android:layout_marginRight="10dp" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="确认购买"
+            android:textSize="@dimen/p_66" 
+            android:layout_alignTop="@id/edt_password"
+            android:layout_toRightOf="@id/edt_password"/> -->
+
+</RelativeLayout>

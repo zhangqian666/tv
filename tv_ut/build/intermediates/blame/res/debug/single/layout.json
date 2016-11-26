@@ -1,0 +1,742 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_row_media_item.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_row_media_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/livetype_listitem.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/livetype_listitem.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_history.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_history.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_movie_list.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_movie_list.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_status_num.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_status_num.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_control_bar.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_control_bar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_tab_scrollable.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_tab_scrollable.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_playback_controls_row.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_playback_controls_row.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_details_overview.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_details_overview.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_image_card_view_themed_badge_left.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_image_card_view_themed_badge_left.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_select_episode_master.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_select_episode_master.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_vodseccategory.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_vodseccategory.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tcl_activity_rec_channel.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tcl_activity_rec_channel.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_toast.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_toast.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragmenttest.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragmenttest.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_fullwidth_details_overview_logo.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_fullwidth_details_overview_logo.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_account_setting.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_account_setting.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_header.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_header.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/download_dialog_layout.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/download_dialog_layout.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_image_card_view_themed_title.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_image_card_view_themed_title.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/dashboard_video_play.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/dashboard_video_play.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_interactive_or_traditional.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_interactive_or_traditional.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_home_notice.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_home_notice.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_media_list_header.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_media_list_header.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/detail_tab_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/detail_tab_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_voddetail_choose_order_method.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_voddetail_choose_order_method.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_media_loading.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_media_loading.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_anim.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_anim.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_status_livecenter_refresh.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_status_livecenter_refresh.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidedstep_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidedstep_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_picker_column.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_picker_column.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_scrolling_message.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_scrolling_message.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_choose_language_2.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_choose_language_2.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/movie_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/movie_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_top.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_top.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_movie_column.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_movie_column.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_image_card_view.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_image_card_view.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_rows_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_rows_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_simple_spinner_dropdown_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_special_category.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_special_category.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_sec.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_sec.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_history_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_history_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_media_item_number_view_flipper.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_media_item_number_view_flipper.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_my_hotel_show_pictures.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_my_hotel_show_pictures.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_thd.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_thd.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_play_advertisement.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_play_advertisement.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_status_network.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_status_network.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_user_setting.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_user_setting.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vod_order_success.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vod_order_success.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vodplay_choose_package.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vodplay_choose_package.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/rec_bill_page_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/rec_bill_page_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_picker_item.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_picker_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/ratingbar.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/ratingbar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_detail.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_detail.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_tab_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_tab_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_control_button_secondary.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_control_button_secondary.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_movie_list_page_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_movie_list_page_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/setting_status.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/setting_status.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_playback_now_playing_bars.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_playback_now_playing_bars.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_detail_similar.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_detail_similar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_movie_column_grid_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_movie_column_grid_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_store_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_store_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_detail_main_video_rect.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_detail_main_video_rect.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vodplay_order_input_number.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vodplay_order_input_number.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidedstep_background.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidedstep_background.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_title_view.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_title_view.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vodplay_order_status.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vodplay_order_status.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_screen_protect.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_screen_protect.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_vip_image.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_vip_image.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_movie.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_movie.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_voddetail_order_by_password.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_voddetail_order_by_password.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_list_row.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_list_row.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidedactions_item.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidedactions_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_row_header.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_row_header.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_action_2_lines.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_action_2_lines.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_browse_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_browse_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/base_video_view.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/base_video_view.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/usercenter_status_edit.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/usercenter_status_edit.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vodplay_choose_pay_method.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vodplay_choose_pay_method.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_store.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_store.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_details_description.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_details_description.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_search.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_search.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_player_manual.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_player_manual.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/item_line.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/item_line.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_status_page.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_status_page.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_media_controller.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_media_controller.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/my_hotel_picture_list_page_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/my_hotel_picture_list_page_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/use_widget_activity.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/use_widget_activity.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_play_choose_pay_method.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_play_choose_pay_method.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_simple_spinner_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_simple_spinner_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_error_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_error_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_screen_protect.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_screen_protect.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vodplay_progress_bar.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vodplay_progress_bar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_play.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_play.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/livetype_page_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/livetype_page_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_fullwidth_details_overview.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_fullwidth_details_overview.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_topver.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_topver.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/special_list_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/special_list_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_search_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_search_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_detail_summery.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_detail_summery.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_row_container.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_row_container.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_status.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_status.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_list.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_list.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_tab.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_tab.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/iptv_vod_play_progress_control_bar.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/iptv_vod_play_progress_control_bar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/list_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/list_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/live_listitem.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/live_listitem.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_choose_language.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_choose_language.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_details_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_details_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_play_choose_package.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_play_choose_package.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_image_card_view_themed_badge_right.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_image_card_view_themed_badge_right.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_vertical_grid.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_vertical_grid.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_recchan.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_recchan.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_alipay_erweima.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_alipay_erweima.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_player.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_player.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_detail_similar_list_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_detail_similar_list_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_headers_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_headers_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_progressbar.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_progressbar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_default_vod_img.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_default_vod_img.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_playback_controls.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_playback_controls.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_play_choose_play_position.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_play_choose_play_position.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/special_category_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/special_category_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_my_hotel_sec.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_my_hotel_sec.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/usercenter_status.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/usercenter_status.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_traditional_splash.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_traditional_splash.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_live.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_live.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_small_progressbar.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_small_progressbar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_floatlayer.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_floatlayer.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_play_setting.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_play_setting.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_backimage.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_backimage.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidedbuttonactions.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidedbuttonactions.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_picker_separator.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_picker_separator.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidedactions.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidedactions.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_picker.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_picker.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_traditional_live_channel_play.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_traditional_live_channel_play.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_speech_orb.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_speech_orb.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_detail_main.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_detail_main.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_special_detail.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_special_detail.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/dashboard_media_loading.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/dashboard_media_loading.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/recchan_listitem.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/recchan_listitem.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_category.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_category.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_action_1_line.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_action_1_line.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_vod_search.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_vod_search.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_live.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_live.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_control_button_primary.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_control_button_primary.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_search_orb.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_search_orb.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/prompt_dialog_layout.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/prompt_dialog_layout.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_divider.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_divider.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_onboarding_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_onboarding_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_dashboard.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_shadow.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_shadow.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_list_row_hovercard.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_list_row_hovercard.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_search_item_common.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_search_item_common.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_browse_title.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_browse_title.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/home_page_item_tophor.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/home_page_item_tophor.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_weixin_erweima.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_weixin_erweima.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_row_media_item_action.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_row_media_item_action.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidance.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidance.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/select_gallery_master.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/select_gallery_master.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tcl_activity_live_channel.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tcl_activity_live_channel.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/update_dialog_layout.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/update_dialog_layout.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_about.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vod_pay_by_wechat.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vod_pay_by_wechat.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_detail_main_control.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_detail_main_control.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_play_order_status.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_play_order_status.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vodthd_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vodthd_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_vertical_grid_fragment.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_vertical_grid_fragment.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/vod_select_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/vod_select_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_section_header.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_section_header.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_vodplay_pay_by_password.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_vodplay_pay_by_password.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_search_bar.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_search_bar.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tv_layout_livecenter_refresh.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tv_layout_livecenter_refresh.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/activity_my_hotel_picture_list.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/activity_my_hotel_picture_list.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/list_tag_item.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/list_tag_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/tcl_activity_vod_channel.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/tcl_activity_vod_channel.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_background_window.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_background_window.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/fragment_live_help.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/layout/fragment_live_help.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_guidedactions_datepicker_item.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_guidedactions_datepicker_item.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/layout/lb_image_card_view_themed_content.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/layout/lb_image_card_view_themed_content.xml"
+    }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.setting.AboutMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+  
+    <com.iptv.rocky.view.TitleView 
+        android:id="@+id/about_top_txt"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/about_title"
+	    android:layout_alignParentLeft="true" />        
+   
+    <com.iptv.rocky.view.TextViewDip
+        android:id="@+id/about_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_content_title"
+        android:gravity="center"
+        android:layout_below="@+id/about_top_txt" />
+    <LinearLayout
+        android:id="@+id/about_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/setting_content"
+        android:gravity="left"
+        android:layout_below="@+id/about_content_title" >
+        <com.iptv.rocky.view.TextViewDip
+	        android:id="@+id/about_content_detail"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="@string/about_content" />
+    </LinearLayout>
+    
+    <include layout="@layout/setting_status" />
+
+</com.iptv.rocky.view.setting.AboutMasterLayout>

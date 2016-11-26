@@ -1,0 +1,89 @@
+<com.iptv.rocky.view.vodsearch.SearchMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+    
+    <com.iptv.rocky.view.TitleView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:text="@string/search" />
+    
+    <com.iptv.rocky.view.TitleView
+        android:id="@+id/tv_status_total_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+    
+    <com.iptv.rocky.view.TextViewDip
+	    android:id="@+id/search_beginnote"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:padding="@dimen/search_note_padding"
+	    android:text="@string/search_begin_note_txt" />
+
+    <LinearLayout
+        android:id="@+id/search_emptynote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone" >
+        
+        <com.iptv.rocky.view.ScaleAsyncImageView
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:padding="@dimen/search_note_padding"
+	        android:src="@drawable/search_empty_sad"
+	        tv:scaleWidth="@dimen/search_note_imagesize"
+        	tv:scaleHeight="@dimen/search_note_imagesize" />
+        
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/search_emptynote_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/search_empty_note_txt" />
+        
+    </LinearLayout>
+
+    <com.iptv.rocky.view.vodsearch.SearchHorizontalListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/transparent"
+        android:divider="@null"
+        android:visibility="gone" />
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+        
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/search_keyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip" />
+        
+        <com.iptv.rocky.view.vodsearch.SearchKeyBoardView
+            android:id="@+id/search_KeyBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+        
+    </LinearLayout>
+    
+    <include layout="@layout/tv_small_progressbar" />
+       
+</com.iptv.rocky.view.vodsearch.SearchMasterLayout>

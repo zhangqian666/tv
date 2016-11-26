@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">沃IPTV</string>
+    <string name="search">Search</string>
+    <string name="back_quit">back quit 沃TV</string>
+    <string name="http_fail">fail</string>
+    <string name="http_notfound">notfound</string>
+    <string name="home_recommend">Recommend</string>
+    <string name="home_live">Live</string>
+    <string name="home_vod">Vod</string>
+    <string name="home_personal">Personal</string>
+    <string name="home_recently_watched">Recently watched</string>
+    <string name="home_collection">Collection</string>
+    <string name="home_setting">Setting</string>
+    <string name="home_play_setting">Play Setting</string>
+    <string name="home_user_setting">User Setting</string>
+    <string name="home_about">About</string>
+    <string name="authing">authing...</string>
+    <string name="authing_success">auth success</string>
+    <string name="authing_fail">auth fail</string>
+    <string name="home_history">play record</string>
+    <string name="home_lookback">look back</string>
+    <string name="home_notcontent">null</string>
+    <string name="detail_tab_1">Detail</string>
+    <string name="detail_tab_2">relevant</string>
+    <string name="detail_main_paly">Play</string>
+    <string name="detail_main_try">Try</string>
+    <string name="detail_main_buy">Buy</string>
+    <string name="detail_main_select">select</string>
+    <string name="detail_main_chase">chase</string>
+    <string name="detail_main_chased">chased</string>
+    <string name="detail_main_store">store</string>
+    <string name="detail_main_stored">stored</string>
+    <string name="detail_rating_pingfen">Score:</string>
+    <string name="detail_number_choose">第%s集</string>
+
+    <!-- 欢迎页面的信息 -->
+    <string name="home_reconnect">Reconnect</string>
+    
+    <!-- 详情页 -->
+    <string name="detail_mark">%s score</string>
+    <string name="detail_year">year：%s</string>
+    <string name="detail_area">area：%s</string>
+    <string name="detail_catalog">catalog：%s</string>
+    <string name="detail_director">director：%s</string>
+    <string name="detail_actor">actor：%s</string>
+    <string name="detail_duration">duration：%s</string>
+    <string name="detail_price">price：￥%s</string>
+    <string name="detail_content">content：%s</string>
+    <string name="detail_update">update：%s</string>
+    <string name="detail_all">%s all</string>
+    <string name="detail_recommend_empty">there is nothing to recommend</string>
+
+    <!-- 分集 -->
+    <string name="order_positive">positive</string>
+    <string name="order_negtive">negtive</string>
+
+    <!-- right title indicator -->
+    <string name="special">special</string>
+    <string name="sport">sport</string>
+    <string name="search_begin_note_txt">输入片名首字母搜索哦!\n如搜《变形金刚》可输入BXJG</string>
+    <string name="search_empty_note_txt">没有找到您要搜的视频，换个关键字试试?</string>
+    <string name="usercenter_edit">Edit</string>
+    <string name="usercenter_finished">Finished</string>
+    <string name="usercenter_clear">Clear</string>
+    <!-- 播放记录 -->
+    <string name="history_top_text">History</string>
+    <string name="history_empty_text">there is nothing for my play record</string>
+    <string name="history_sub_title_1">上次观看到%1$s分%2$s秒</string>
+    <string name="history_sub_title_2">上次观看到%1$s的%2$s分%3$s秒</string>
+    <string name="history_clear_dialog">Are you sure clear play record?</string>
+
+    <!-- 收藏 -->
+    <string name="store_top_text">My Favorite</string>
+    <string name="store_empty_text">there is nothing for my favorite</string>
+    <string name="store_clear_dialog">Are you sure clear favorite?</string>
+    <!-- 播放设置 -->
+    <string name="play_setting_title">Play Setting</string>
+    <string name="play_setting_bitrate_title">bitrate</string>
+    <string name="play_setting_framerate_title">framerate</string>
+    <string name="play_setting_autojump_title">autojump</string>
+    <string name="title_play_bitrate_original">original</string>
+    <string name="title_play_bitrate_blueray">blueray</string>
+    <string name="title_play_bitrate_super">super</string>
+    <string name="title_play_bitrate_high">high</string>
+    <string name="title_play_bitrate_normal">normal</string>
+    <string name="title_play_framerate_original">original</string>
+    <string name="title_play_framerate_stretch">stretch</string>
+    <string name="title_play_autojump_on">on</string>
+    <string name="title_play_autojump_off">off</string>
+
+    <!-- 直播播放页 -->
+    <string name="channel_not_found">not found</string>
+    <string name="channel_media_not_available_now">Signal Error,Please Change Channel</string>
+    <string name="channel_media_prepare_failed">Signal Error</string>
+    
+
+    <!-- 关于我们 -->
+    <string name="about_title">About</string>
+    <string name="about_content_title">沃IPTV</string>
+    <string name="about_content">技术支持 : 沃IPTV</string>
+
+    <!-- 版本信息 -->
+    <string name="update_check">Update Check</string>
+    <string name="current_version">当前版本 : %1$s %2$s%3$s</string>
+    <string name="update_dialog_version_txt">最新版本：V</string>
+    <string name="update_check_no_update">已是最新版本</string>
+
+    <!-- 选择中英文 -->
+    <string name="btn_text_choose_interactive">Interactive Mode</string>
+    <string name="btn_text_choose_live">Traditional Mode</string>
+    
+    
+    <!-- 下载设置 -->
+    <string name="download_setting">Download Setting</string>
+
+    <!-- 搜索键盘 -->
+    <string name="search_keyboard_delete">Del</string>
+    <string name="search_keyboard_blank">blank</string>
+    <!-- 用户设置 -->
+    <string name="user_setting_title">User Setting</string>
+    <!-- 账户 -->
+    <string name="account_setting_title">Setting Account</string>
+    <string name="account_username_title">IPTV Account</string>
+    <string name="account_password_title">Password</string>
+    <string name="account_login">Login</string>
+    <string name="account_login_success">Login Success</string>
+    <string name="account_qrcode_title">扫描二维码登录</string>
+    <string name="account_username_empty">用户名不能为空,请重新输入!</string>
+    <string name="account_remote_data_err">登录失败,远程登录数据错误!</string>
+    <string name="account_password_empty">密码不能为空,请重新输入!</string>
+    <string name="account_login_failure_tips">用户名或密码错误!</string>
+    <string name="account_login_failure">登录失败!</string>
+    <string name="account_logined_welcocme">欢迎回来!</string>
+    <string name="account_logout">退出登录</string>
+    <string name="account_logout_dialog_content">确定退出登录吗?</string>
+    <!-- prompt dialog -->
+    <string name="dialog_title">Notice</string>
+    <string name="dialog_tips">Do you confirm to exit？</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_logout_content">亲,你尚未登录 \n是否现在登录?</string>
+    <string name="dialog_login_now">好，现在登录</string>
+    <string name="dialog_register_vip">好的,我知道了</string>
+    <string name="dialog_login_not_vip_content">亲，你还不是会员哦！\n开通会员请用电脑登录： \n IPTV</string>
+    <string name="today">Today</string>
+    <!-- 星期 -->
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="thanks_for_play">谢 谢 收 看</string>
+    <string name="mediaplayer_error_6">电视播放器出现错误，请重新启动电视机</string>
+    <string name="playbill_null">暂无节目单</string>
+    <string name="tips_key_menu">键打开设置</string>
+    <string name="tips_key_navigation_center">键返回</string>
+    <string name="tips_key_ok">键打开频道列表</string>
+    <string name="title_activity_traditional_live_channel_play">TraditionalLiveChannelPlayActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_interactive_or_traditional">InteractiveOrTraditionalActivity</string>
+    <string name="title_activity_traditional_splash">TraditionalSplashActivity</string>
+    <string name="title_activity_splash">HILTON</string>
+    <string name="title_activity_my_hotel_sec">MyHotelSecActivity</string>
+    <string name="title_activity_my_hotel_picture_list">MyHotelPictureListActivity</string>
+    <string name="title_activity_my_hotel_show_pictures">MyHotelShowPicturesActivity</string>
+    <string name="title_activity_vod_play">VodPlayActivity</string>
+    
+    <string name="duration_short">小于1分钟</string>
+    <string name="tv_player_error_detail">获取详情失败！</string>
+    <string name="tv_player_error_boxplay">获取播放地址失败！</string>
+    <string name="tv_player_error_sdk">"加载播放组件失败！</string>
+    <string name="tv_player_error_play">"不支持播放该视频"</string>
+    <!-- <string name="tv_player_error_switchover">"不支持播放该视频，正在帮您切换其他片源"</string> -->
+    <string name="tv_player_play_finish">"视频播放结束"</string>
+    <string name="tv_player_previous">上一集</string>
+    <string name="tv_player_next">下一集</string>
+    <string name="tv_media_virtual_loading1">正在从</string>
+    <string name="tv_media_virtual_loading2">视频加载...</string>
+    <string name="tv_media_loading">LOADING...</string>
+    <string name="vod_order_status">You can play five minutes, Please press OK to order</string>
+    <string name="vod_play_choose_package_fragment_title">The trial ends. Please choose from the following packages for full version.</string>
+    <string name="vod_play_choose_package_fragment_package_vod">Single program %.2f RMB. You may unlimitedly watch and replay the program within 24 hours. </string>
+    <string name="vod_play_choose_package_fragment_package_vod_series">Single program %.2fRMB. You may unlimitedly watch and replay the program within 24 hours. </string>
+    <!-- <string name="vod_play_choose_package_fragment_package_day">All day 50RMB. You may unlimitedly watch all programs within 24 hours. </string> -->
+    <string name="vod_play_choose_package_fragment_package_day">All day %.2fRMB. You may unlimitedly watch all programs within 24 hours. </string>
+    <string name="vod_play_choose_package_fragment_btn_pay">BEGIN PAY</string>
+     <string name="vod_play_choose_package_fragment_btn_pay_psw">PASSWORD PAY</string>
+    <string name="vod_play_choose_package_fragment_btn_pay_wechat">WECHAT PAY</string>
+    <string name="vod_play_choose_package_fragment_btn_pay_ailpay">AILPAY PAY</string>
+    <string name="vod_wechat_pay_prompt">Please open the WeChat sweep, scan two-dimensional code to pay</string>
+    <string name="customer_service_telephone_numbers">Call customer service：0311-82623521</string>
+    
+    <string name="vod_play_choose_pay_method_package_choosed_vod">You Single program %.2fRMB,You may unlimitedly watch and replay the program within 24 hours. </string>
+    <string name="vod_play_choose_pay_method_package_choosed_series">You have choosed Single program %.2fRMB, You may unlimitedly watch and replay the program within 24 hours. </string>
+    <string name="vod_play_choose_pay_method_package_choosed_day">You have choosed All day 50RMB.You may unlimitedly watch all programs within 24 hours. </string>
+    <string name="vod_play_choose_pay_method_fragment_title">Please call MAGIC for password, after enter password, Press OK to Confirm</string>
+    <string name="password_not_over_4">Password should not over 4 bytes</string>
+    <string name="password_please_enter_4">Please enter 4 bytes for password</string>
+    <string name="password_password_error">Password Error, Please retry.</string>
+    
+    <string name="vod_play_play_from_start">REPLAY FROM START</string>
+    <string name="vod_play_continue_play">CONTINUE PLAY</string>
+    
+    <string name="screen_protect_exit">In screen protect now. Press OK to quit.</string>
+    
+    <string name="player_exit_confirm">Exit Play?</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="network_error">检测到无网络,请设置网络!</string>
+    <string name="player_error">播放错误</string>
+    <string name="service_tips">敬请期待</string>
+</resources>

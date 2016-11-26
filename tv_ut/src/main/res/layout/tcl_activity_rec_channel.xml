@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   	<SurfaceView
+        android:id="@+id/mainSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+   	
+
+   	
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent" 
+    	android:orientation="vertical" >
+
+   		<LinearLayout
+   		    android:layout_width="wrap_content" 
+   		    android:layout_height="wrap_content"
+   		    android:visibility="gone" >
+	   		<Button
+	   		    android:id="@+id/buttonPause"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content" 
+	   		    android:visibility="gone"
+	   		    android:text="Pause" />   		   		
+	   		   		
+	   		<Button
+	   		    android:id="@+id/buttonResume"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content" 
+	   		    android:visibility="gone"
+	   		    android:text="Resume" />
+        </LinearLayout>  
+    
+    </LinearLayout>
+   	
+    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical"
+            android:gravity="center_vertical" android:background="@color/dialog_background"
+            android:id="@+id/schedule_play_exit_thanks"
+            android:visibility="gone">
+       <TextView android:text="@string/thanks_for_play" 
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="120sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    
+    
+    <!-- 报错处理 -->
+    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:background="@color/dialog_background"
+            android:id="@+id/schedule_play_error_exit_apk"
+            android:visibility="gone">
+        <TextView android:text="@string/mediaplayer_error_6" 
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60sp"
+            android:textColor="@color/white"/>
+   	</LinearLayout>
+   	
+    <!-- 中途退出播放提示框 -->
+    
+   	<RelativeLayout android:id="@+id/exit_confirm_dialog" 
+   	    android:visibility="gone"  
+   	    android:background="@color/history_background_color"
+   	    android:layout_width="fill_parent" 
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginBottom="100dp"
+   	    android:gravity="center_horizontal"
+   	    android:layout_gravity="bottom">
+   	    <Button
+            android:id="@+id/btn_exit_play"
+   		    android:layout_width="180dp" 
+   		    android:textColor="@color/white"
+   		    android:layout_height="180dp"
+   		    android:text="退出播放" />
+        <Button
+   		    android:id="@+id/btn_continue_play"
+   		    android:layout_width="180dp"
+   		    android:layout_height="180dp"
+   		    android:text="继续播放" 
+   		    android:layout_toRightOf="@+id/btn_exit_play"/>
+         <Button
+   		    android:id="@+id/btn_continue_up"
+   		    android:layout_width="180dp"
+   		    android:layout_height="180dp"
+   		    android:visibility="gone"
+   		    android:text="上一集" 
+   		    android:layout_toRightOf="@+id/btn_continue_play"/>
+          <Button
+   		    android:id="@+id/btn_continue_down"
+   		    android:layout_width="180dp"
+   		    android:layout_height="180dp"
+   		    android:visibility="gone"
+   		    android:text="下一集" 
+   		    android:layout_toRightOf="@+id/btn_continue_up"/>
+           <Button
+   		    android:id="@+id/btn_continue_stop"
+   		    android:layout_width="180dp"
+   		    android:layout_height="180dp"
+   		    android:visibility="gone"
+   		    android:text="添加书签" 
+   		    android:layout_toRightOf="@+id/btn_continue_down"/>
+   	    
+   	</RelativeLayout>
+   
+     <RelativeLayout
+        android:id="@+id/shedule_progress_controlbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/vod_menu_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/schedule_play_vod_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="节目名称"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/vod_play_bar_bg" >
+
+            <ProgressBar
+                android:id="@+id/schedule_play_progressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="9dp"
+                android:layout_marginTop="2dp"
+                android:progressDrawable="@drawable/play_custom_pb"
+                android:background="@drawable/scrollbar_bg" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent" 
+                android:layout_below="@+id/schedule_play_progressBar"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/video_play_controlbar_layout_paddingleft"
+                android:paddingRight="@dimen/video_play_controlbar_layout_paddingright" >
+
+               
+
+                    <!-- 中间状态按钮 -->
+                <ImageView
+                        android:id="@+id/schedule_play_status_icon"
+                     android:layout_width="wrap_content" 
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:src="@drawable/pause_iocn" />
+
+                <TextView
+                    android:id="@+id/schedule_play_current_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00:01"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/video_play_controlbar_time_text" />
+                
+                <TextView
+                        android:id="@+id/schedule_play_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/schedule_play_current_time"
+                        android:layout_centerHorizontal="true"
+                        android:text="X16"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/video_play_controlbar_time_text" />
+
+                <TextView
+                    android:id="@+id/schedule_play_total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/video_play_controlbar_time_magin"
+                    android:text="10:00:00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/video_play_controlbar_time_text" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

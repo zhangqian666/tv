@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tv_player"
+    android:background="@android:color/background_dark" >
+
+    <!-- MeLe盒子视频全屏，进度条消失不了，所以，周围留一点空间android:layout_margin，解决 -->
+
+    <com.ui.player.TVVideoView
+        android:id="@+id/tv_player_videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dip" />
+        
+    <!--
+         <com.pplive.androidpad.layout.AnimatedImageView
+        android:id="@+id/tv_player_buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tv_loading"
+        android:visibility="invisible" />
+    -->
+
+    <ProgressBar
+        android:id="@+id/tv_player_buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/tv_loading"
+        android:visibility="invisible" />
+
+<!--      <include
+        android:id="@+id/tv_player_loading"
+        layout="@layout/tv_media_loading" />
+-->
+
+		<include android:id="@+id/order_status_bar"  
+		    layout="@layout/vod_play_order_status" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:layout_alignParentBottom="true"/>
+		
+		<include android:id="@+id/choose_package" layout="@layout/vod_play_choose_package" android:visibility="gone"/>
+		<include android:id="@+id/choose_pay_method" layout="@layout/vod_play_choose_pay_method" android:visibility="gone"/>
+		<include android:id="@+id/vod_play_choose_play_position" layout="@layout/vod_play_choose_play_position" android:visibility="gone"/>
+</RelativeLayout>

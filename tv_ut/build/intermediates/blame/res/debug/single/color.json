@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/color/tv_player_button_color.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/color/tv_player_button_color.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/color/selector_text_white_alpha_60.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/color/selector_text_white_alpha_60.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/color/selector_text_gray_alpha_60.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/color/selector_text_gray_alpha_60.xml"
+    }
+]

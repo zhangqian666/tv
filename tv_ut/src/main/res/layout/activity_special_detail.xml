@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.special.SpecialDetailMasterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/special_detail_master"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/tv_background">
+	
+    <HorizontalScrollView
+        android:id="@+id/special_detail_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <com.iptv.common.view.AsyncImageView
+            android:id="@+id/special_detail_scroll_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+	        android:scaleType="fitXY" />
+        
+    </HorizontalScrollView>
+    
+    <!-- 全屏遮罩层 -->
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:focusable="false"
+        android:background="@drawable/tv_fullscreen_shap"/>
+
+    <com.iptv.rocky.view.special.SpecialHListView
+        android:id="@+id/special_detail_hlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+	    android:divider="@null"
+        android:listSelector="@color/transparent" />
+
+    <include layout="@layout/tv_layout_status" />
+    
+	<include layout="@layout/tv_progressbar" />	
+	    
+</com.iptv.rocky.view.special.SpecialDetailMasterView>

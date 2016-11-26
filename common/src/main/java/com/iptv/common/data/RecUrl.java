@@ -1,0 +1,27 @@
+package com.iptv.common.data;
+
+import java.io.Serializable;
+
+/**
+ * 回看播放地址
+ */
+public class RecUrl implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3755837100204680987L;
+	
+	/*
+ 	<URL>
+		<PROGID>4613346</PROGID>
+		<PLAYBILLID>4613346</PLAYBILLID>
+		<PLAYTYPE>4</PLAYTYPE>
+		<TIME>0</TIME>
+		<RTSPURL>
+		rtsp://10.0.3.74/TVOD/88888889/224/3221225824/10000100000000060000000000000402_0.smil?playseek=20140512140400-20140512145400&rrsip=10.0.3.72,rrsip=10.0.3.73&foreign=10000100000000070000000004666530&icpid=SSPID&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=5hcLlI7LQpOLNDAaeS8CVn/ITF6OIyHOHfJz2J9eXeS8u9ncc2SXnuRM5NNpu+Agf4NZSzaTidBFoDpiEXxujIVV8p+GYsncg3luPMGfQf7OY5N4Qo5JebWUqw/dVAkpfiTeZ8oEu5r11clA0mtCe8LD402V+DreKRIGHCaZ02s=:20140515135504,gdtest,172.25.41.243,20140515135504,00000001000000070000000012125315,A143D3841E1394A14DFAE26076436499,-1,1,300,,,4,0,0,,5,END
+		</RTSPURL>
+	</URL>
+	 */
+	public String RTSPURL;
+	
+}

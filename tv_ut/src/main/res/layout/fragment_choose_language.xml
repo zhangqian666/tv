@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" >
+    
+    <TextView android:id="@+id/welcome_text_guestname" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_marginStart="@dimen/p_210"
+        android:layout_marginEnd="@dimen/p_210"
+        android:layout_marginTop="@dimen/p_75"
+        android:textSize="@dimen/p_60"
+        
+        android:visibility="gone"
+        android:textColor="@color/white"/>
+    
+    <TextView android:id="@+id/welcome_text_body" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:singleLine="false" 
+        android:lineSpacingExtra="@dimen/p_10"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_alignParentTop="true" 
+        android:layout_marginStart="@dimen/p_210" 
+        android:layout_marginEnd="@dimen/p_210"
+        android:layout_marginTop="@dimen/p_210"
+        android:textSize="@dimen/p_54"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+    
+    <!-- 提示信息 -->
+    <ImageView
+        android:id="@+id/promptImageBottom" 
+        android:visibility="gone" 
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    
+    <!-- 欢迎图片底图 -->
+    <com.iptv.common.view.AsyncImageView
+        android:id="@+id/welcomeImageBottom" 
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    
+    <ImageView
+         android:id="@+id/welcome_text" android:layout_alignParentTop="true"
+         android:layout_width="match_parent" android:layout_height="wrap_content"
+         android:visibility="gone"/>
+    
+    <ImageView 
+        android:id="@+id/chooseLanguageIv"
+        android:background="@drawable/choose_language_bg" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    
+       <ImageView 
+         android:id="@+id/chooseLanguageIv_chAndEn"
+         android:background="@drawable/choose_language_bg_zh_en" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    
+    <LinearLayout
+        android:id="@+id/choose_language_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_centerVertical="true" 
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+		    android:id="@+id/chinese"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="true" 
+		    android:layout_marginRight="40dp"
+		    android:focusable="true"
+		    android:focusableInTouchMode="true"
+		    android:background="@drawable/chinese_button_change" />
+	      <Button
+		    android:id="@+id/enter"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="true" 
+		    android:layout_marginRight="40dp"
+		    android:focusable="true"
+		    android:focusableInTouchMode="true"
+		    android:visibility="gone"
+		    android:background="@drawable/into_button_change" />
+	    <Button
+	        android:id="@+id/english"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginLeft="40dp"
+
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:background="@drawable/english_button_change" />
+
+    </LinearLayout>
+    <include layout="@layout/tv_progressbar" />
+</RelativeLayout>

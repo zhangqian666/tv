@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:orientation="horizontal" >
+
+<!--     <com.iptv.rocky.view.TitleView
+		android:id="@+id/tv_status_cur_page"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right" /> -->
+
+    <com.iptv.rocky.view.TitleView
+		android:id="@+id/tv_status_total_page"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="@dimen/home_item_padding" />
+
+</LinearLayout>

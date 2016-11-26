@@ -1,0 +1,15 @@
+<com.iptv.rocky.view.myHotel.MyHotelPictureShowMasterLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_hotel_picture_show_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background">
+    
+    <android.support.v4.view.ViewPager  
+        android:id="@+id/my_hotel_picture_show_view_pager"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:flipInterval="1000"  
+        android:persistentDrawingCache="animation"/>
+    
+</com.iptv.rocky.view.myHotel.MyHotelPictureShowMasterLayout>

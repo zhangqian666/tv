@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.SearchView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tv_status_search"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    style="@style/tvTabStyle"
+    android:layout_alignParentLeft="true"
+    android:gravity="center" >
+    
+    <com.iptv.rocky.view.ScaleAsyncImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:src="@drawable/tv_search"
+	    tv:scaleWidth="@dimen/search_view_imagesize"
+        tv:scaleHeight="@dimen/search_view_imagesize" />
+
+</com.iptv.rocky.view.SearchView>

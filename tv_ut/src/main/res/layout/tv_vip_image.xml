@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.iptv.rocky.view.ScaleAsyncImageView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item_vip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:visibility="gone"
+    tv:scaleHeight="@dimen/home_icon_scaleimagesize"
+    tv:scaleWidth="@dimen/home_icon_scaleimagesize"
+    tv:src="assets://icon/vip.png" />

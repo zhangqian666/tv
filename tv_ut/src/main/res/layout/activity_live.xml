@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.live.LiveMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+        
+	<com.iptv.rocky.view.live.LiveTypeViewPager
+	  	android:id="@+id/live_viewpage"
+	  	android:layout_width="match_parent"
+	  	android:layout_height="match_parent"
+	  	android:persistentDrawingCache="all"
+	  	android:flipInterval="300" />
+	  
+    <include layout="@layout/tv_layout_tab" />
+    
+    <include layout="@layout/tv_layout_status" />
+    
+    <include layout="@layout/tv_progressbar" />
+	
+</com.iptv.rocky.view.live.LiveMasterLayout>

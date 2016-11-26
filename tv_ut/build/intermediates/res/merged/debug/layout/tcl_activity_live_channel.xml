@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iptv_live_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <SurfaceView
+        android:id="@+id/mainSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView 
+        android:id="@+id/timeshift_icon"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="top|right"
+		android:paddingTop="20dp"
+		android:paddingRight="30dp"
+		android:src="@drawable/shiyi_icon"
+		android:visibility="invisible" />
+   
+    <com.iptv.rocky.tcl.view.live.LiveChooseLayout
+        android:id="@+id/live_choose_layout"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+         
+        <RelativeLayout
+			android:id="@+id/live_type_layout"
+			android:layout_width="match_parent" 
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+			android:paddingRight="10dp"
+			android:paddingLeft="10dp"
+			android:background="@color/dialog_background"
+            android:layout_height="wrap_content" >
+	         
+            <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/setting_left_img" />
+            
+            <com.iptv.rocky.view.TextViewDip
+		        android:id="@+id/live_type_name"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerInParent="true"
+		        android:textColor="@color/white" />
+            
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/setting_right_img" />
+	         
+        </RelativeLayout>
+        
+        <ImageView
+            android:id="@+id/line"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/live_type_layout"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/line" />
+        
+        <com.iptv.rocky.tcl.view.live.LiveChannelListView
+	        android:id="@+id/list_view"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_below="@+id/line" >
+	        <ListView
+	            android:id="@+id/live_channel_list"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:divider="@null" 
+	            android:fadeScrollbars="false"
+	            android:scrollbarFadeDuration="0"
+	            android:scrollbarThumbVertical="@drawable/scroll_style"
+	            android:fadingEdge="none"
+	            android:scrollbars="none"
+	            android:listSelector="@drawable/tv_recchan_selector" />
+        
+	    </com.iptv.rocky.tcl.view.live.LiveChannelListView>
+    </com.iptv.rocky.tcl.view.live.LiveChooseLayout>
+
+    <FrameLayout
+        android:id="@+id/playbill_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/p_m_105"
+        android:background="@drawable/bg_playbillview"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/p_90"
+        android:paddingRight="@dimen/p_90"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" >
+
+            <LinearLayout
+                android:id="@+id/linear_playbill_tips"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/p_120"
+                android:layout_alignParentBottom="true"
+                android:alpha="0.0"
+                android:gravity="right|center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/p_60" >
+
+                <ImageView
+                    android:layout_width="@dimen/p_60"
+                    android:layout_height="@dimen/p_60"
+                    android:padding="@dimen/p_5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_ok" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/tips_key_ok"
+                    android:textColor="@color/channel_playbill_tips"
+                    android:textSize="@dimen/p_30" />
+
+                <ImageView
+                    android:layout_width="@dimen/p_60"
+                    android:layout_height="@dimen/p_60"
+                    android:layout_marginLeft="@dimen/p_60"
+                    android:padding="@dimen/p_5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_menu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/tips_key_menu"
+                    android:textColor="@color/channel_playbill_tips"
+                    android:textSize="@dimen/p_30" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relative_playbill"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linear_playbill_tips"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_playbill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/p_420"
+                    android:ellipsize="marquee"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textColor="@color/channel_playbill_now"
+                    android:textSize="@dimen/p_36"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_playbill_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/p_90"
+                    android:layout_marginRight="@dimen/p_90"
+                    android:layout_toRightOf="@+id/tv_playbill"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/p_36"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_playbill_channel_num"
+                android:layout_width="@dimen/p_495"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/relative_playbill"
+                android:layout_marginBottom="@dimen/p_m_105"
+                android:layout_marginLeft="@dimen/p_10"
+                android:alpha="0.5"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:text="301"
+                android:textSize="@dimen/p_240"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_playbill_channel_name"
+            android:layout_width="@dimen/p_525"
+            android:layout_height="@dimen/p_160"
+            android:layout_centerVertical="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/p_36"
+            android:gravity="top|center"
+            android:maxLines="2"
+            android:text="CCTV1 央视综合"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/p_42"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/live_channel_progress_controlbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/vod_menu_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/live_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="节目名称"
+            android:textSize="40sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/vod_play_bar_bg" >
+
+            <ProgressBar
+                android:id="@+id/timeshift_channel_play_progressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="9dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/scrollbar_bg"
+                android:progressDrawable="@drawable/play_custom_pb" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/timeshift_channel_play_progressBar"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="@dimen/video_play_controlbar_layout_paddingleft"
+                android:paddingRight="@dimen/video_play_controlbar_layout_paddingright" >
+
+                <!-- 中间状态按钮 -->
+
+                <ImageView
+                    android:id="@+id/timeshift_play_status_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/pause_iocn" />
+
+                <TextView
+                    android:id="@+id/timeshift_play_begin_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00:01"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/video_play_controlbar_time_text" />
+
+                <TextView
+                    android:id="@+id/timeshift_play_current_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/timeshift_play_begin_time"
+                    android:text="00:00:01"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/video_play_controlbar_time_text" />
+
+                <TextView
+                    android:id="@+id/timeshift_play_speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/timeshift_play_current_time"
+                    android:text="X16"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/video_play_controlbar_time_text" />
+
+                <TextView
+                    android:id="@+id/timeshift_play_total_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="10:00:00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/video_play_controlbar_time_text" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <!-- 报错处理 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical" 
+        android:gravity="center_vertical"
+        android:background="@color/dialog_background"
+        android:id="@+id/channel_play_error_exit_apk"
+        android:visibility="gone" >
+        <TextView 
+            android:text="@string/mediaplayer_error_6" 
+            android:id="@id/channel_play_error_txt"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+<!--     <ProgressBar
+	    android:id="@+id/tv_progressbar"
+	    style="@style/tvProgressBar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"/> -->
+    
+    <ImageView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent" 
+        android:background="@android:color/black" 
+        android:id="@+id/iv_channel_num_bg"
+        android:alpha="0.5" 
+        android:visibility="gone"/>
+    
+    <com.iptv.rocky.tcl.ArialBlackTextView 
+        android:id="@+id/user_channel_number" 
+        android:layout_width="@dimen/p_1350" 
+        android:layout_height="wrap_content" 
+        android:gravity="center" 
+        android:alpha="0.3" 
+        android:layout_gravity="center" 
+        android:maxLines="1" 
+        android:textSize="@dimen/p_600"
+        android:visibility="gone" 
+		android:textColor="@color/white"/>
+    
+    <LinearLayout 
+        android:id="@+id/channel_result" 
+        android:background="@color/dialog_background"
+        android:layout_gravity="center_vertical|right" 
+        android:gravity="right|center_vertical"
+        android:layout_width="wrap_content" 
+        android:orientation="horizontal" 
+        android:visibility="gone"
+       	android:layout_height="wrap_content" >
+        <ImageView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+       	 	android:background="@drawable/icon_negative"/>
+    	<TextView 
+    	    android:layout_width="wrap_content" 
+    	    android:textSize="@dimen/p_30"  
+    	    android:layout_marginRight="20dip" android:layout_marginLeft="10dip"
+        	android:layout_height="wrap_content"  
+        	android:textColor="@color/white"
+        	android:text="@string/channel_not_found"/>
+    </LinearLayout>
+   
+    
+</FrameLayout>

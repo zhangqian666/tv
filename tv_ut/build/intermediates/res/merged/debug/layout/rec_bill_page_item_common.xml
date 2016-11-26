@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.recchan.RecBillCommonView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recbill_bg" >
+    
+    <RelativeLayout
+        android:id="@+id/rec_bill_common_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <ImageView
+            android:id="@+id/time_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+	        android:src="@drawable/time" />
+        
+       <com.iptv.rocky.view.TextViewDip
+	        android:id="@+id/rec_bill_common_txt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/time_img"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="60dp"
+	        android:singleLine="true"
+	        android:textColor="@color/white" />
+	    
+        <ImageView
+            android:id="@+id/play_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/play"
+            android:visibility="invisible" />
+        
+    </RelativeLayout>
+
+</com.iptv.rocky.view.recchan.RecBillCommonView>

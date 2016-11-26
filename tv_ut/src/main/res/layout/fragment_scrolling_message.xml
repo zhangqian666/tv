@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:attrstest="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" 
+    android:background="@color/md_grey_900" 
+    android:layout_gravity="bottom" 
+    android:layout_marginTop="620dp" 
+    android:layout_height="50dp" >
+   
+   <com.iptv.rocky.MarqueeTextView 
+       android:id="@+id/scollMessage"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="bottom"
+       android:textColor="@color/md_deep_orange_50"
+       attrstest:content="test"
+       attrstest:marquee_speed="1"
+       />     
+        
+</LinearLayout>

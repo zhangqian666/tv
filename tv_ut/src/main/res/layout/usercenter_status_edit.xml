@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.usercenter.EditStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tv_status_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_gravity="center_vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/usercenter_linearlayout_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/tv_tab_bg_selector" >
+        <com.iptv.rocky.view.ScaleAsyncImageView
+            android:id="@+id/usercenter_imageview_edit"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/usercenter_edit_icon"
+	        tv:scaleWidth="@dimen/usercenter_eidt_icon_scaleimagesize" 
+	        tv:scaleHeight="@dimen/usercenter_eidt_icon_scaleimagesize" />
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/usercenter_btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/usercenter_edit" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/usercenter_linearlayout_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_gravity="center"
+        android:background="@drawable/tv_tab_bg_selector" >
+        <com.iptv.rocky.view.ScaleAsyncImageView
+            android:id="@+id/usercenter_imageview_clear"
+	        android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/usercenter_clear_icon"
+	        tv:scaleWidth="@dimen/usercenter_clear_icon_scaleimagesize" 
+	        tv:scaleHeight="@dimen/usercenter_clear_icon_scaleimagesize" />
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/usercenter_btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/usercenter_clear" />
+    </LinearLayout>
+
+</com.iptv.rocky.view.usercenter.EditStatusView>

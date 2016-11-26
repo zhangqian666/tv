@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.voddetail.DetailSimilarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.iptv.rocky.view.TvHorizontalListView
+        android:id="@+id/detail_similar_hlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@color/transparent" />
+    
+    <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/detail_similar_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:textColor="@color/white" 
+        android:text="@string/detail_recommend_empty"
+        android:visibility="gone" />
+	
+    <include layout="@layout/tv_progressbar" />
+    
+</com.iptv.rocky.view.voddetail.DetailSimilarView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.voddetail.SelectItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.iptv.rocky.view.TextViewDip
+        android:id="@+id/select_item_title"
+        style="@style/selectItemTextView"
+        android:layout_centerInParent="true" />
+
+</com.iptv.rocky.view.voddetail.SelectItemView>

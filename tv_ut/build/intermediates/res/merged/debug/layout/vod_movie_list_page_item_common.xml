@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.vodmovielist.VodMovieListCommonView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/live_common_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        
+<!--         <ImageView
+	        android:id="@+id/vod_movie_list_common_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" /> -->
+        
+	    <com.iptv.rocky.view.TextViewDip
+	        android:id="@+id/live_common_txt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:singleLine="true"
+	        android:textColor="@color/white" />
+	    
+<!-- 	    android:textSize="24dp" -->
+	    
+<!-- 	    <ImageView
+            android:id="@+id/vod_movie_list_common_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" /> -->
+        
+    </LinearLayout>
+
+</com.iptv.rocky.view.vodmovielist.VodMovieListCommonView>

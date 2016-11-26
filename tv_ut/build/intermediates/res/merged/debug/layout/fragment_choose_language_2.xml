@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="@drawable/choose_language_bg_2" >
+    
+    <TextView android:id="@+id/welcome_text_guestname" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_marginStart="@dimen/p_210"
+        android:layout_marginEnd="@dimen/p_210"
+        android:layout_marginTop="@dimen/p_75"
+        android:textSize="@dimen/p_60"
+        
+        android:visibility="gone"
+        android:textColor="@color/white"/>
+    
+    <TextView android:id="@+id/welcome_text_body" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:singleLine="false" 
+        android:lineSpacingExtra="@dimen/p_10"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_alignParentTop="true" 
+        android:layout_marginStart="@dimen/p_210" 
+        android:layout_marginEnd="@dimen/p_210"
+        android:layout_marginTop="@dimen/p_210"
+        android:textSize="@dimen/p_54"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+    
+    <!-- 提示信息 -->
+    <ImageView
+        android:id="@+id/promptImageBottom" 
+        android:visibility="gone" 
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    
+    <!-- 欢迎图片底图 -->
+    <com.iptv.common.view.AsyncImageView
+        android:id="@+id/welcomeImageBottom" 
+        android:layout_alignParentTop="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    
+    <ImageView
+         android:id="@+id/welcome_text" android:layout_alignParentTop="true"
+         android:layout_width="match_parent" android:layout_height="wrap_content"
+         android:visibility="gone"/>
+    
+    <ImageView android:background="@drawable/choose_language_bg" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+		android:layout_marginTop="100dp"
+        android:orientation="horizontal" >
+        <!-- 280 394 -->
+        <ImageView 
+        android:id="@+id/logo_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/man"/>
+        
+        <ImageView 
+        android:id="@+id/logo_woman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/woman"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/choose_language_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_centerVertical="true" 
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+		    android:id="@+id/chinese"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="true" 
+		    android:layout_marginRight="60dp"
+		    android:focusable="true"
+		    android:focusableInTouchMode="true"
+		    android:background="@drawable/chinese_button_change_2" />
+	    
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#cccccc"
+            android:textSize="16sp"
+            android:text="请对语言进行选择"/>
+            
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#cccccc"
+            android:textSize="16sp"
+            android:text="Please choose language"/>
+            
+        </LinearLayout>
+        
+	    <Button
+	        android:id="@+id/english"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginLeft="60dp"
+
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:background="@drawable/english_button_change_2" />
+
+    </LinearLayout>
+    <include layout="@layout/tv_progressbar" />
+</RelativeLayout>

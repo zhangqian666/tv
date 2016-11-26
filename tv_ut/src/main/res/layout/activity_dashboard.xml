@@ -1,0 +1,17 @@
+<!-- 公告信息 -->
+<com.iptv.rocky.view.dashboard.DashboardMasterLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:background="@drawable/tv_background"
+    android:id="@+id/home_dashboard_view">
+
+    	<com.iptv.rocky.view.dashboard.DashboardViewFlipper
+		    android:id="@+id/dashboard_viewpage"
+		    android:layout_width="match_parent" 
+		  	android:layout_height="match_parent"
+		  	android:persistentDrawingCache="all"  
+		  	android:visibility="visible"/>
+
+</com.iptv.rocky.view.dashboard.DashboardMasterLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/animator-v21/lb_playback_bg_fade_in.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/animator-v21/lb_playback_bg_fade_in.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/animator-v21/lb_playback_bg_fade_out.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/animator-v21/lb_playback_bg_fade_out.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/animator-v21/lb_playback_description_fade_out.xml",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/animator-v21/lb_playback_description_fade_out.xml"
+    }
+]

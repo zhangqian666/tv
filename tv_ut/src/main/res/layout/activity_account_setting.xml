@@ -1,0 +1,125 @@
+<com.iptv.rocky.view.setting.AccountMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account_setting_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+            
+    <com.iptv.rocky.view.TitleView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/account_setting_title"
+	    android:layout_alignParentLeft="true" />
+    
+    <com.iptv.rocky.view.setting.AccountLoginLayout
+        android:id="@+id/account_login_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <com.iptv.rocky.view.setting.AccountInputLayout
+	        android:id="@+id/account_input_login_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:orientation="vertical"
+	        android:layout_weight="1"
+	        android:gravity="left" >
+            <com.iptv.rocky.view.TextViewDip
+				android:id="@+id/account_username_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/account_username_title" />
+            <EditText
+                android:id="@+id/account_username_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:singleLine="true"
+                android:paddingLeft="8dp"
+                android:background="@drawable/setting_item_view_bg" />
+            <com.iptv.rocky.view.TextViewDip
+                android:id="@+id/account_password_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_password_title" />
+            <EditText
+                android:id="@+id/account_password_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:paddingLeft="8dp"
+                android:background="@drawable/setting_item_view_bg" />
+            <com.iptv.rocky.view.setting.AccountSettingBtn
+                android:id="@+id/account_input_submit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/account_login" />
+            <com.iptv.rocky.view.TextViewDip
+                android:id="@+id/account_login_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/login_tips" />
+        </com.iptv.rocky.view.setting.AccountInputLayout>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginBottom="60dp" />
+    </com.iptv.rocky.view.setting.AccountLoginLayout>
+
+    <com.iptv.rocky.view.setting.AccountLoginedLayout
+        android:id="@+id/account_input_logout_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/account_user_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:id="@+id/account_user_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables" >
+            <TextView
+                android:id="@+id/account_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/account_vip_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                tools:ignore="ContentDescription"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/account_welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/account_logined_welcocme" />
+        </LinearLayout>
+        <com.iptv.rocky.view.setting.AccountSettingBtn
+            android:id="@+id/account_logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_logout" />
+    </com.iptv.rocky.view.setting.AccountLoginedLayout>
+
+    <include layout="@layout/setting_status" />
+    <LinearLayout
+        android:id="@+id/login_progressbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/float_layer" >
+        <include layout="@layout/tv_progressbar" />
+    </LinearLayout>
+</com.iptv.rocky.view.setting.AccountMasterLayout>

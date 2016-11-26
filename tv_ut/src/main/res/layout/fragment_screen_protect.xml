@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/tv_background">
+
+    <LinearLayout android:layout_width="wrap_content" 
+        android:layout_height="fill_parent">
+    
+       <com.iptv.common.view.AsyncImageView
+    	   	android:id="@+id/imageBottom"
+    	   	android:scaleType="matrix" 
+           	android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+       
+   </LinearLayout>
+       
+  <LinearLayout android:layout_width="fill_parent" 
+      android:id="@+id/topLeft"
+      android:layout_height="match_parent">
+      
+      <com.iptv.common.view.AsyncImageView android:id="@+id/imageTopLeft" 
+    	    android:layout_above="@id/imageBottom"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"/>
+  </LinearLayout>
+  
+  <LinearLayout android:layout_width="fill_parent" 
+      android:id="@+id/topRight" android:gravity="right"
+      android:layout_height="match_parent">
+   	<com.iptv.common.view.AsyncImageView 
+   	    android:id="@+id/imageTopRight" 
+   	    android:layout_marginRight="0dp"
+    	    android:layout_above="@id/imageBottom" 
+    	    android:layout_gravity="right"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"/>
+  </LinearLayout> 
+  
+  <TextView android:id="@+id/pageIndicator" android:layout_alignParentBottom="true" 
+      android:textColor="@color/white" android:textSize="@dimen/p_40" android:layout_width="match_parent" android:layout_height="wrap_content"
+      android:layout_marginBottom="30dp" android:gravity="center_horizontal" android:layout_centerHorizontal="true" />
+
+    <TextView android:id="@+id/exitPrompt" 
+        android:layout_alignParentBottom="true" 
+      	android:textColor="@color/md_red_900" 
+      	android:textSize="@dimen/p_40" 
+      	android:layout_width="wrap_content" 
+      	android:layout_height="wrap_content"
+      	android:layout_marginBottom="30dp" 
+      	android:layout_marginEnd="30dp"
+      	android:gravity="right" 
+      	android:layout_alignParentRight="true"/>
+  
+  
+</RelativeLayout>

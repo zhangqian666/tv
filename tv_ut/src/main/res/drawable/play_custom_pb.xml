@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list   
+    xmlns:android="http://schemas.android.com/apk/res/android">  
+    <item android:id="@android:id/background" android:drawable="@drawable/scrollbar_bg"/>  
+  
+    <!--用来定制圆形的,  
+<item android:id="@android:id/secondaryProgress">  
+        <clip>  
+            <shape>  
+                <corners android:radius="5dip" />  
+                <gradient  
+                    android:startColor="#80d3ff00"  
+                    android:centerColor="#80b6ff00"  
+                    android:centerY="0.75"  
+                    android:endColor="#a0cbff00"  
+                    android:angle="270"/>  
+            </shape>  
+        </clip>  
+    </item>  
+  
+    <item android:id="@android:id/progress">  
+        <clip android:drawable="@drawable/close_refreshtimer_selected"/>  
+    </item>-->  
+    <item android:id="@android:id/secondaryProgress" android:drawable="@drawable/scrollbar_bg"/>  
+    <item android:id="@android:id/progress" android:drawable="@drawable/scrollbar_on_bg"/>  
+</layer-list>  

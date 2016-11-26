@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.PromptDialogView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+    <RelativeLayout
+            android:id="@+id/dialog_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+</com.iptv.rocky.view.PromptDialogView>

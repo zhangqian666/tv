@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.voddetail.DetailMainControlView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/control_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.iptv.rocky.view.TextViewDip
+        android:id="@+id/control_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true" />
+
+    <com.iptv.rocky.view.ScaleAsyncImageView
+        android:id="@+id/control_img_pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    tv:scaleWidth="@dimen/home_icon_scaleimagesize"
+        tv:scaleHeight="@dimen/home_icon_scaleimagesize" />
+
+</com.iptv.rocky.view.voddetail.DetailMainControlView>

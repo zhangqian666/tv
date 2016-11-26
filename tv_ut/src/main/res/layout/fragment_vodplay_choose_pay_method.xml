@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:alpha="100"
+    android:background="@drawable/tv_background_pay" >
+
+   <!--  <TextView
+        android:id="@+id/dispInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:text="请选择支付方式"
+        android:textColor="@color/md_yellow_100"
+        android:textSize="@dimen/p_60" /> -->
+
+   
+
+<!--     <RadioGroup
+        android:id="@+id/radio_group_pay_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dispInfo"
+        android:layout_marginLeft="20dp" 
+        android:layout_marginTop="30dp"
+        android:checkedButton="@+id/radiobtn_vodplay_order_by_password"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radiobtn_vodplay_order_by_password"
+            android:layout_marginBottom="10dp"
+            android:text="挂房帐"
+            android:textSize="@dimen/p_60" />
+
+        <RadioButton
+            android:id="@+id/radiobtn_vodplay_order_by_alipay"
+            android:text="支付宝"
+            android:textColorHighlight="@color/md_deep_orange_a700"
+            android:textSize="@dimen/p_60" />
+
+        <RadioButton
+            android:id="@+id/radiobtn_vodplay_order_by_weixin"
+            android:text="微信支付"
+            android:textColorHighlight="@color/md_deep_orange_a700"
+            android:textSize="@dimen/p_60" />
+    </RadioGroup> -->
+	
+	<TextView android:id="@+id/txt_choosed_infoxxx"  
+	    	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dip"
+            android:layout_marginStart="40dip"
+            android:gravity="start" 
+             android:text="@string/vod_play_choose_pay_method_fragment_title"
+            android:textSize="@dimen/p_60"
+            android:visibility="invisible" 
+            />
+	<TextView android:id="@+id/txt_choosed_info"  
+	    	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dip"
+            android:layout_below="@id/txt_choosed_infoxxx"
+            android:gravity="start" 
+            android:textSize="@dimen/p_60" 
+            />
+ 	<TextView
+            android:id="@+id/txt_by_password_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+           	android:layout_below="@+id/txt_choosed_info"
+            android:layout_marginTop="15dip"
+            android:gravity="start" 
+            android:layout_marginStart="40dip"
+            android:text="@string/vod_play_choose_pay_method_fragment_title"
+            android:textSize="@dimen/p_60" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        
+       
+        
+        <TextView android:id="@+id/txt_prompt_input_password" 
+            android:textColor="@color/md_red_900" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="@dimen/p_60"
+            android:text="请输入密码" 
+            android:visibility="gone" 
+            android:layout_marginBottom="20dip"
+            android:layout_gravity="center"
+           />
+        
+        <!-- 密码显示部分 -->
+        <com.iptv.rocky.view.TextViewDip
+            android:id="@+id/vodplay_choose_pay_method_password_keyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black" 
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip" />
+        
+        <!-- 输入密码的键盘部分 -->
+        <com.iptv.rocky.tcl.vodplay.VodPlayPasswordKeyBoardView
+            android:id="@+id/password_KeyBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- <RelativeLayout
+        android:id="@+id/pay_by_alipay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dispInfo"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请打开手机的支付宝，选择扫码，扫描下面的二维码进行支付" />
+    </RelativeLayout> -->
+
+    <!-- <RelativeLayout
+        android:id="@+id/pay_by_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dispInfo"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请打开手机的支付宝，选择扫码，扫描下面的二维码进行支付" />
+    </RelativeLayout> -->
+
+</RelativeLayout>

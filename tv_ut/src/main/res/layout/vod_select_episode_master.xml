@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.voddetail.SelectNumberMasterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_master_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg" >
+
+    <!-- order -->
+    <com.iptv.rocky.view.TabItemView
+        android:id="@+id/select_master_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/tvTabStyle"
+		android:focusable="true"
+        android:clickable="true"
+        android:gravity="center" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/select_master_order"
+        layout="@layout/tv_layout_tab_scrollable" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/select_master_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="300"
+        android:persistentDrawingCache="all" />
+
+    <!-- <include layout="@layout/tv_layout_status"/> -->
+
+</com.iptv.rocky.view.voddetail.SelectNumberMasterView>

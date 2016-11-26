@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/fragment_slide_right_enter.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/fragment_slide_right_enter.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/fade_in_10.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/fade_in_10.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/popup_down_out.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/popup_down_out.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/search_keyboard_keys_up.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/search_keyboard_keys_up.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/man_scale_large.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/man_scale_large.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/man_scale_small.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/man_scale_small.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/left_out.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/left_out.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/search_keyboard_keys_down.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/search_keyboard_keys_down.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/center_to_left_bottom.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/center_to_left_bottom.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/right_in.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/right_in.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/fragment_slide_right_exit.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/fragment_slide_right_exit.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/popup_up_in.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/popup_up_in.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/left_in.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/left_in.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/fade_out_10.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/fade_out_10.xml"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/anim/search_keyboard_keys_focused.xml",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/anim/search_keyboard_keys_focused.xml"
+    }
+]

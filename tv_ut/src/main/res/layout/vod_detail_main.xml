@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.voddetail.DetailMainView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/detail_main" >
+
+    <com.iptv.rocky.view.voddetail.DetailMainMetroView 
+        android:id="@+id/detail_main_metro" 
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+    
+    <com.iptv.rocky.view.voddetail.DetailMainVod 
+        android:id="@+id/detail_main_video" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false" />
+    <!-- VideoRect 不能加to-right-of 不然它和metroview就没有重叠部分，导致阴影效果显示不全 -->
+    
+    <!-- 简介 -->
+    <com.iptv.rocky.view.voddetail.DetailSummeryView
+	    android:id="@+id/summer_container"
+	    android:layout_toRightOf="@+id/detail_main_video"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:focusable="false" 
+	    android:focusableInTouchMode="false" />
+    <!-- android:background="@drawable/detail_summery_text_bg" -->
+    
+</com.iptv.rocky.view.voddetail.DetailMainView>

@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/start_play_down.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/start_play_down.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/usercenter_clear_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/usercenter_clear_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/weixin_pay_nor.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/weixin_pay_nor.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/bg_playbillview.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/bg_playbillview.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/ic_category_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/ic_category_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/detail_summery_text_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/detail_summery_text_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/continue_play_selectde.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/continue_play_selectde.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/english_button_choosed_2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/english_button_choosed_2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/ctsm_e.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/ctsm_e.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/hdsm_e.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/hdsm_e.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/scrollbar_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/scrollbar_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/chinese_button_unchoosed_2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/chinese_button_unchoosed_2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/ic_ok.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/ic_ok.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/pause_iocn.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/pause_iocn.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/english_button_choosed.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/english_button_choosed.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/start_play_select.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/start_play_select.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/left_arrows.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/left_arrows.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/start_loading_icon1.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/start_loading_icon1.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/dialog_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/dialog_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/setting_left_img.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/setting_left_img.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/recbill_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/recbill_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/start_loading_icon2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/start_loading_icon2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/zhici_en.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/zhici_en.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/weixin_pay_down.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/weixin_pay_down.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/line.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/line.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/live_help2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/live_help2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_blue_border.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_blue_border.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/usercenter_cancel_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/usercenter_cancel_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/enter_button_choosed.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/enter_button_choosed.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/icon_store.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/icon_store.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/iptv_checked.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/iptv_checked.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/play.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/play.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/rewind_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/rewind_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/star_grey.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/star_grey.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/weixin_pay_selected.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/weixin_pay_selected.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_item_focused.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_item_focused.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/continue_play_down.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/continue_play_down.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_wifi1.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_wifi1.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/choose_package_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/choose_package_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/account_user_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/account_user_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/dialog_confirm_icon_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/dialog_confirm_icon_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/iptv_unchecked.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/iptv_unchecked.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/code_pay_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/code_pay_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/zhici_cn.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/zhici_cn.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/continue_play_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/continue_play_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/vod_menu_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/vod_menu_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_search.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_search.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/hdsm.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/hdsm.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/left_arrow.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/left_arrow.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/code_pay_down.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/code_pay_down.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/right_arrow.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/right_arrow.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/icon_heart_yel.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/icon_heart_yel.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/enter_button_choosed_2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/enter_button_choosed_2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/dialog_cancel_icon_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/dialog_cancel_icon_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/sports_grid_item_image.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/sports_grid_item_image.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_loading.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_loading.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/ic_menu.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/ic_menu.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/english_button_unchoosed_2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/english_button_unchoosed_2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_background_pay.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_background_pay.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/right_arrows.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/right_arrows.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/speed_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/speed_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/ctsm.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/ctsm.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/shiyi_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/shiyi_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_livecenter_refresh.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_livecenter_refresh.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/dialog_background.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/dialog_background.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/dialog_confirm_icon_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/dialog_confirm_icon_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tab_focused_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tab_focused_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/account_vip_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/account_vip_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/icon_store_yel.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/icon_store_yel.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/dialog_cancel_icon_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/dialog_cancel_icon_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_wifi3.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_wifi3.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/start_play_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/start_play_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_wifi4.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_wifi4.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/aaa_msg_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/aaa_msg_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/back.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/back.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_et_connect.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_et_connect.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/star_color.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/star_color.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/icon_play.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/icon_play.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_hlv_overscroll_edge.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_hlv_overscroll_edge.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/play_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/play_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/iptv_kong_focus.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/iptv_kong_focus.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/vod_play_bar_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/vod_play_bar_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/chinese_welcome_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/chinese_welcome_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/search_empty_sad.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/search_empty_sad.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_logo.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_logo.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/usersetting_floatimage.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/usersetting_floatimage.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/setting_right_img.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/setting_right_img.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/progressbar_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/progressbar_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/moren.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/moren.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_wifi2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_wifi2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/launcher_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/launcher_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/chinese_button_unchoosed.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/chinese_button_unchoosed.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/bg_tv_channel_play_channel_listview_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/bg_tv_channel_play_channel_listview_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/scrollbar_on_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/scrollbar_on_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/iptv_kong.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/iptv_kong.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/icon_heart.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/icon_heart.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/chinese_button_choosed_2.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/chinese_button_choosed_2.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/code_pay_selected.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/code_pay_selected.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_wifi0.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_wifi0.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/time.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/time.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/account_user_vip.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/account_user_vip.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/icon_select.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/icon_select.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/live_help1.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/live_help1.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/choose_language_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/choose_language_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/ic_error.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/ic_error.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/playcontrolbar_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/playcontrolbar_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/playsetting_floatimage.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/playsetting_floatimage.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_status_et_disconnect.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_status_et_disconnect.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/usercenter_empty_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/usercenter_empty_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/recchan_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/recchan_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/hilton_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/hilton_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/choose_language_bg_zh_en.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/choose_language_bg_zh_en.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/english_welcome_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/english_welcome_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_white_border.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_white_border.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/welcome_bg.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/welcome_bg.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/boss.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/boss.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/english_button_unchoosed.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/english_button_unchoosed.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/recbill_over_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/recbill_over_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/tv_hlv_overscroll_glow.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/usercenter_edit_icon.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/usercenter_edit_icon.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi/chinese_button_choosed.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/chinese_button_choosed.png"
+    }
+]

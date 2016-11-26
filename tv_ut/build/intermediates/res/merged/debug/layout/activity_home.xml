@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.home.HomeMasterLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+    
+    <ImageView
+        android:id="@+id/splash_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/first_loading" />
+    
+    <RelativeLayout 
+	    android:id="@+id/main"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:visibility="gone" >
+    
+		<com.iptv.rocky.view.home.HomeViewPager
+		  	android:id="@+id/home_viewpage"
+		  	android:layout_width="match_parent" 
+		  	android:layout_height="match_parent"
+		  	android:persistentDrawingCache="all"  
+		  	android:flipInterval="300" />
+		  
+	    <include layout="@layout/tv_layout_tab" />
+	    
+	    <include layout="@layout/tv_layout_status" />
+	    
+	    <include layout="@layout/tv_progressbar" />
+    
+    </RelativeLayout>
+	
+</com.iptv.rocky.view.home.HomeMasterLayout>

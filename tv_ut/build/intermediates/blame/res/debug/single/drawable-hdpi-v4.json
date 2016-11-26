@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/tv_background_auth.jpg",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_background_auth.jpg"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_sad_cloud.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_ic_sad_cloud.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_actions_right_arrow.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_ic_actions_right_arrow.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_in_app_search_bg.9.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_in_app_search_bg.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_search_mic.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_ic_search_mic.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/loading_bg.jpg",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/loading_bg.jpg"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_in_app_search.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_ic_in_app_search.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_in_app_search_shadow_normal.9.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_in_app_search_shadow_normal.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_ic_search_mic_out.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_ic_search_mic_out.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_in_app_search_shadow_focused.9.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_in_app_search_shadow_focused.9.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/choose_language_bg_2.jpg",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/choose_language_bg_2.jpg"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/tv_background.jpg",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-hdpi/tv_background.jpg"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-hdpi-v4/lb_action_bg_focused.9.png",
+        "source": "/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/res/drawable-hdpi-v4/lb_action_bg_focused.9.png"
+    }
+]

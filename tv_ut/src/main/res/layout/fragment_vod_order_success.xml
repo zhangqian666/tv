@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="30"
+    android:background="@drawable/tv_background_pay" >
+    
+    <TextView 
+        android:id="@+id/success_order_info"
+        android:text="您已经成功订购，请选择从何处开始播放。" 
+        android:textColor="@color/white" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textSize="@dimen/p_60"
+        android:layout_alignParentTop="true"  
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"/>
+	
+    <TextView android:text="您已经成功订购，请选择从何处开始播放。" 
+        android:textColor="@color/white" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:textSize="@dimen/p_60"
+        android:layout_below="@id/success_order_info"
+        android:layout_marginLeft="40dp"/>
+    
+    <LinearLayout android:layout_centerInParent="true" 
+        android:gravity="center_horizontal" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/play_from_start" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:background="@drawable/selector_start_play_btn"/>
+        <Button android:id="@+id/play_from_starttt" 
+            android:layout_width="40dp" 
+            android:layout_height="wrap_content" 
+            android:background="@drawable/selector_start_play_btn"
+            android:visibility="invisible"/>
+    	<Button android:id="@+id/play_from_position"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" 
+    	    android:background="@drawable/selector_continue_play_btn"/>
+    </LinearLayout>
+</RelativeLayout>

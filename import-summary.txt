@@ -1,0 +1,146 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From IkantechSupport:
+* AndroidManifest.xml
+* proguard-project.txt
+* proguard.cfg
+* proguard_military.cfg
+* res/
+* res/drawable-hdpi/
+* res/drawable-hdpi/ic_launcher.png
+* res/drawable-ldpi/
+* res/drawable-ldpi/ic_launcher.png
+* res/drawable-mdpi/
+* res/drawable-mdpi/ic_launcher.png
+* res/drawable-xhdpi/
+* res/drawable-xhdpi/ic_launcher.png
+* res/values/
+* res/values/styles.xml
+From common:
+* AndroidManifest.xml
+* lint.xml
+* proguard.cfg
+* res/
+* res/drawable-hdpi/
+* res/drawable-hdpi/ic_launcher.png
+* res/drawable-ldpi/
+* res/drawable-ldpi/ic_launcher.png
+* res/drawable-mdpi/
+* res/drawable-mdpi/ic_launcher.png
+* res/drawable-xhdpi/
+* res/drawable-xhdpi/ic_launcher.png
+* res/values/
+* res/values/styles.xml
+From tv_ut:
+* .externalToolBuilders/
+* .externalToolBuilders/New_Builder.launch
+* .idea/
+* .idea/workspace.xml
+* build.xml
+* jars/
+* jars/framework-base.jar
+* obj/
+* obj/local/
+* obj/local/armeabi-v7a/
+* obj/local/armeabi-v7a/PlayService
+* obj/local/armeabi-v7a/objs/
+* obj/local/armeabi-v7a/objs/NativePlayer/
+* obj/local/armeabi-v7a/objs/NativePlayer/NativePlayer.o.d
+* obj/local/armeabi-v7a/objs/NativePlayer/NativePlayerTunnel.o.d
+* obj/local/armeabi-v7a/objs/PlayService/
+* obj/local/armeabi-v7a/objs/PlayService/PlayService.o.d
+* obj/local/armeabi-v7a/objs/bitmap_blur/
+* obj/local/armeabi-v7a/objs/bitmap_blur/bitmap_blur.o.d
+* obj/local/armeabi/
+* obj/local/armeabi/PlayService
+* obj/local/armeabi/objs/
+* obj/local/armeabi/objs/NativePlayer/
+* obj/local/armeabi/objs/NativePlayer/NativePlayer.o.d
+* obj/local/armeabi/objs/NativePlayer/NativePlayerTunnel.o.d
+* obj/local/armeabi/objs/PlayService/
+* obj/local/armeabi/objs/PlayService/PlayService.o.d
+* obj/local/armeabi/objs/bitmap_blur/
+* obj/local/armeabi/objs/bitmap_blur/bitmap_blur.o.d
+* proguard-project.txt
+* proguard.cfg
+* proguard/
+* proguard/dump.txt
+* proguard/mapping.txt
+* proguard/seeds.txt
+* proguard/usage.txt
+* tv_ut.iml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.7.jar => com.google.code.gson:gson:2.7
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.7.jar => version 2.7 in com.google.code.gson:gson:2.7
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In common:
+* libs/annotations.jar => common/libs/annotations.jar
+* libs/universal-image-loader-1.9.3.jar => common/libs/universal-image-loader-1.9.3.jar
+* src/ => common/src/main/java/
+In IkantechSupport:
+* src/ => ikantechSupport/src/main/java/
+* /studio_tv/common/libs/annotations.jar => ikantechSupport/libs/annotations.jar
+In tv_ut:
+* AndroidManifest.xml => tv_ut/src/main/AndroidManifest.xml
+* assets/ => tv_ut/src/main/assets/
+* libs/android-support-v17-leanback.jar => tv_ut/libs/android-support-v17-leanback.jar
+* libs/commons-io-1.2.jar => tv_ut/libs/commons-io-1.2.jar
+* libs/core-3.3.0.jar => tv_ut/libs/core-3.3.0.jar
+* libs/javase-3.3.0.jar => tv_ut/libs/javase-3.3.0.jar
+* libs/okhttp-3.4.1.jar => tv_ut/libs/okhttp-3.4.1.jar
+* libs/okio-1.9.0.jar => tv_ut/libs/okio-1.9.0.jar
+* libs/rabbitmq-client.jar => tv_ut/libs/rabbitmq-client.jar
+* libs/xutils-3.3.36.jar => tv_ut/libs/xutils-3.3.36.jar
+* lint.xml => tv_ut/lint.xml
+* res/ => tv_ut/src/main/res/
+* src/ => tv_ut/src/main/java/
+* src/com/iptv/rocky/auth/IAuthService.aidl => tv_ut/src/main/aidl/com/iptv/rocky/auth/IAuthService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

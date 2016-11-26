@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tv_player"
+    android:background="@android:color/black" >
+    
+    <com.iptv.rocky.view.dashboard.DashboardVideoView
+        android:id="@+id/dashboard_videoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="1dip" />
+
+    <ProgressBar
+        android:id="@+id/dashboard_buffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/tv_loading"
+        android:visibility="invisible" />
+
+</RelativeLayout>

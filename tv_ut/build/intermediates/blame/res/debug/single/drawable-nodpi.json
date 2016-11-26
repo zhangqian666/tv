@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/ic_channel_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/ic_channel_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/ic_channel_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/ic_channel_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/btn_up.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/btn_up.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/ic_channel_current_focused.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/ic_channel_current_focused.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/ic_channel_current_normal.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/ic_channel_current_normal.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/icon_negative.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/icon_negative.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-nodpi/btn_over.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-nodpi/btn_over.png"
+    }
+]

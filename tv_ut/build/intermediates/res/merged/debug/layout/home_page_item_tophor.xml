@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.home.HomeTopHorView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+       	android:id="@+id/home_tophor_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <com.iptv.common.view.AsyncImageView
+	        android:id="@+id/home_tophor_backimg"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentBottom="true"
+	        android:scaleType="centerCrop" />
+        
+        <LinearLayout 
+            android:id="@+id/home_tophor_titlelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:orientation="horizontal" >
+            
+            <com.iptv.rocky.view.TextViewDip
+                android:id="@+id/home_tophor_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/usercenter_number" />
+            
+            <View
+                android:id="@+id/home_tophor_cutline" 
+                android:layout_height="wrap_content"
+                android:layout_width="1px"
+                android:layout_gravity="center"
+                android:background="@color/usercenter_cutline" />
+            
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="1dp" >
+                
+                <com.iptv.rocky.view.TextViewDip
+			        android:id="@+id/home_tophor_title"
+			        android:layout_width="wrap_content"
+			        android:layout_height="0dip"
+			        android:layout_weight="1"
+			        android:gravity="center"
+                    android:textStyle="bold"
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+                
+                <com.iptv.rocky.view.TextViewDip
+			        android:id="@+id/home_tophor_subtitle"
+			        android:layout_width="wrap_content"
+			        android:layout_height="0dip"
+			        android:layout_weight="1"
+			        android:gravity="center"
+                    android:singleLine="true"
+                    android:ellipsize="end" />
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+    <com.iptv.rocky.view.ScaleAsyncImageView
+        android:id="@+id/home_tophor_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        tv:scaleWidth="@dimen/home_icon_scaleimagesize"
+        tv:scaleHeight="@dimen/home_icon_scaleimagesize" />
+
+</com.iptv.rocky.view.home.HomeTopHorView>

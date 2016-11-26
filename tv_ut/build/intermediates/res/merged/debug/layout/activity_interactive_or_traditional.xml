@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.iptv.rocky.InteractiveOrTraditionalActivity" >
+
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/layout_interactive"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/interactive_text" 
+            android:contentDescription="互动模式"
+            android:background="@drawable/hdsm"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+        <Button
+		    android:id="@+id/btn_interactive"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:clickable="true"
+		    android:focusable="true"
+		    android:layout_marginTop="20dip"
+		    android:focusableInTouchMode="true"
+		    android:text="@string/btn_text_choose_interactive"
+		    android:background="@drawable/btn_up" />
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="wrap_content" 
+        android:layout_centerVertical="true" 
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/layout_interactive"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/traditional_text" 
+            android:contentDescription="传统模式"
+            android:background="@drawable/ctsm"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"/>
+        
+        <Button
+	        android:id="@+id/btn_traditional"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:focusable="true"
+	        android:layout_marginTop="20dip"
+	        android:text="@string/btn_text_choose_live"
+	        android:focusableInTouchMode="true"
+	        android:background="@drawable/btn_up" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="120dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+    </LinearLayout>    
+		    
+	<include layout="@layout/tv_progressbar" />
+	
+</RelativeLayout>

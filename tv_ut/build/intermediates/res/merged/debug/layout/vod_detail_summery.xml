@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/summer_container_relative"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingTop="2.0dip"
+    android:paddingBottom="2.0dip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" > -->
+    
+    <!-- <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/summery_video_total_time" 
+        style="@style/summeryTextView" 
+        android:layout_alignParentLeft="true"  />
+    
+    <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/summery_video_where" 
+        style="@style/summeryTextView" 
+        android:layout_below="@+id/summery_video_total_time"
+        android:layout_alignParentLeft="true" />
+    
+    <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/summery_video_director" 
+        style="@style/summeryTextView" 
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summery_video_where" />
+    
+     <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/summery_video_year" 
+        style="@style/summeryTextView" 
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summery_video_director" />
+     
+     <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/summery_video_type"
+        style="@style/summeryTextView" 
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summery_video_year" />
+     
+     <com.iptv.rocky.view.TextViewDip 
+        android:id="@+id/summery_video_actor" 
+        style="@style/summeryTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/summery_video_type" /> -->
+     
+     <com.iptv.rocky.view.MultiLineTextView 
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/summery_video_content" 
+          style="@style/summeryMultiLineTextView" />
+      
+<!-- </RelativeLayout> -->

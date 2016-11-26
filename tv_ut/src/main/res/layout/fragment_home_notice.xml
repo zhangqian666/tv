@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.home.prompt.HomePromptMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/home_notice_fragment"
+    android:orientation="vertical" >
+    
+	<com.iptv.rocky.view.home.prompt.HomePromptViewFlipper
+		    android:id="@+id/dashboard_viewpage"
+		    android:layout_width="match_parent" 
+		  	android:layout_height="match_parent"
+		  	android:persistentDrawingCache="all"  
+		  	android:flipInterval="300" 
+		  	android:visibility="visible"/>
+
+</com.iptv.rocky.view.home.prompt.HomePromptMasterLayout>

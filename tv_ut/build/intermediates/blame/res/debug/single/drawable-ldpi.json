@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-ldpi/tv_hlv_overscroll_edge.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-ldpi/tv_hlv_overscroll_edge.png"
+    },
+    {
+        "merged": "/studio_tv/tv/tv_ut/build/intermediates/res/merged/debug/drawable-ldpi/tv_hlv_overscroll_glow.png",
+        "source": "/studio_tv/tv/tv_ut/src/main/res/drawable-ldpi/tv_hlv_overscroll_glow.png"
+    }
+]

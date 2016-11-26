@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-ced53206eb71235893909c149938274469a195e3.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/internal_impl-25.0.1-ceb179f23987923a5ea0f2e101b8056b7fd50fda.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/framework-base.jar"
+        revision="25.0.0"
+        sha1="009aa781dae45991b4ea79d434410bec6a693f59">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/framework-base-2f730c82af0b2e9094345b32e8950648ab6a1373.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/internal_impl-25.0.1-4474b3dd75942202fa5853ffa4f5d816d244098b.jar" />
+    </item>
+    <item
+        jar="/Users/zhaoxiaoqiang/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/okio-1.9.0-5da432239620bd5c00e67853f9522c7d3d0981ce.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/jars/libs/universal-image-loader-1.9.3.jar"
+        revision="25.0.0"
+        sha1="6986dec9fc940599f6557c73866d04fe329e2e92">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/universal-image-loader-1.9.3-ba58a22a3cc6f6dcf631dc5b22ca54d5b19daa6d.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/rabbitmq-client.jar"
+        revision="25.0.0"
+        sha1="ef4f5c5944685f6b5da11d7288117af06b599c31">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/rabbitmq-client-4156dba507e9d2c7697881333db19d7bb85445eb.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-1c11af8a2f12a8b21f7f05512cd69ef6056e555c.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/okio-1.9.0.jar"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/okio-1.9.0-7288fd4539de8269bc839f7993a30ded454fe728.jar" />
+    </item>
+    <item
+        jar="/Users/zhaoxiaoqiang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/support-annotations-25.0.1-0488bfa71711273f5820d07f487ba499b6c52079.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-9c33cc5be49c058fa84bc84246809e8b9ddc4740.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-ac826652411095c8edb10882f3080bde8f1a396b.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/ikantechSupport/unspecified/jars/libs/annotations.jar"
+        revision="25.0.0"
+        sha1="d4d6ca8e6ca67ab1d5a328e761fdf741dbc5555b">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/annotations-a36d2ff9f01480ee5480c40bbd16571ffa015d12.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/internal_impl-25.0.1-9be6c53f9b3e4a41b03a62fe43525340bb4ca49e.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-184845c127aed1998486f381f20c08858c6921bd.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/internal_impl-25.0.1-66f4c1feab2dea73a077fbc4db0dbf34af004e6b.jar" />
+    </item>
+    <item
+        jar="/Users/zhaoxiaoqiang/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/gson-2.7-54bcc3eb413051f8628476fdfb7e188a7b1a0af5.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-c5d3304f0f8c0d338c041b08605cb2d8e61d7f48.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/xutils-3.3.36.jar"
+        revision="25.0.0"
+        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/xutils-3.3.36-5d39efe482447b1cb428b3eb6d325b51971bc083.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-4b7c5053ab39444b2d6888e0b837eeb60577b8e5.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/core-3.3.0.jar"
+        revision="25.0.0"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/core-3.3.0-ec949587b30b20aa8e324667b4cd62b80a3daba3.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/ikantechSupport/unspecified/jars/classes.jar"
+        revision="25.0.0"
+        sha1="4b19d5cbdb3ef5c00c4dcc86bd42560eca455fc4">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-7c49f39dc2279beef07fab5228a0a43b4c5c6384.jar" />
+    </item>
+    <item
+        jar="/Users/zhaoxiaoqiang/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/okhttp-3.4.2-fb7d8a66a40866c3ec2a356bc6e7464b29ac87a3.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/jars/classes.jar"
+        revision="25.0.0"
+        sha1="c9c1a21554a4c92acb758038dd16e5111b3540a2">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-5ce859e2cc7d2acc411468ab6cf777f9b9bc1da2.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/tv/common/unspecified/jars/libs/annotations.jar"
+        revision="25.0.0"
+        sha1="d4d6ca8e6ca67ab1d5a328e761fdf741dbc5555b">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/annotations-410bd862eeaa39b187087bbd986131ae6488c541.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/commons-io-1.2.jar"
+        revision="25.0.0"
+        sha1="0ad6ae511ca4608a18317fcb19850fd113bb2ae8">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/commons-io-1.2-8d7a5a15b7ff298af7953550c9b3dfe8a3e35f74.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/internal_impl-25.0.1-8276a6a5748431d0e1be1ba680158ce31d58b4eb.jar" />
+    </item>
+    <item
+        jar="/Users/zhaoxiaoqiang/Library/Android/sdk/platforms/android-25/android.jar"
+        revision="25.0.0"
+        sha1="ee6109bffb77e2a8508a9faf3eceab577ca73709">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackRuntimeLibraries/release/jars/8000/40/android-254b481db27e03a32ac8a80ff89ad373da113e03.jar" />
+    </item>
+    <item
+        jar="/Users/zhaoxiaoqiang/Library/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar"
+        revision="25.0.0"
+        sha1="f3d8ef56b30e630eb84718ee1b10a38b38c057c0">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackRuntimeLibraries/release/jars/8000/40/org.apache.http.legacy-5dbf6b66fd3f6d8a2471afdb46d69454d0fe1077.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/libs/javase-3.3.0.jar"
+        revision="25.0.0"
+        sha1="1d0cd0280ea9919ca928df5a3752b6f6a645b00e">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/javase-3.3.0-9237117912d06a14e4f059b5fc7164a13b19c0f0.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/leanback-v17/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="03c95551daed17451c2dfd0cf0625a866872b7b6">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-83796fe787e75761b8a1bc64011b13e5e373787b.jar" />
+    </item>
+    <item
+        jar="/studio_tv/tv/tv_ut/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/studio_tv/tv/tv_ut/build/intermediates/transforms/preJackPackagedLibraries/release/jars/8000/1f/classes-bdb67aa82c3d1355fbda36f6265d4b31f910b213.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iptv.rocky"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="90"
+    android:versionName="1.0.90" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.touchscreen" -->
+    <!-- android:required="false" /> -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.software.leanback" -->
+    <!-- android:required="false" /> -->
+    <application
+        android:name="com.iptv.rocky.model.TvApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tv_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleTask"
+        android:theme="@style/themeactivity" >
+        <activity
+            android:name="com.iptv.rocky.HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iptv.rocky.ScreenProtectActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.LiveTypeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodSecActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodMovieActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodMovieListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodMovieColumnActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodTypeColumnActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodChannelDetailActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodSearchActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodHistoryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.VodStoreActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.RecChanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.tcl.LiveChannelPlayActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.tcl.VodChannelPlayActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.tcl.RecChannelPlayActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.PlaySettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.UserSettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.AccountSettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.AboutActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.SpecialCategoryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.SpecialDetailActivity"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name="com.iptv.rocky.auth.CUAuthService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.iptv.rocky.auth.CU_AUTH_SERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.iptv.rocky.rabbitmq.ReceiverService"
+            android:enabled="true"
+            android:exported="false"
+            android:singleUser="true" >
+        </service>
+
+        <!--
+		<service
+            android:name="com.iptv.rocky.auth.CTCAuthService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.iptv.rocky.auth.CTC_AUTH_SERVICE" />
+            </intent-filter>
+        </service>
+        -->
+        <service
+            android:name="com.iptv.rocky.auth.CUZTEAuthService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.iptv.rocky.auth.CU_ZTE_AUTH_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.iptv.rocky.MyHotelSecActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.MyHotelPictureListActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.iptv.rocky.MyHotelShowPicturesActivity"
+            android:label="@string/title_activity_my_hotel_show_pictures" >
+        </activity>
+        <activity
+            android:name="com.iptv.rocky.tcl.view.vod.VodPlayActivity"
+            android:label="@string/title_activity_vod_play" >
+        </activity>
+        <activity
+            android:name="com.iptv.rocky.ScreenProtectVideoActivity"
+            android:label="@string/title_activity_vod_play" />
+
+        <!-- TV 播放 android:launchMode="singleTask" -->
+        <activity
+            android:name="com.ui.player.TVPlayerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data
+                    android:mimeType="video/*"
+                    android:scheme="http" />
+                <data
+                    android:mimeType="video/*"
+                    android:scheme="file" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- TV 播放教育 -->
+        <activity
+            android:name="com.ui.player.TVPlayerUserManual"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.iptv.rocky.DashboardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

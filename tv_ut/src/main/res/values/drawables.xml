@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--   <item type="drawable" name="btn_focused">#ff3f71c4</item>
+    <item type="drawable" name="btn_normal">#1affffff</item>
+    <item type="drawable" name="btn_pressed">#ff135298</item>-->
+    <item type="drawable" name="listview_focused">#468ab6ff</item>
+    <item type="drawable" name="listview_selector_focused">#ff3f71c4</item>
+    <item type="drawable" name="listview_selector_pressed">#ff135298</item> 
+    <item type="drawable" name="third_level_normal">#1acbcbcb</item>
+    <item type="drawable" name="third_level_playbill">#99000000</item>
+</resources>

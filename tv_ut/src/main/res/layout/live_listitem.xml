@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.tcl.view.live.ListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="@drawable/recchan_bg"
+    android:orientation="horizontal" >
+    
+    <FrameLayout android:id="@+id/frame_channel_number_bg"
+        android:background="@drawable/selector_channel_num_bg" 
+        android:layout_width="wrap_content"  
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" >
+        
+        <com.iptv.rocky.tcl.ArialBlackTextView 
+	        android:id="@+id/channel_user_channelid" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="10dp"
+	        android:gravity="center" 
+	        android:maxLines="1" 
+	        android:textColor="@color/md_grey_700"
+        />
+    </FrameLayout>
+   
+    
+    <!-- <com.iptv.rocky.view.TextViewDip
+        android:id="@+id/index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white" /> -->
+    
+	<com.iptv.rocky.view.TextViewDip
+	    android:id="@+id/name"
+	    android:layout_toRightOf="@+id/index"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+	    android:singleLine="true"
+	    android:marqueeRepeatLimit="marquee_forever" 
+	    android:ellipsize="marquee"
+	    android:textColor="@color/selector_text_white_alpha_60" />
+	
+</com.iptv.rocky.tcl.view.live.ListItemView>

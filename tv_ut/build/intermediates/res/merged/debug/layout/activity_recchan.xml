@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.iptv.rocky.view.recchan.RecChanMasterLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recchan_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tv_background" >
+    
+    <com.iptv.rocky.view.TitleView 
+        android:id="@+id/titleview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/home_lookback"
+	    android:layout_alignParentLeft="true" />
+    
+    <com.iptv.rocky.view.recchan.RecChanListView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+        <ListView
+            android:id="@+id/recchan_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:scrollbars="none"
+            android:listSelector="@drawable/tv_recchan_selector" />
+        
+        <!--
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent" 
+        android:divider="@drawable/list_dashline_dividor"
+        android:fadingEdge="none"
+         -->
+    </com.iptv.rocky.view.recchan.RecChanListView>
+    
+	<com.iptv.rocky.view.recchan.RecBillViewPager
+	    android:id="@+id/recchan_viewpage"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="match_parent"
+	    android:persistentDrawingCache="all"
+        android:flipInterval="300" />
+	
+	<ImageView 
+        android:id="@+id/right_arrow" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" 
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/right_arrow"
+        android:focusable="true"
+        android:visibility="invisible" />
+	
+	<!-- android:visibility="gone"  -->
+    
+    <include layout="@layout/tv_layout_tab" />
+    
+    <include layout="@layout/tv_progressbar" />
+    
+</com.iptv.rocky.view.recchan.RecChanMasterLayout>
